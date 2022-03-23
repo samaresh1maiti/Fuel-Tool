@@ -796,5 +796,203 @@
         "tread": "T3 Trailer ",
         "mfg": "Generic",
         "rr": "6.3"
-    }
+    },
+    {
+                "Description": "245/70R19.5M801Ⅱ",
+                "size": "245/70R19.5",
+                "tread": "M801Ⅱ",
+                "mfg": "BS",
+                "rr": "4.4"
+            },
+            {
+                "Description": "245/70R19.5SP680",
+                "size": "245/70R19.5",
+                "tread": "SP680",
+                "mfg": "BS",
+                "rr": "7.15"
+            },
+            {
+                "Description": "265/70R19.5SP680",
+                "size": "265/70R19.5",
+                "tread": "SP680",
+                "mfg": "BS",
+                "rr": "7.15"
+            },
+            {
+                "Description": "11R22.5SP680",
+                "size": "11R22.5",
+                "tread": "SP680",
+                "mfg": "BS",
+                "rr": "6.9"
+            },
+            {
+                "Description": "275/80R22.5SP680",
+                "size": "275/80R22.5",
+                "tread": "SP680",
+                "mfg": "BS",
+                "rr": "6.7"
+            },
+            {
+                "Description": "295/80R22.5SP680",
+                "size": "295/80R22.5",
+                "tread": "SP680",
+                "mfg": "Continental",
+                "rr": "6.7"
+            },
+            {
+                "Description": "245/70R19.5W910",
+                "size": "245/70R19.5",
+                "tread": "W910",
+                "mfg": "Continental",
+                "rr": "8.0"
+            },
+            {
+                "Description": "265/70R19.5W910",
+                "size": "265/70R19.5",
+                "tread": "W910",
+                "mfg": "Dayton",
+                "rr": "8.0"
+            },
+            {
+                "Description": "265/70R19.5W900",
+                "size": "265/70R19.5",
+                "tread": "W900",
+                "mfg": "DL",
+                "rr": "9.1"
+            },
+            {
+                "Description": "245/70R19.5 SP001",
+                "size": "245/70R19.5",
+                "tread": " SP001",
+                "mfg": "DL",
+                "rr": "9.0"
+            },
+            {
+                "Description": "265/70R19.5 SP001",
+                "size": "265/70R19.5",
+                "tread": " SP001",
+                "mfg": "DL",
+                "rr": "9.0"
+            },
+            {
+                "Description": "11R22.5 SP001",
+                "size": "11R22.5",
+                "tread": " SP001",
+                "mfg": "DL",
+                "rr": "8.8"
+            },
+            {
+                "Description": "275/80R22.5 SP001",
+                "size": "275/80R22.5",
+                "tread": " SP001",
+                "mfg": "DL",
+                "rr": "8.65"
+            },
+            {
+                "Description": "295/80R22.5 SP001",
+                "size": "295/80R22.5",
+                "tread": " SP001",
+                "mfg": "DL",
+                "rr": "8.65"
+            },
+            {
+                "Description": "245/70R19.5SP062",
+                "size": "245/70R19.5",
+                "tread": "SP062",
+                "mfg": "DL",
+                "rr": "7.35"
+            },
+            {
+                "Description": "265/70R19.5SP062",
+                "size": "265/70R19.5",
+                "tread": "SP062",
+                "mfg": "DL",
+                "rr": "7.35"
+            },
+            {
+                "Description": "11R22.5SP062",
+                "size": "11R22.5",
+                "tread": "SP062",
+                "mfg": "DL",
+                "rr": "7.2"
+            },
+            {
+                "Description": "275/80R22.5SP062",
+                "size": "275/80R22.5",
+                "tread": "SP062",
+                "mfg": "DL",
+                "rr": "7.0"
+            },
+            {
+                "Description": "295/80R22.5SP062",
+                "size": "295/80R22.5",
+                "tread": "SP062",
+                "mfg": "DL",
+                "rr": "7.0"
+            },
+            {
+                "Description": "11R22.5R159",
+                "size": "11R22.5",
+                "tread": "R159",
+                "mfg": "DL",
+                "rr": "6"
+            },
+            {
+                "Description": "11R22.5MA268",
+                "size": "11R22.5",
+                "tread": "MA268",
+                "mfg": "DL",
+                "rr": "6.3"
+            },
+            {
+                "Description": "11R22.5FS400",
+                "size": "11R22.5",
+                "tread": "FS400",
+                "mfg": "DL",
+                "rr": "6.5"
+            },
+            {
+                "Description": "11R22.5UT3000",
+                "size": "11R22.5",
+                "tread": "UT3000",
+                "mfg": "DL",
+                "rr": "6.5"
+            },
+            {
+                "Description": "295/80R22.5UT3000",
+                "size": "295/80R22.5",
+                "tread": "UT3000",
+                "mfg": "Firestone",
+                "rr": "6.5"
+            },
+            {
+                "Description": "11R22.5Hybrid HS3+",
+                "size": "11R22.5",
+                "tread": "Hybrid HS3+",
+                "mfg": "Firestone",
+                "rr": "6.5"
+            },
+            {
+                "Description": "11R22.5Hybrid HS3",
+                "size": "11R22.5",
+                "tread": "Hybrid HS3",
+                "mfg": "Firestone",
+                "rr": "6.5"
+            },
+            {
+                "Description": "11R22.5DT590",
+                "size": "11R22.5",
+                "tread": "DT590",
+                "mfg": "Maxxis",
+                "rr": "7.5"
+            },
+            {
+                "Description": "245/70R19.5X MULTI Z2",
+                "size": "245/70R19.5",
+                "tread": "X MULTI Z2",
+                "mfg": "MICHELIN",
+                "rr": "5.4"
+            }
+        
+    
 ]
