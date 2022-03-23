@@ -1,0 +1,155 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+input {
+  font-family: Arial !important;
+  color: #27509b ;
+  font-size: 1.1em;
+}
+
+
+input.ng-untouched.ng-pristine.ng-invalid{
+  width: 100%;
+}
+
+input.ng-pristine.ng-invalid.ng-touched{
+  width: 100%;
+}
+
+input.ng-untouched.ng-pristine.ng-valid{
+  width: 100%;
+}
+.alert-md .alert-sub-title {
+  font-size: 18px;
+}
+.alert-md .alert-button .button-inner {
+  font-size: 18px;
+
+}
+
+.header_text{
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff ;
+   font-family: Arial;
+  //font-family: "michelin-regular-webfont";
+  font-size: 20px !important;
+  font-weight: bold !important;
+  font-size: 1.4em !important;
+
+}
+
+.header_Next{
+  font-size: 1.4em; 
+  color: white;
+   background-color: transparent;
+   font-family: Arial;
+}
+
+.header_text1{
+  vertical-align: middle;
+  text-align: left;
+  color: #ffffff ;
+  font-family: Arial;
+  font-size: 1.4em !important;
+}
+
+
+.header_text2{
+  vertical-align: middle;
+  text-align: left;
+  color: black ;
+  font-family: Arial;
+  font-size: 1.4em !important;
+  padding-left: 10px !important;
+  }
+
+.header_text4{
+  vertical-align: middle;
+   text-align: left;
+  color: #27509b;
+  font-family: Arial;
+  font-size: 1.1em !important;
+  margin-top: -11px !important;
+  padding-left: 10px !important;
+
+}
+
+.header_text3{
+  vertical-align: middle;
+  text-align: left;
+  color: #ffffff ;
+  //font-family: "michelin-regular-webfont";
+  font-family: Arial;
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+}
+.yellow-line{
+  
+  height:1px;
+  border-top:2px solid #FCE500;
+  color: #FCE500;
+  width:100%;
+  margin-left:-273px;
+  background: white;
+}
+
+@font-face {
+  // font-family: "michelin-regular-webfont";
+    font-family: "Arial !important";
+  src: url('../assets/fonts/michelin-regular-webfont.eot') format('eot');
+  src: url("../assets/fonts/michelin-regular-webfont.woff2") format("woff2"),
+  url('../assets/fonts/michelin-regular-webfont.woff') format('woff');
+  // font-weight: bold;
+  // font-style: italic;
+}
+// html *
+// {
+//    font-family:  "Bernard MT Condensed";
+// }
+//.text-input::-moz-placeholder {
+//  color: white;
+//}
+//
+//.text-input:-ms-input-placeholder {
+//  color: white;
+//}
+//
+//.text-input::-webkit-input-placeholder {
+//  text-indent: 0;
+//  color: white;
+//}
+modal-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media not all and (min-height: 600px) and (min-width: 768px) {
+  ion-modal ion-backdrop {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-height: 0px) and (min-width: 0px) {
+  .modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

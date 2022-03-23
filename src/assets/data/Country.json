@@ -1,0 +1,1522 @@
+[
+    {
+        "Region": "CN",
+        "Countryregion": "China mainland",
+        "Language": "Chinese (Simplified)",
+        "Currency": "CNY",
+        "Symbol": "元",
+        "Symbol_Pos": "S",
+        "Separator": "C",
+        "language_code": "zh-CN"
+    },
+    {
+        "Region": "CN",
+        "Countryregion": "Taïwan",
+        "Language": "Chinese (Traditional)",
+        "Currency": "TWD",
+        "Symbol": "元",
+        "Symbol_Pos": "S",
+        "Separator": "C",
+        "language_code": "zh-TW"
+    },
+    {
+        "Region": "CN",
+        "Countryregion": "Hong Kong",
+        "Language": "Chinese (Traditional)",
+        "Currency": "HKD",
+        "Symbol": "HK$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "zh-TW"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "Australia",
+        "Language": "English (UK)",
+        "Currency": "AUD",
+        "Symbol": "A$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "Malaysia",
+        "Language": "English (UK)",
+        "Currency": "MYR",
+        "Symbol": "RM",
+        "Symbol_Pos": "P",
+        "Separator": "P",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "Indonesia",
+        "Language": "Indonesian",
+        "Currency": "IDR",
+        "Symbol": "Rp",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "Japan",
+        "Language": "Japanese",
+        "Currency": "JPY",
+        "Symbol": "¥",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "South Korea",
+        "Language": "Korean",
+        "Currency": "KRW",
+        "Symbol": "₩",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "ko-KR"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "Thailand",
+        "Language": "Thai",
+        "Currency": "THB",
+        "Symbol": "฿",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "th-TH"
+    },
+    {
+        "Region": "E2A",
+        "Countryregion": "Vietnam",
+        "Language": "Vietnamese",
+        "Currency": "VND",
+        "Symbol": "₫",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Italie",
+        "Language": "Italian",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Malte",
+        "Language": "Italian",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Spain",
+        "Language": "Spanish",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Andorre",
+        "Language": "Spanish",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Portugal",
+        "Language": "Portuguese",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "pt-PT"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "France",
+        "Language": "Francais",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Belgium",
+        "Language": "Francais",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Luxembourg",
+        "Language": "Francais",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "EUS",
+        "Countryregion": "Netherlands",
+        "Language": "English (US)",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "UK",
+        "Language": "English (UK)",
+        "Currency": "GBP",
+        "Symbol": "£",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "ROI Republic of Ireland",
+        "Language": "English (UK)",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Germany",
+        "Language": "German",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "de-DE"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Austria",
+        "Language": "German",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "de-DE"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Switzerland",
+        "Language": "German",
+        "Currency": "CHF",
+        "Symbol": "CHF",
+        "Symbol_Pos": "P",
+        "Separator": "P",
+        "language_code": "de-DE"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Sweden",
+        "Language": "English (UK)",
+        "Currency": "SEK",
+        "Symbol": "kr",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Finland",
+        "Language": "English (UK)",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Norway",
+        "Language": "English (UK)",
+        "Currency": "NOK",
+        "Symbol": "kr",
+        "Symbol_Pos": "S",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Denmark",
+        "Language": "English (UK)",
+        "Currency": "DKK",
+        "Symbol": "kr",
+        "Symbol_Pos": "S",
+        "Separator": "P",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AMN",
+        "Countryregion": "United States",
+        "Language": "English (US)",
+        "Currency": "USD",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "AMN",
+        "Countryregion": "Canada ",
+        "Language": "English (CA)",
+        "Currency": "CAD",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-CA"
+    },
+    {
+        "Region": "AMN",
+        "Countryregion": "Canada ",
+        "Language": "Francais (CA)",
+        "Currency": "CAD",
+        "Symbol": "$",
+        "Symbol_Pos": "S",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Bangladesh",
+        "Language": "English (AIM)",
+        "Currency": "BDT",
+        "Symbol": "BDT",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Bhutan",
+        "Language": "English (AIM)",
+        "Currency": "BTN",
+        "Symbol": "BTN",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "India",
+        "Language": "English (AIM)",
+        "Currency": "INR",
+        "Symbol": "₹",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "British Indian Ocean Territory",
+        "Language": "English (AIM)",
+        "Currency": "GBP",
+        "Symbol": "GBP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Sri Lanka",
+        "Language": "English (AIM)",
+        "Currency": "LKR",
+        "Symbol": "LKR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Maldives",
+        "Language": "English (AIM)",
+        "Currency": "MVR",
+        "Symbol": "MVR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Nepal",
+        "Language": "English (AIM)",
+        "Currency": "NPR",
+        "Symbol": "NPR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "United Arab Emirates",
+        "Language": "English (AIM)",
+        "Currency": "AED",
+        "Symbol": "AED",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Afghanistan",
+        "Language": "English (AIM)",
+        "Currency": "AFN",
+        "Symbol": "AFN",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Bahrain",
+        "Language": "English (AIM)",
+        "Currency": "BHD",
+        "Symbol": "BHD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Egypt",
+        "Language": "English (AIM)",
+        "Currency": "EGP",
+        "Symbol": "EGP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Iraq",
+        "Language": "English (AIM)",
+        "Currency": "IQD",
+        "Symbol": "IQD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Iran, Islamic Republic of",
+        "Language": "English (AIM)",
+        "Currency": "IRR",
+        "Symbol": "IRR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Jordan",
+        "Language": "English (AIM)",
+        "Currency": "JOD",
+        "Symbol": "JOD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Kuwait",
+        "Language": "English (AIM)",
+        "Currency": "KWD",
+        "Symbol": "KWD",
+        "Symbol_Pos": "S",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Lebanon",
+        "Language": "English (AIM)",
+        "Currency": "LBP",
+        "Symbol": "LBP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Oman",
+        "Language": "English (AIM)",
+        "Currency": "OMR",
+        "Symbol": "OMR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Pakistan",
+        "Language": "English (AIM)",
+        "Currency": "PKR",
+        "Symbol": "PKR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Qatar",
+        "Language": "English (AIM)",
+        "Currency": "QAR",
+        "Symbol": "QAR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Saudi Arabia",
+        "Language": "English (AIM)",
+        "Currency": "SAR",
+        "Symbol": "SAR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Sudan",
+        "Language": "English (AIM)",
+        "Currency": "SDG",
+        "Symbol": "SDG",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Syrian Arab Republic",
+        "Language": "English (AIM)",
+        "Currency": "SYP",
+        "Symbol": "SYP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Yemen",
+        "Language": "English (AIM)",
+        "Currency": "YER",
+        "Symbol": "YER",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Algeria",
+        "Language": "Francais",
+        "Currency": "DZD",
+        "Symbol": "DZD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Gibraltar",
+        "Language": "English (AIM)",
+        "Currency": "GIP",
+        "Symbol": "GIP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Israel",
+        "Language": "English (AIM)",
+        "Currency": "ILS",
+        "Symbol": "₪",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Libyan Arab Jamahiriya",
+        "Language": "English (AIM)",
+        "Currency": "LYD",
+        "Symbol": "LYD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Morocco",
+        "Language": "Francais",
+        "Currency": "MAD",
+        "Symbol": "MAD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Mauritania",
+        "Language": "Francais",
+        "Currency": "MRU",
+        "Symbol": "MRU",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Tunisia",
+        "Language": "Francais",
+        "Currency": "TND",
+        "Symbol": "TND",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Angola",
+        "Language": "English (AIM)",
+        "Currency": "AOA",
+        "Symbol": "AOA",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Bouvet Island",
+        "Language": "English (AIM)",
+        "Currency": "NOK",
+        "Symbol": "NOK",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Botswana",
+        "Language": "English (AIM)",
+        "Currency": "BWP",
+        "Symbol": "BWP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Heard Island and McDonald Islands",
+        "Language": "English (AIM)",
+        "Currency": "AUD",
+        "Symbol": "AUD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Lesotho",
+        "Language": "English (AIM)",
+        "Currency": "LSL",
+        "Symbol": "LSL",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Malawi",
+        "Language": "English (AIM)",
+        "Currency": "MWK",
+        "Symbol": "MWK",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Mozambique",
+        "Language": "English (AIM)",
+        "Currency": "MZN",
+        "Symbol": "MZN",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Namibia",
+        "Language": "English (AIM)",
+        "Currency": "NAD",
+        "Symbol": "NAD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Swaziland",
+        "Language": "English (AIM)",
+        "Currency": "SZL",
+        "Symbol": "SZL",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "South Africa",
+        "Language": "English (AIM)",
+        "Currency": "ZAR",
+        "Symbol": "R",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Zambia",
+        "Language": "English (AIM)",
+        "Currency": "ZMW",
+        "Symbol": "ZMW",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Zimbabwe",
+        "Language": "English (AIM)",
+        "Currency": "ZWL",
+        "Symbol": "ZWL",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Burkina Faso",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "CFA",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Burundi",
+        "Language": "Francais",
+        "Currency": "BIF",
+        "Symbol": "BIF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Benin",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "XOF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Congo, the Democratic Republic of the",
+        "Language": "Francais",
+        "Currency": "CDF",
+        "Symbol": "CDF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Central African Republic",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Congo",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Côte d'Ivoire",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "XOF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Cameroon",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Cape Verde",
+        "Language": "Francais",
+        "Currency": "CVE",
+        "Symbol": "CVE",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Djibouti",
+        "Language": "Francais",
+        "Currency": "DJF",
+        "Symbol": "DJF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Western Sahara",
+        "Language": "English (AIM)",
+        "Currency": "MAD",
+        "Symbol": "MAD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Eritrea",
+        "Language": "English (AIM)",
+        "Currency": "ERN",
+        "Symbol": "ERN",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Ethiopia",
+        "Language": "English (AIM)",
+        "Currency": "ETB",
+        "Symbol": "ETB",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Gabon",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Ghana",
+        "Language": "English (AIM)",
+        "Currency": "GHS",
+        "Symbol": "GHS",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Gambia",
+        "Language": "English (AIM)",
+        "Currency": "GMD",
+        "Symbol": "D",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Guinea",
+        "Language": "Francais",
+        "Currency": "GNF",
+        "Symbol": "GNF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Equatorial Guinea",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Guinea-Bissau",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Kenya",
+        "Language": "English (AIM)",
+        "Currency": "KES",
+        "Symbol": "KES",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Comoros",
+        "Language": "Francais",
+        "Currency": "KMF",
+        "Symbol": "KMF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Liberia",
+        "Language": "English (AIM)",
+        "Currency": "LRD",
+        "Symbol": "LRD",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Madagascar",
+        "Language": "Francais",
+        "Currency": "MGA",
+        "Symbol": "MGA",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Mali",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "XOF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Mauritius",
+        "Language": "Francais",
+        "Currency": "MUR",
+        "Symbol": "MUR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Niger",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "XOF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Nigeria",
+        "Language": "English (AIM)",
+        "Currency": "NGN",
+        "Symbol": "₦",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Reunion",
+        "Language": "Francais",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Rwanda",
+        "Language": "English (AIM)",
+        "Currency": "RWF",
+        "Symbol": "RWF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Seychelles",
+        "Language": "Francais",
+        "Currency": "SCR",
+        "Symbol": "SCR",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Saint Helena, Ascension and Tristan Da Cunha",
+        "Language": "Francais",
+        "Currency": "SHP",
+        "Symbol": "SHP",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Sierra Leone",
+        "Language": "Francais",
+        "Currency": "SLL",
+        "Symbol": "SLL",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Senegal",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "XOF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Somalia, Federal Republic of",
+        "Language": "English (AIM)",
+        "Currency": "SOS",
+        "Symbol": "SOS",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Sao Tome and Principe",
+        "Language": "Francais",
+        "Currency": "STN",
+        "Symbol": "STN",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Chad",
+        "Language": "Francais",
+        "Currency": "XAF",
+        "Symbol": "XAF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Togo",
+        "Language": "Francais",
+        "Currency": "XOF",
+        "Symbol": "XOF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Tanzania, United Repulic of",
+        "Language": "English (AIM)",
+        "Currency": "TZS",
+        "Symbol": "TZS",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Uganda",
+        "Language": "English (AIM)",
+        "Currency": "UGX",
+        "Symbol": "UGX",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-GB"
+    },
+    {
+        "Region": "AIM",
+        "Countryregion": "Mayotte",
+        "Language": "Francais",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr-CA"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Poland",
+        "Language": "Polish",
+        "Currency": "PLN",
+        "Symbol": "zł",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "pl-PL"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Czech",
+        "Language": "Czech",
+        "Currency": "CZK",
+        "Symbol": "Kč",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "cs-CZ"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Slovakia",
+        "Language": "Slovak",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "sk-SK"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Latvia",
+        "Language": "Latvian",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Lithuania",
+        "Language": "Lithuanian",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Estonia",
+        "Language": "Estonian",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Turkey",
+        "Language": "Turkish",
+        "Currency": "TRY",
+        "Symbol": "₺",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "tr-TR"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Greece",
+        "Language": "Greek",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "el-GR"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Bulgaria",
+        "Language": "Bulgarian",
+        "Currency": "BGN",
+        "Symbol": "лв",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Croatia",
+        "Language": "Croatian",
+        "Currency": "HRK",
+        "Symbol": "kn",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Hungary",
+        "Language": "Hungarian",
+        "Currency": "HUF",
+        "Symbol": "Ft",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Romania",
+        "Language": "Romanian",
+        "Currency": "RON",
+        "Symbol": "lei",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "ro-RO"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Serbia",
+        "Language": "Serbian",
+        "Currency": "RSD",
+        "Symbol": "din",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "EUC",
+        "Countryregion": "Slovenia",
+        "Language": "Slovenian",
+        "Currency": "EUR",
+        "Symbol": "€",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en-US"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Argentina",
+        "Language": "Spanish",
+        "Currency": "ARS",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Brazil",
+        "Language": "Portuguese (BR)",
+        "Currency": "BRL",
+        "Symbol": "R$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "pt-BR"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Bolívia",
+        "Language": "Spanish",
+        "Currency": "BOB",
+        "Symbol": "Bs",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Chile",
+        "Language": "Spanish",
+        "Currency": "CLP",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Ecuador",
+        "Language": "Spanish",
+        "Currency": "USD",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Peru",
+        "Language": "Spanish",
+        "Currency": "PEN",
+        "Symbol": "S/.",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Colombia",
+        "Language": "Spanish",
+        "Currency": "COP",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Paraguay",
+        "Language": "Spanish",
+        "Currency": "PYG",
+        "Symbol": "",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Uruguay",
+        "Language": "Spanish",
+        "Currency": "UYU",
+        "Symbol": "UYU",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "AMS",
+        "Countryregion": "Venezuela",
+        "Language": "Spanish",
+        "Currency": "VEF",
+        "Symbol": "VEF",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es-ES"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Switzerland",
+        "Language": "French(CH)",
+        "Currency": "CHF",
+        "Symbol": "CHF",
+        "Symbol_Pos": "P",
+        "Separator": "P",
+        "language_code": "fr-CH"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Switzerland",
+        "Language": "Italian(CH)",
+        "Currency": "CHF",
+        "Symbol": "CHF",
+        "Symbol_Pos": "P",
+        "Separator": "P",
+        "language_code": "it-CH"
+    },
+    {
+        "Region": "EUN",
+        "Countryregion": "Switzerland",
+        "Language": "German(CH)",
+        "Currency": "CHF",
+        "Symbol": "CHF",
+        "Symbol_Pos": "P",
+        "Separator": "P",
+        "language_code": "de-CH"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Mexico",
+        "Language": "Spanish",
+        "Currency": "Mexican Peso",
+        "Symbol": " $ ",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Belice",
+        "Language": "Spanish",
+        "Currency": "Belize Dollar",
+        "Symbol": " $ ",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Guatemala",
+        "Language": "Spanish",
+        "Currency": "Quetzal",
+        "Symbol": " Q ",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Honduras",
+        "Language": "Spanish",
+        "Currency": "Lempira",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Nicaragua",
+        "Language": "Spanish",
+        "Currency": "Cordoba",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Costa Rica",
+        "Language": "Spanish",
+        "Currency": "Colon",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Panama",
+        "Language": "Spanish",
+        "Currency": "Balboa / USD",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "El Salvador",
+        "Language": "Spanish",
+        "Currency": "USD / Bitcoin",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "es"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Dominican Republic",
+        "Language": "English",
+        "Currency": "Dominican Peso",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "en"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Jamaica",
+        "Language": "Patois",
+        "Currency": "Jamaican Dollar",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "pat"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Curazao",
+        "Language": "Dutch",
+        "Currency": "NAG",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "nl"
+    },
+    {
+        "Region": "AMC",
+        "Countryregion": "Haiti",
+        "Language": "French",
+        "Currency": "Haitian Gourde",
+        "Symbol": "$",
+        "Symbol_Pos": "P",
+        "Separator": "C",
+        "language_code": "fr"
+    }
+]

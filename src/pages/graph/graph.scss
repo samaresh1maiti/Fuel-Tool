@@ -1,0 +1,29 @@
+page-graph {
+
+  @media (max-width: 420px) {
+    .graph_canvas {
+      width: 100% !important;
+      max-height: 500px !important;
+      min-height: 300px !important;
+      margin-left: 0% !important;
+    }
+
+    #canvas1{
+      width: 100% !important;
+    }
+
+    #canvas2{
+      width: 100% !important;
+    }
+  }
+  .circle:before {
+    content: '\25CF';
+    font-size: 20px;
+    font-size:1.4em;
+  }
+  .label-md{
+    margin-left: 5px !important;
+    margin-top: 6px;
+  }
+
+}

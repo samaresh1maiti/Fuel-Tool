@@ -1,0 +1,120 @@
+page-configuration {
+
+  .personal-saving-col {
+    border: 1px solid;
+    padding: 0px;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+  }
+
+  .personal-saving-first-row{
+    font-style: italic;
+    color: white;
+    background-color: #27509b;
+    text-align: center;
+  }
+
+  .personal-saving-not-first-row{
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .personal-saving-ion-item{
+    padding-right: 8px !important;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.0em;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+  }
+
+  .normal-col{
+    border:1px solid;
+    padding:0px;
+    background-color: #ffffff;
+    border-bottom-color: #999898;
+    border-top-color: #999898;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+  }
+
+  .item-inner{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  div.input-wrapper{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  .label-md{
+    //margin: 0 !important;
+  }
+
+  .item-md{
+    padding-left: 0 !important;
+  }
+
+
+  .break{
+    page-break-before:always;
+  }
+
+  .padding-to-left{
+    padding-left: 16px !important;
+  }
+
+  .padding-to-right{
+    padding-left: 8px !important;
+  }
+  .border-color-col{
+    border:-1px solid;
+    padding:0px;
+    background-color: #ffffff;//#adccff;
+    text-align:center;
+    border-bottom-color: #999898;
+    border-top-color: #999898;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    
+  }
+  .border-color-col-md{
+    border:1px solid;
+    padding:0px;
+    background-color: #ffffff;//#adccff;
+    text-align:center;
+    border-bottom-color: #999898;
+    border-top-color: #999898;
+    border-left-color: #ffffff;
+    border-right-color: #999898;
+    
+  }
+  .border-noncolor-col{
+    border:1px solid;
+    padding:0px;
+    background-color: #ffffff;//#adccff;
+    text-align:center;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    
+  }
+}
+.custom-alert  .alert-wrapper{
+  max-width: 430px;
+
+}
+
+.custom-alert .alert-message{
+color: red;
+}

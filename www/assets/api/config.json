@@ -1,0 +1,222 @@
+[
+  {
+    "id":"1",
+    "desc":"4X2 straight truck < 5500 kg",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"2",
+    "desc":"4X2 straight truck >= 5500 kg",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"3",
+    "desc":"4X2 straight truck pulling 2 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"4",
+    "dual_trailer_wheels":"8",
+    "aero":"3"
+  },
+  {
+    "id":"4",
+    "desc":"6X4 straight truck",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"5",
+    "desc":"6X4 straight truck pulling 2 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"4",
+    "dual_trailer_wheels":"8",
+    "aero":"3"
+  },
+  {
+    "id":"6",
+    "desc":"8X4 straight truck",
+    "steer_wheels":"4",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"7",
+    "desc":"4X2 pulling 1 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"4",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"8",
+    "desc":"4X2 pulling 2 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"4",
+    "dual_trailer_wheels":"8",
+    "aero":"3"
+  },
+  {
+    "id":"9",
+    "desc":"4X2 pulling 3 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"6",
+    "dual_trailer_wheels":"12",
+    "aero":"3"
+  },
+  {
+    "id":"10",
+    "desc":"6X2 pulling 2 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"2",
+    "trailer_wheels":"4",
+    "dual_trailer_wheels":"8",
+    "aero":"3"
+  },
+  {
+    "id":"11",
+    "desc":"6X2 pulling 3 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"2",
+    "trailer_wheels":"6",
+    "dual_trailer_wheels":"12",
+    "aero":"3"
+  },
+  {
+    "id":"12",
+    "desc":"6X2 pulling 4 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"2",
+    "trailer_wheels":"8",
+    "dual_trailer_wheels":"16",
+    "aero":"3"
+  },
+  {
+    "id":"13",
+    "desc":"6X2 pulling 5 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"2",
+    "trailer_wheels":"10",
+    "dual_trailer_wheels":"20",
+    "aero":"3"
+  },
+  {
+    "id":"14",
+    "desc":"6X4 pulling 2 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"4",
+    "dual_trailer_wheels":"8",
+    "aero":"3"
+  },
+  {
+    "id":"15",
+    "desc":"6X4 pulling 3 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"6",
+    "dual_trailer_wheels":"12",
+    "aero":"3"
+  },
+  {
+    "id":"16",
+    "desc":"6X4 pulling 4 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"8",
+    "dual_trailer_wheels":"16",
+    "aero":"3"
+  },
+  {
+    "id":"17",
+    "desc":"6X4 pulling 5 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"10",
+    "dual_trailer_wheels":"20",
+    "aero":"3"
+  },
+  {
+    "id":"18",
+    "desc":"6x2 Coach",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"2",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"19",
+    "desc":"6x4 Coach",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"20",
+    "desc":"4X2 Coach",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"0",
+    "dual_trailer_wheels":"0",
+    "aero":"3"
+  },
+  {
+    "id":"21",
+    "desc":"6X4 pulling 6 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"8",
+    "nondriven_wheels":"0",
+    "trailer_wheels":"12",
+    "dual_trailer_wheels":"14",
+    "aero":"3"
+  }, 
+  {
+    "id":"22",
+    "desc":"8X2 pulling 3 axle trailer",
+    "steer_wheels":"2",
+    "drive_wheels":"4",
+    "nondriven_wheels":"2",
+    "trailer_wheels":"6",
+    "dual_trailer_wheels":"12",
+    "aero":"3"
+  }
+]

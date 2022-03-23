@@ -1,0 +1,350 @@
+<!--
+  Generated template for the WeightSaving page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="michelinblue">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <!--<ion-title>Weight Saving</ion-title>-->
+    <ion-label class="header_text3">{{"weight_savings" | translate}}</ion-label>
+
+    <ion-buttons end>
+      <button (click)="openNextPage()" style="font-size: 1.4em; background-color: transparent; color: white; vertical-align: middle">
+          {{"next" | translate}}
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+  <!-- <div style="background-color: rgb(252, 229, 0); height: 2px; width: 100%" ></div> -->
+
+</ion-header>
+
+
+
+
+<ion-content padding>
+  <ion-grid >
+    <ion-row>
+      <ion-col width-12 col-md style="flex:1">
+        <ion-item text-wrap class="bottom-border">
+         <ion-label  style="font-weight: bold; font-style:italic; font-size: 0.9em"> {{"weight_savings_page_explanation" | translate}}
+         </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col width-12 col-md>
+        <!-- <ion-item>
+          <ion-label text-wrap >Would you like to calculate additional revenue from weight savings?</ion-label>
+        </ion-item> -->
+        <ion-list radio-group [(ngModel)]="weightChoice">
+        <ion-item no-lines class="bottom-border">
+          <ion-label>
+              {{"yes" | translate}}
+          </ion-label>
+          <ion-radio value='true' ></ion-radio>
+        </ion-item>
+        <ion-item >
+          <ion-label>
+              {{"no" | translate}}
+          </ion-label>
+          <ion-radio value='false' ></ion-radio>
+        </ion-item>
+        </ion-list>
+        </ion-col>
+      </ion-row>
+      
+       <ion-row>
+         <ion-col width-12 col-md style="flex:1">
+             <ion-item style="background-color: transparent;" no-lines="">
+               </ion-item>
+         </ion-col>
+         <ion-col width-12 col-md>
+        <ion-row  *ngIf="weightChoice == 'true'">
+          <ion-col width-50 class="custom-label">
+            <ion-label class="custom-input-value" style="text-transform:uppercase;">{{"select_payload" | translate}}</ion-label>
+
+          </ion-col>
+          <ion-col width-50 class="custom-input-box" id="selectedPayload">
+          <!--<select  id="selectedPayloadSelect" [(ngModel)]="weightSavingObj.selectedPayload" (ngModelChange)="addBackgroundColor()" style="width: 100% !important; padding-top: 0px; margin-top: 10px; flex:1; border-color: transparent; background-color: #eeeeee; font-size: 1.2em; float: left">-->
+            <!--<option  *ngFor="let payload of payLoadNames">{{payload}}</option>-->
+          <!--</select>-->
+
+            <ion-input id="selectedPayloadSelect"  (focus)="showAutocompleteModal('payload', -1)" [(ngModel)]="weightSavingObj.selectedPayload" type="text" placeholder="Select One" style="color: #27509b; margin-top: 2px !important; width: 100%;" text-center=""  class="selectvalue"></ion-input>
+
+
+          </ion-col>
+
+        </ion-row>
+        <!--<ion-row style="padding-left: 15px; "  >-->
+        <ion-row *ngIf="weightChoice == 'true'">
+          <ion-col width-50 class="custom-label" >
+
+          <ion-label class="custom-input-value" tyle="text-transform:uppercase;">{{"revenue_per_unit" | translate}}</ion-label>
+          </ion-col>
+          <ion-col width-50 class="custom-input-box" id="revenuePerUnit">
+
+          <input id="revenuePerUnitInput"  type="text" value="" [ngModel]="weightSavingObj.revenuePerUnit | number:0" (ngModelChange)="onChange($event, 'revenuePerUnit')" placeholder="0" style="color:#27509b;flex: 1; font-size: 1.2em; margin-top: 5px; vertical-align: center;  border-color: transparent; text-align: center; margin-right: 5px; background-color:white; " />
+          </ion-col>
+        </ion-row>
+        <ion-row *ngIf="weightChoice == 'true'">
+          <ion-col width-50 class="custom-label">
+
+          <ion-label class="custom-input-value" tyle="text-transform:uppercase;">{{"loads_per_week" | translate}}</ion-label>
+          </ion-col>
+          <ion-col width-50 class="custom-input-box" id="loadsPerWeek">
+
+          <input id="loadsPerWeekInput" [ngModel]="weightSavingObj.loadsPerWeek | number:0" (ngModelChange)="onChange($event, 'loadsPerWeek')" class="input-wrapper" type="text" value="" placeholder="0" style="color:#27509b; flex: 1; margin-top: 5px; font-size: 1.2em;  border-color: transparent; text-align: center; margin-right: 5px; background-color:white;"/>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  <!--<ion-row>-->
+
+      <!--<ion-col col-12 col-md>-->
+       <!---->
+      <!--</ion-col>-->
+      <!--<ion-col col-12 col-md>-->
+       <!---->
+      <!--</ion-col>-->
+        <!--</ion-row>-->
+
+
+
+  <ion-row *ngIf="weightChoice == 'true'">
+
+
+    <ion-col style="min-width: 25%; max-width: 32%; margin-top: 15px" >
+
+      <ion-item no-lines style="text-align:center;  color:transparent; font-weight: bold;">
+          {{"name" | translate}}
+      </ion-item>
+
+      <ion-row style=" padding-left: 15px;">
+        <ion-label class="selectlabel" tyle="text-transform:uppercase;">{{"current_tire_size" | translate}}</ion-label>
+      </ion-row>
+
+
+      <ion-row style=" padding-left: 15px;" >
+        <ion-label class="selectlabel" tyle="text-transform:uppercase;">{{"current_wheel_type" | translate}}</ion-label>
+      </ion-row>
+
+      <div *ngFor="let item of items">
+        <ion-row style=" padding-left: 15px;" >
+          <ion-label class="selectlabel" tyle="text-transform:uppercase;">{{"proposed_scenario_tire_size" | translate}}{{item }} </ion-label>
+        </ion-row>
+
+        <ion-row style=" padding-left: 15px;" >
+          <ion-label class="selectlabel">{{"proposed_scenario_wheel_type" | translate}}{{item }}</ion-label>
+        </ion-row>
+      </div>
+
+    </ion-col>
+
+
+
+
+
+  <!--<ion-col width-25="" *ngIf="drivecheckboxnew && totalColumnNum == 3">-->
+    <ion-col style="min-width: 23%;"  *ngIf="drivecheckboxnew">
+      <!--<ion-col width-75="" *ngIf="drivecheckboxnew && totalColumnNum == 1">-->
+
+      <ion-item no-lines class="sub-title-header">
+      {{"drive" | translate}}
+    </ion-item>
+      <ion-row style=" padding-left: 15px;">
+        <!--<ion-label class="selectlabel">Current Tire Size</ion-label>-->
+        <!--<select  id="currentDriveTireSize" [(ngModel)]="weightSavingObj.currentDriveTireSize"  (ngModelChange)="addBackgroundColor('currentDriveTireSize', 0)" class="selectvalue">-->
+            <!--<option  *ngFor="let currentSize of treadSizeMap[data[0].autoCompleteDataTireDrive];">{{currentSize}}</option>-->
+          <!--</select>-->
+
+          <ion-input  id="currentDriveTireSize" (focus)="showAutocompleteModal('currentDriveTireSize', 0)" [(ngModel)]="weightSavingObj.currentDriveTireSize" type="text" placeholder="Select a size" text-left="" class="selectvalue"></ion-input>
+
+        </ion-row>
+        <ion-row style=" padding-left: 15px;">
+          <!--<ion-label class="selectlabel">Current Wheel Type</ion-label>-->
+
+
+
+          <!--<select  id="currentDriveWheelType" [(ngModel)]="weightSavingObj.currentDriveWheelType" (ngModelChange)="addBackgroundColor('', 0)" class="selectvalue" >-->
+            <!--<option  *ngFor="let type of (tireWheelTypeDic[weightSavingObj.currentDriveTireSize] == null? wheelType225 : tireWheelTypeDic[weightSavingObj.currentDriveTireSize])" >{{type}}</option>-->
+          <!--</select>-->
+
+
+          <ion-input id="currentDriveWheelType" (focus)="showAutocompleteModal('currentDriveWheelType', 0)" [(ngModel)]="weightSavingObj.currentDriveWheelType" type="text" placeholder="Select a wheel"  text-left="" class="selectvalue"></ion-input>
+
+
+
+        </ion-row>
+
+       <div *ngFor="let item of items">
+        <ion-row style=" padding-left: 15px;" >
+          <!--<ion-label class="selectlabel">Proposed Scenario{{item }} Tire Size</ion-label>-->
+          <!--<select id="{{'proposedDriveTireSize'+item }}" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedDriveTireSize" (ngModelChange)="addBackgroundColor('proposedDrive', item)" class="selectvalue">-->
+            <!--<option  *ngFor="let proposedSize of treadSizeMap[data[item].autoCompleteDataTireDrive]">{{proposedSize}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="{{'proposedDriveTireSize'+item }}" (focus)="showAutocompleteModal('proposedDriveTireSize', item)" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedDriveTireSize" type="text" placeholder="Select a size" text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+        <ion-row style=" padding-left: 15px;">
+          <!--<ion-label class="selectlabel">Proposed Scenario{{item}} Wheel Type</ion-label>-->
+
+
+          <!--<select  id="{{'proposedDriveWheelType'+item}}" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedDriveWheelType" (ngModelChange)="addBackgroundColor('', item)" class="selectvalue" >-->
+            <!--<option  *ngFor="let proposedType of (tireWheelTypeDic[weightSavingObj.proposedIndexModelObjMap[item].proposedDriveTireSize] == null? wheelType225:tireWheelTypeDic[weightSavingObj.proposedIndexModelObjMap[item].proposedDriveTireSize])">{{proposedType}}</option>-->
+          <!--</select>-->
+
+
+          <ion-input id="{{'proposedDriveWheelType'+item}}" (focus)="showAutocompleteModal('proposedDriveWheelType', item)" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedDriveWheelType" type="text" placeholder="Select a wheel" text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+
+       </div>
+      <!--</ion-col>-->
+    </ion-col>
+  <!--</ion-col >-->
+
+
+
+      <ion-col  *ngIf="nondrivenShow && nondrivencheckboxnew" style="min-width: 23%;">
+        <!--<ion-col width-34="" *ngIf="nondrivenShow && nondrivencheckboxnew && totalColumnNum == 2">-->
+          <!--<ion-col width-75="" *ngIf="nondrivenShow && nondrivencheckboxnew && totalColumnNum == 1">-->
+        <ion-item no-lines class="sub-title-header">
+            {{"non_driven_axle" | translate}}
+        </ion-item>
+        <ion-row  style=" padding-left: 15px;">
+
+          <!--<ion-label class="selectlabel" style="color: transparent">C</ion-label>-->
+
+
+          <!--<select  id="currentNondrivenTireSize" [(ngModel)]="weightSavingObj.currentNondrivenTireSize" (ngModelChange)="addBackgroundColor('currentNondriven', 0)" class="selectvalue">-->
+            <!--<option  *ngFor="let currentSize of treadSizeMap[data[0].autoCompleteDataTireNondriven]">{{currentSize}}</option>-->
+          <!--</select>-->
+
+          <ion-input  id="currentNondrivenTireSize" (focus)="showAutocompleteModal('currentNondrivenTireSize', 0)" [(ngModel)]="weightSavingObj.currentNondrivenTireSize" type="text" placeholder="Select a size"text-left="" class="selectvalue"></ion-input>
+
+        </ion-row>
+        <ion-row style=" padding-left: 15px;">
+          <!--<ion-label class="selectlabel" style="color: transparent">C</ion-label>-->
+
+
+
+          <!--<select   id="currentNondrivenWheelType" [(ngModel)]="weightSavingObj.currentNondrivenWheelType" (ngModelChange)="addBackgroundColor('', 0)" class="selectvalue">-->
+            <!--<option  *ngFor="let type of (tireWheelTypeDic[weightSavingObj.currentNondrivenTireSize] == null? wheelType225 : tireWheelTypeDic[weightSavingObj.currentNondrivenTireSize])" >{{type}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="currentNondrivenWheelType" (focus)="showAutocompleteModal('currentNondrivenWheelType', 0)" [(ngModel)]="weightSavingObj.currentNondrivenWheelType" type="text" placeholder="Select a wheel"  text-left="" class="selectvalue"></ion-input>
+
+        </ion-row>
+
+        <div *ngFor="let item of items">
+        <ion-row style=" padding-left: 15px;" >
+          <!--<ion-label class="selectlabel" style="color: transparent">P</ion-label>-->
+
+
+
+          <!--<select  id="{{'proposedNondrivenTireSize'+item }}" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedNondrivenTireSize" (ngModelChange)="addBackgroundColor('proposedNondriven', item)" class="selectvalue">-->
+            <!--<option  *ngFor="let proposedSize of treadSizeMap[data[item].autoCompleteDataTireNondriven]">{{proposedSize}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="{{'proposedNondrivenTireSize'+item  }}" (focus)="showAutocompleteModal('proposedNondrivenTireSize', item)" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedNondrivenTireSize" type="text" placeholder="Select a size"  text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+        <ion-row style="padding-left: 15px;">
+          <!--<ion-label class="selectlabel" style="color: transparent">P</ion-label>-->
+
+
+
+          <!--<select id="{{'proposedNondrivenWheelType'+item }}" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedNondrivenWheelType" (ngModelChange)="addBackgroundColor('', item)" class="selectvalue">-->
+            <!--<option  *ngFor="let proposedType of (tireWheelTypeDic[weightSavingObj.proposedIndexModelObjMap[item].proposedNondrivenTireSize] == null?wheelType225:tireWheelTypeDic[weightSavingObj.proposedIndexModelObjMap[item].proposedNondrivenTireSize])">{{proposedType}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="{{'proposedNondrivenWheelType' +item}}" (focus)="showAutocompleteModal('proposedNondrivenWheelType', item)" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedNondrivenWheelType" type="text" placeholder="Select a wheel" text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+
+      </div>
+      </ion-col>
+
+
+
+      <ion-col *ngIf="trailerShow && trailercheckboxnew" style="min-width: 23%;">
+
+        <ion-item no-lines class="sub-title-header">
+           {{"trailer" | translate}}
+        </ion-item>
+        <ion-row  style=" padding-left: 15px;">
+
+          <!--<ion-label class="selectlabel" style="color: transparent">C</ion-label>-->
+
+
+          <!--<select  id="currentTrailerTireSize" [(ngModel)]="weightSavingObj.currentTrailerTireSize" (ngModelChange)="addBackgroundColor('currentTrailerSize', 0)" class="selectvalue">-->
+            <!--<option  *ngFor="let currentSize of treadSizeMap[data[0].autoCompleteDataTireTrailer], let i = index" >{{currentSize}}</option>-->
+          <!--</select>-->
+
+          <ion-input  id="currentTrailerTireSize" (focus)="showAutocompleteModal('currentTrailerTireSize', 0)" [(ngModel)]="weightSavingObj.currentTrailerTireSize" type="text" placeholder="Select a size" text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+        <ion-row style=" padding-left: 15px;">
+          <!--<ion-label class="selectlabel" style="color: transparent">C</ion-label>-->
+
+
+
+          <!--<select  id="currentTrailerWheelType"  [(ngModel)]="weightSavingObj.currentTrailerWheelType" (ngModelChange)="addBackgroundColor('', 0)" class="selectvalue">-->
+            <!--<option  *ngFor="let type of (tireWheelTypeDic[weightSavingObj.currentTrailerTireSize] == null? wheelType225 : tireWheelTypeDic[weightSavingObj.currentTrailerTireSize])">{{type}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="currentTrailerWheelType" (focus)="showAutocompleteModal('currentTrailerWheelType', 0)" [(ngModel)]="weightSavingObj.currentTrailerWheelType" type="text" placeholder="Select a wheel" text-left="" class="selectvalue"></ion-input>
+
+        </ion-row>
+
+        <div *ngFor="let item of items">
+        <ion-row style=" padding-left: 15px;">
+          <!--<ion-label class="selectlabel" style="color: transparent">P</ion-label>-->
+
+
+
+          <!--<select  id="{{'proposedTrailerTireSize'+item }}" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedTrailerTireSize" (ngModelChange)="addBackgroundColor('proposedTrailer', item)" class="selectvalue">-->
+            <!--<option  *ngFor="let proposedSize of treadSizeMap[data[item].autoCompleteDataTireTrailer]">{{proposedSize}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="{{'proposedTrailerTireSize'+item }}" (focus)="showAutocompleteModal('proposedTrailerTireSize', item)" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedTrailerTireSize" type="text" placeholder="Select a size" text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+        <ion-row style="padding-left: 15px;">
+          <!--<ion-label class="selectlabel" style="color: transparent">P</ion-label>-->
+
+
+
+          <!--<select  id="{{'proposedTrailerWheelType'+item }}" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedTrailerWheelType" (ngModelChange)="addBackgroundColor('', item)" class="selectvalue">-->
+            <!--<option  *ngFor="let proposedType of (tireWheelTypeDic[weightSavingObj.proposedIndexModelObjMap[item].proposedTrailerTireSize] == null?wheelType225 : tireWheelTypeDic[weightSavingObj.proposedIndexModelObjMap[item].proposedTrailerTireSize])">{{proposedType}}</option>-->
+          <!--</select>-->
+
+          <ion-input id="{{'proposedTrailerWheelType' +item}}" (focus)="showAutocompleteModal('proposedTrailerWheelType', item)" [(ngModel)]="weightSavingObj.proposedIndexModelObjMap[item].proposedTrailerWheelType" type="text" placeholder="Select a wheel"  text-left="" class="selectvalue"></ion-input>
+
+
+        </ion-row>
+        </div>
+
+      </ion-col>
+
+    </ion-row>
+    <!--<ion-row>-->
+      <!--<ion-col width-100 text-center>-->
+
+      <!--<button style="font-size: 1.5em;">Next</button>-->
+      <!--</ion-col>-->
+
+    <!--</ion-row>-->
+
+  </ion-grid>
+</ion-content>

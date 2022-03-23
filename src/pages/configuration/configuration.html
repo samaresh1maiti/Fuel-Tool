@@ -1,0 +1,540 @@
+<!--
+  Generated template for the Configuration page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="michelinblue">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" style="font-size: xx-large"></ion-icon>
+    </button>
+    <ion-label class="header_text">{{"input_info" | translate}}</ion-label>
+  </ion-navbar>
+  <!-- <div style="background-color: rgb(252, 229, 0); height: 2px; width: 100%" ></div> -->
+
+</ion-header>
+
+
+
+<ion-content padding>
+
+ <div id="fleetDetails">
+
+  <ion-grid>
+
+    <ion-row  class="border-noncolor-col">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-first-row" style="text-transform: uppercase;">
+          <b>{{"fleet_details" | translate}}</b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"standard_vehicle_configuration" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left">
+          {{fleetConfiguration}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"trucks" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left">
+          {{fleetSizeTrucks | number:0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"trailers" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left" >
+          {{fleetSizeTrailers | number:0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Kilometers'">
+          {{"annual_kilometers_per_vehicle" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Miles'">
+          {{"annual_miles_per_vehicle" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left">
+          {{annualMilesPerVehicle | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unitMPG == 'KPL'">
+          {{"annual_kpl_per_vehicle" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unitMPG == 'MPG'">
+          {{"annual_mpg_per_vehicle" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left">
+          {{annualMpgPerVehicle | number:0}}{{isInt(annualMpgPerVehicle)}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="perUnit == 'per liter'">
+          {{"current_price_of_fuel" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="perUnit == 'per Gal'">
+          {{"current_price_of_fuel_per_galon" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left">
+          {{currentSymbol}}{{currentPriceOfFuel}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row  class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md" color="mblue">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"annual_fuel_bill_first_letter_capital" | translate}}{{":"}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines class="padding-to-left">
+          {{annualFuelBill | number:0}}
+        </ion-item>
+
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <div style="margin-top: 20px; margin-bottom: 20px;"></div>
+
+ </div>
+
+
+  <div id="analysisData" class="break">
+
+
+  <ion-segment [(ngModel)]="lifeSegment" color="michelinyellow" *ngIf="isFromBasicAnalysis == false">
+    <ion-segment-button value="firstLife" style="color:#27509b;font-weight: bolder;font-size:1.0em;font-style:italic;">
+      {{"first_life" | translate}}
+    </ion-segment-button>
+    <ion-segment-button value="secondLife" style="color:#27509b;font-weight: bolder;font-size:1.0em;font-style:italic;" (click)="saveSecondLife()">
+      {{"second_life" | translate}}
+    </ion-segment-button>
+  </ion-segment>
+
+  <!--current tires section-->
+  <ion-grid>
+
+    <div *ngFor="let item of items">
+
+    <ion-row class="border-color-col">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-first-row" *ngIf="titles[item] == ('current_tire' | translate) ">
+          <b>{{"current_tire" | translate}}</b>
+        </ion-item>
+        <ion-item no-lines class="personal-saving-first-row" *ngIf="titles[item] != ('current_tire' | translate) ">
+          <b>{{"proposed_tire" | translate}}{{item}}</b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="border-color-col" *ngIf="steercheckboxnew">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-not-first-row">
+          <b> {{"steer" | translate}} </b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="steercheckboxnew">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" >
+          {{"tire" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataSteerBrand + ' ' + itemList[item].autoCompleteDataTireSteer}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataSteerBrandSecondLife + ' ' + itemList[item].autoCompleteDataTireSteerSecondLife}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="steercheckboxnew && this.mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Kilometers'">
+            {{"tire_runout_kilometer" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Miles'">
+          {{"tire_runout_mile" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].steerRunoutMiles | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].steerRunoutMilesSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="steercheckboxnew && this.mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"cost" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].steerTirePrice | number : 0}}{{isInt(itemList[item].steerTirePrice)}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].steerTirePriceSecondLife | number : 0}} {{isInt(itemList[item].steerTirePriceSecondLife)}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row class="border-color-col" *ngIf="steercheckboxnew && fuel_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"steer_rolling_resistance" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].steerBaseRollingResistance | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].steerBaseRollingResistanceSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row class="border-color-col" *ngIf="drivecheckboxnew">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-not-first-row">
+          <b>{{"drive" | translate}}</b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row class="border-color-col" *ngIf="drivecheckboxnew" >
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+            {{"tire" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataDriveBrand + ' ' + itemList[item].autoCompleteDataTireDrive}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataDriveBrandSecondLife + ' ' + itemList[item].autoCompleteDataTireDriveSecondLife}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="drivecheckboxnew && mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Kilometers'">
+            {{"tire_runout_kilometer" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Miles'">
+          {{"tire_runout_mile" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].driveRunoutMiles | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].driveRunoutMilesSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="drivecheckboxnew && mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+            {{"cost" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].driveTirePrice | number : 0}}{{isInt(itemList[item].driveTirePrice)}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].driveTirePriceSecondLife | number : 0}}{{isInt(itemList[item].driveTirePriceSecondLife)}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="drivecheckboxnew && mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+            {{"drive_rolling_resistance" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].driveBaseRollingResistance | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].driveBaseRollingResistanceSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <div *ngIf="nondrivenShow && nondrivencheckboxnew">
+    <ion-row class="border-color-col">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-not-first-row">
+          <b>{{"non_driven_axle" | translate}}</b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+            {{"tire" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataNondrivenBrand + ' ' +  itemList[item].autoCompleteDataTireNondriven}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataNondrivenBrand + ' ' + itemList[item].autoCompleteDataTireNondrivenSecondLife}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Kilometers'">
+            {{"tire_runout_kilometer" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Miles'">
+          {{"tire_runout_mile" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].nondrivenRunoutMiles | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].nondrivenRunoutMilesSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"cost" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].nondrivenTirePrice | number : 0}}{{isInt(itemList[item].nondrivenTirePrice)}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].nondrivenTirePriceSecondLife | number : 0}}{{isInt(itemList[item].nondrivenTirePriceSecondLife)}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="fuel_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"nondriven_rolling_resistance" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].nondrivenBaseRollingResistance | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].nondrivenBaseRollingResistanceSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    </div>
+
+    <div *ngIf="trailerShow && trailercheckboxnew">
+
+    <ion-row class="border-color-col">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-not-first-row">
+          <b>{{"trailer" | translate}}</b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row class="border-color-col">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+            {{"tire" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataTrailerBrand + ' ' + itemList[item].autoCompleteDataTireTrailer}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].autoCompleteDataTrailerBrandSecondLife + ' ' + itemList[item].autoCompleteDataTireTrailerSecondLife}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Kilometers'">
+            {{"tire_runout_kilometer" | translate}}
+        </ion-item>
+        <ion-item no-lines class="personal-saving-ion-item" *ngIf="unit == 'Miles'">
+          {{"tire_runout_mile" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].trailerRunoutMiles | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].trailerRunoutMilesSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="mileage_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+            {{"cost" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].trailerTirePrice | number : 0}}{{isInt(itemList[item].trailerTirePrice)}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{currentSymbol}}{{itemList[item].trailerTirePriceSecondLife | number : 0}}{{isInt(itemList[item].trailerTirePriceSecondLife)}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-color-col" *ngIf="fuel_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+          {{"trailer_rolling_resistance" | translate}}
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].trailerBaseRollingResistance | number : 0}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].trailerBaseRollingResistanceSecondLife | number : 0}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    </div>
+
+    <ion-row class="border-color-col" *ngIf="fuel_calculation_toggle">
+      <ion-col col-100 col-md class="personal-saving-col" >
+        <ion-item no-lines class="personal-saving-not-first-row" style="text-transform: capitalize;">
+          <b>{{"overall_rolling_resistance" | translate}}</b>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+
+
+
+    <ion-row class="border-color-col" *ngIf="fuel_calculation_toggle">
+      <ion-col width-50 col-md class="border-color-col-md">
+        <ion-item no-lines class="personal-saving-ion-item">
+        </ion-item>
+      </ion-col>
+      <ion-col width-50 col-md class="normal-col">
+        <ion-item no-lines *ngIf="lifeSegment == 'firstLife'" class="padding-to-left">
+          {{itemList[item].totalRollingResistance}}
+        </ion-item>
+        <ion-item no-lines *ngIf="lifeSegment == 'secondLife'" class="padding-to-left">
+          {{itemList[item].totalRollingResistanceSecondLife}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+
+    </div>
+
+
+  </ion-grid>
+
+
+  </div>
+
+
+<ion-grid>
+
+  <div  id='wrapper' class="wrapper" style="text-align: center">
+
+  <button ion-button style="width:10%;background:#FCE500;color:#27509b;font-weight: bold;" (click)="testPdf()" *ngIf="((isFromBasicAnalysis) || (!isFromBasicAnalysis && lifeSegment == 'secondLife'))">
+      <div id = "send_reportdiv"  [ngStyle]="{'height': '15px','over-flow':'scroll !important', 'font-size': fontAdjustmentService.calculateFontSize('send_reportdiv')}">   
+
+    {{"send_report" | translate}}</div>
+  </button>
+
+  </div>
+  </ion-grid>
+
+  <div style="margin-top: 20px; margin-bottom: 20px"></div>
+
+
+</ion-content>

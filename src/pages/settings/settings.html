@@ -1,0 +1,153 @@
+<ion-header style="box-shadow: yellow; ">
+  <ion-navbar  color="michelinblue" >
+    <button ion-button menuToggle>
+      <ion-icon name="menu" style="font-size: xx-large"></ion-icon>
+    </button>
+    <!--<ion-title style="display: inline-block; margin-left: 40%; font-size: 1.4em">Options/Settings</ion-title>-->
+    <!--<img style="width: 70px; height:25px; display: inline-block; background-color: white" src="assets/img/michelinimg.png">-->
+
+    <ion-label class="header_text"style="font-size: 1.3em;">{{"options_settings" | translate}}</ion-label>
+
+
+    <ion-buttons end>
+      <button (click)="openNext()"  style="font-size: 1.4em; background-color: transparent; color: white">
+          {{"start_calculation" | translate}}
+      </button>
+    </ion-buttons>
+
+
+  </ion-navbar>
+  <!--<div style="background-color: rgb(252, 229, 0); height: 2px; width: 100%" ></div>-->
+
+</ion-header>
+
+
+
+<ion-content class="outer-content" >
+
+ <p></p>
+
+  <ion-grid >
+    <ion-row>
+      <ion-label style="margin-left: 1%; font-size: 2em; font-style: italic; font-weight: bold ">{{"choose_report_options" | translate}}{{":"}}</ion-label>
+    </ion-row>
+    <ion-row  style="background: transparent">
+      <ion-col col-12 col-md>
+        <ion-item no-lines class="bottom-border" style="background-color: transparent;">
+          <ion-label style="font-weight:bold;color:#2E2E2E; font-size: 1.2em;"> {{'fuel_calculation' | translate}}</ion-label>
+          <ion-toggle  [(ngModel)]="fuel_calculation_toggle" style="color: #264D9D"></ion-toggle>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12 col-md>
+        <ion-item no-lines class="bottom-border" style="background-color: transparent;">
+
+          <!-- <ion-label style="font-weight:bold;color:#2E2E2E;" id="kilolabel"> {{kilometerLabel}}</ion-label> -->
+
+          <ion-label style="font-weight:bold;color:#2E2E2E; font-size: 1.2em;"*ngIf="this.tracks[0].isChecked" > {{'kilometer_calculation' | translate}}</ion-label>
+          <ion-label style="font-weight:bold;color:#2E2E2E; font-size: 1.2em;"*ngIf="!this.tracks[0].isChecked"> {{'mileage_calculation' | translate}}</ion-label>
+          <ion-toggle  [(ngModel)]="mileage_calculation_toggle" style="color: #264D9D"></ion-toggle>
+        </ion-item>
+      </ion-col>
+
+    </ion-row>
+
+    <!--<ion-row>-->
+      <!--<ion-col col-12 col-md>-->
+        <!--<ion-item style="background-color: transparent;">-->
+          <!--<ion-label>{{'basic_analysis' | translate}}</ion-label>-->
+          <!--<ion-toggle [(ngModel)]="basic_analysis_toggle"></ion-toggle>-->
+        <!--</ion-item>-->
+      <!--</ion-col>-->
+      <!--<ion-col col-12 col-md>-->
+        <!--<ion-item style="background-color: transparent;">-->
+          <!--<ion-label> {{'life_cycle_analysis' | translate}}</ion-label>-->
+          <!--<ion-toggle [(ngModel)]="life_cycle_analysis_toggle"></ion-toggle>-->
+        <!--</ion-item>-->
+      <!--</ion-col>-->
+
+    <!--</ion-row>-->
+  </ion-grid>
+
+  <p></p>
+
+  <!--<ion-list>-->
+
+    <ion-grid>
+    <ion-row>
+      <ion-label style="margin-left: 1%; font-size: 2em; font-style: italic; font-weight: bold;">{{"settings" | translate}}{{":"}}</ion-label>
+    </ion-row>
+
+      <!--<ion-row>-->
+        <!--<ion-col col-12 col-md>-->
+    <!--<ion-item style="background-color: transparent;">-->
+      <!--<ion-label class="label_text" >Fleet Name</ion-label>-->
+        <!--<ion-input type="text" [(ngModel)]="fleet_name" disabled></ion-input>-->
+    <!--</ion-item>-->
+        <!--</ion-col>-->
+      <!--</ion-row>-->
+
+    <ion-row>
+      <ion-col col-12 col-md>
+    <ion-item no-lines class="bottom-border" *ngFor="let track of tracks" [attr.track]="track.name | lowercase" style="background-color: transparent;">
+       <ion-label style="font-weight:bold;color:#2E2E2E;font-size: 1.2em;">{{"metric_units" | translate}} </ion-label> <!--{{track.name}}</ion-label> -->
+      <ion-toggle [(ngModel)]="track.isChecked" style="color: #264D9D" (ngModelChange)="onUnitsChange()"></ion-toggle>
+    </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <!-- <ion-item *ngIf="isiOSAndroid" style="background-color: transparent; ">
+      <ion-label style="font-weight:bold;color:#2E2E2E;">{{"language" | translate}}</ion-label>
+      <ion-select [(ngModel)]="selectedLanguage" style="margin-right: 16px">
+        <ion-option value="us" >English (US)</ion-option>
+        <ion-option value="mx">Espanol (MX)</ion-option>
+        <ion-option value="ca_eng">English (CA)</ion-option>
+        <ion-option value="ca_fr">Francais (CA)</ion-option>
+      </ion-select>
+    </ion-item> -->
+    <ion-row *ngIf="isiOSAndroid == false" style="margin: 15px 13px  15px 20px;background-color: transparent; height: 40px !important;" >
+      <ion-label class="label_text" style="font-weight:bold;font-size: 1.3em; margin-top: 0px !important; color:#2E2E2E !important;">{{"country" | translate}}</ion-label>
+      <!--<select  id="languageForNoniOSAndroid"  style="margin-right: 6px; border-color: transparent; background-color: transparent"  #language (change)="onChange(language.value)">-->
+        <!--<option *ngFor="let i of languages" [attr.selected]="selectedLanguage" >{{i}}</option>-->
+      <!--</select>-->
+      <ion-input (focus)="showAutocompleteModal(2)" [(ngModel)]="selectedCountry" type="text" placeholder="United States" style="color: black; margin-top: 20px !important; width: 150px !important; font-size:1.1em;" text-right=""></ion-input>
+      <ion-icon name="arrow-down" style="margin-left:5px; margin-top:28px;color:#27509b;"></ion-icon>
+    </ion-row>
+
+    <ion-row *ngIf="isiOSAndroid == false" style="margin: 15px 13px  15px 20px;background-color: transparent; height: 40px !important;" >
+      <ion-label class="label_text" style="font-weight:bold;font-size: 1.3em; margin-top: 0px !important; color:#2E2E2E !important;">{{"language" | translate}}</ion-label>
+      <!--<select  id="languageForNoniOSAndroid"  style="margin-right: 6px; border-color: transparent; background-color: transparent"  #language (change)="onChange(language.value)">-->
+        <!--<option *ngFor="let i of languages" [attr.selected]="selectedLanguage" >{{i}}</option>-->
+      <!--</select>-->
+      <ion-input (focus)="showAutocompleteModal(0)" [(ngModel)]="selectedLanguage" type="text" placeholder="English" style="color: black; margin-top: 20px !important; width: 150px !important;font-size:1.1em;;" text-right=""></ion-input>
+      <ion-icon name="arrow-down" style="margin-left:5px; margin-top:28px;color:#27509b;"></ion-icon>
+    </ion-row>
+
+    <ion-row  style="margin: 15px 13px  15px 20px;background-color: transparent; height: 40px !important;" >
+      <ion-label class="label_text" style="font-weight:bold;font-size: 1.3em; margin-top: 0px !important; color:#2E2E2E !important;">{{"currency_title" | translate}}</ion-label>
+      <ion-input (focus)="showAutocompleteModal(1)" [(ngModel)]="selectedCurrency" type="text" placeholder="USD" style="color: black; margin-top: 20px !important; width: 150px !important;font-size:1.1em;" text-right=""></ion-input>
+      <ion-icon name="arrow-down" style="margin-top:28px;color:#27509b;"></ion-icon>
+
+    </ion-row>
+    </ion-grid>
+
+
+  <!--</ion-list>-->
+
+
+
+
+  <!--<div class="center">-->
+      <!--<ion-img src="assets/img/michelin_bib.jpeg" style="height:150px; width: 400px">-->
+
+      <!--</ion-img>-->
+  <!--</div>-->
+
+
+
+  <!--<button ion-button full (click)="testPdf()" *ngIf="show">TEST PDF</button>-->
+
+  <button ion-button  style="width: auto; margin-left: 47%; margin-top: 40px;font-weight:bold; background: #FCE500;color:#27509b" (click)="resetApp()">{{"reset_all" | translate}}</button>
+
+
+
+</ion-content>

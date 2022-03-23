@@ -1,0 +1,112 @@
+<!--
+  Generated template for the Graph page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="michelinblue">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" style="font-size: xx-large"></ion-icon>
+    </button>
+    <ion-label class="header_text">{{"graph" | translate}}</ion-label>
+  </ion-navbar>
+
+  <ion-segment [(ngModel)]="graph" color="dark" (ionChange)="selectItem()" >
+    <ion-segment-button value="steer" *ngIf="steercheckboxnew" style="font-size: 1.1em; font-weight: bold;">
+        {{"steer" | translate}}
+    </ion-segment-button>
+    <ion-segment-button (click)="saveGraph()" value="drive" *ngIf="drivecheckboxnew" style="font-size: 1.1em; font-weight: bold;">
+        {{"drive" | translate}}
+    </ion-segment-button>
+
+
+    <ion-segment-button value="nondriven" (click)="saveGraph()" *ngIf="nondrivenShow && nondrivencheckboxnew" style="font-size: 1.1em; font-weight: bold;">
+        {{"non_driven_axle" | translate}}
+    </ion-segment-button>
+
+    <ion-segment-button value="trailer" (click)="saveGraph()" *ngIf="trailerShow && trailercheckboxnew" style="font-size: 1.1em; font-weight: bold;">
+        {{"trailer" | translate}}
+    </ion-segment-button>
+  </ion-segment>
+
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div style="margin-top: 20px; margin-bottom: 20px"></div>
+
+  <div id = 'resultGraph' [ngSwitch]="results">
+
+    <div style="margin-top: 20px; margin-bottom: 20px;"></div>
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;">
+      <canvas id="canvas1" #barCanvas_steer style="height: 350px;" ></canvas>
+    </div>
+
+    <ion-row  style="width: 15%; margin-bottom: 20px;margin-left:75%;">
+        <span class="circle" id="fuelColor" style="text-align:right;"></span>
+        <ion-label label-md  style="color:black; text-align:left;font-size:0.9em; text-transform:uppercase;">{{"fuel" | translate}}</ion-label>
+        <span class="circle" id="tireColor" style="text-align:right;"></span>
+        <ion-label label-md  style="color:black; text-align:left;font-size:0.9em; text-transform:uppercase;" >{{"tire" | translate}}</ion-label>
+      </ion-row>
+      
+    <div style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;" *ngIf="fuel_calculation_toggle">
+      <canvas id="canvas2" #barCanvas_graph2 style="height: 350px;"></canvas>
+    </div>
+
+    <div style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;" *ngIf="mileage_calculation_toggle">
+      <canvas id="canvas3" #barCanvas_graph3 style="height: 350px;"></canvas>
+    </div>
+
+    <div style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+
+
+    <div style="margin-top: 40px; margin-bottom: 40px;" *ngIf="!isFromBasicAnalysis"></div>
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;" *ngIf="!isFromBasicAnalysis && mileage_calculation_toggle">
+      <canvas id="canvas6" #barCanvas_graph6 style="height: 350px;"></canvas>
+    </div>
+
+    <div style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+
+
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;" *ngIf="mileage_calculation_toggle">
+      <canvas id="canvas4" #barCanvas_graph4 style="height: 350px;"></canvas>
+    </div>
+
+    <div style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;" *ngIf="!isFromBasicAnalysis && mileage_calculation_toggle">
+      <canvas id="canvas7" #barCanvas_graph7 style="height: 350px;"></canvas>
+    </div>
+
+    <div style="margin-top: 40px; margin-bottom: 40px;" *ngIf="!isFromBasicAnalysis"></div>
+
+
+
+
+    <div class="graph_canvas" style="width: 80%; height: 450px; margin-left: 10%;" *ngIf="mileage_calculation_toggle">
+      <canvas id="canvas5" #barCanvas_graph5 style="height: 350px;"></canvas>
+    </div>
+
+  </div>
+
+
+  <!--<button ion-button style="width: auto; margin-left: 45%;" (click)="testPdf()" *ngIf="(!trailerShow && !nondrivenShow && graph == 'drive') || (!nondrivenShow && trailerShow && graph== 'trailer') || (!trailerShow && nondrivenShow && graph=='nondriven') || (trailerShow && nondrivenShow && graph=='trailer')">Send Report</button>-->
+
+
+
+
+</ion-content>

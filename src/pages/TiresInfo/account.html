@@ -1,0 +1,477 @@
+ <!-- <ion-header>
+  <ion-navbar class="force-back-button" hideBackButton={{backShowCtrl}} color="michelinblue">
+    <button ion-button menuToggle *ngIf="showMenu">
+      <ion-icon name="menu" style="font-size: xx-large;"></ion-icon>
+    </button>
+    
+    <ion-label class="header_text">{{"basic_analysis" | translate}}</ion-label>
+      
+    <ion-buttons end style="margin-right:20px;">
+      <button (click)="goBack()"  style="font-family: Arial !important; font-size: 1.4em; color: white; background-color: transparent; margin-left: 15px;">
+        {{"back" | translate}}
+    </button>
+      <button (click)="addANewScenario()" style="color: white; background-color: transparent; font-size: 1.4em; font-weight: bold" *ngIf="showAddButton">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+
+
+    </ion-buttons>
+
+  </ion-navbar>
+
+
+
+</ion-header>  -->
+<ion-header style="background-color:#f0f0f0;height:70px;border-bottom: 3px solid #545454;">
+
+  <!-- <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button> -->
+  <ion-row>
+    <div (click)="openPreviousPage()" style="cursor: pointer;height: 65px !important;padding-left: 20px;">
+      <ion-col>
+        <ion-row >
+          <img onmouseover="this.src='assets/img/back_button_thumnail_hover.jpg'"
+            onmouseout="this.src='assets/img/back_button_thumnail.jpg'"
+            src="assets/img/back_button_thumnail.jpg"
+            style="  height: 35px; width: 35px;margin-top: 0px !important;margin-top: 2px;">
+        </ion-row>
+        <ion-row>
+          <!-- <ion-label
+            style="color: #285085; font-weight: bold;padding-top: 2px !important;min-width: 50px;text-align: center;font-size: 15px;">
+            {{"back" | translate}}
+          </ion-label> -->
+        </ion-row>
+      </ion-col>
+
+    </div>
+    <ion-col style="min-width: 280px;max-width: 250px;">
+      <ion-label style=" color: #27509b;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:20px;
+         ">{{"version" | translate}}:04.12.21</ion-label>
+    </ion-col>
+    <ion-col col-1 ></ion-col>
+    <!-- <div style="width: 10px !important;"></div> -->
+    <ion-col style="height: 65px;max-width: 300px;min-width: 300px;">
+      <ion-item no-lines
+        style=" padding-left: 1px; background-color: transparent;pointer-events:none !important;height: 65px;margin-top: 0 !important;">
+        <ion-label text-wrap="" text-right class="titletext">{{"step_1" | translate}}</ion-label>
+        <ion-radio style="margin: 0;" color="secondary" checked></ion-radio>
+      </ion-item>
+    </ion-col>
+    <ion-col class="navdot1" style="max-width:110px; border-color: rgb(9, 243, 9);width: 80px;">
+    </ion-col>
+    <ion-col style="height: 65px;max-width: 230px;min-width: 220px;">
+      <ion-item no-lines
+        style=" padding-left: 1px; background-color: transparent; padding-right: 5px;pointer-events:none !important;height: 65px;margin-top: 0 !important;">
+        <ion-label text-wrap="" text-right class="titletext" style="color: #285085;">{{"step_2" | translate}}</ion-label>
+        <ion-radio style="margin: 0;" color="success" checked></ion-radio>
+      </ion-item>
+    </ion-col>
+    <ion-col class="navdot1" style="max-width:110px;">
+    </ion-col>
+    <ion-col style="height: 65px;max-width: 220px;min-width: 220px;">
+      <ion-item no-lines
+        style=" padding-left: 1px; padding-right: 15px;background-color: transparent;pointer-events:none !important;height: 65px;margin-top: 0 !important;">
+        <ion-label text-wrap="" text-right class="titletext" style="color: #285085;width: auto;">{{"step_3" |
+          translate}}</ion-label>
+        <ion-radio color="success" disabled></ion-radio>
+
+      </ion-item>
+    </ion-col>
+  <ion-col ></ion-col>
+    <ion-buttons end>
+      <ion-row>
+          <button (click)="addANewScenario()" style="margin-left:15px;margin-right:45px;  color: #285085; background-color: transparent; font-size:25px; font-weight: bold" *ngIf="showAddButton">
+            <ion-icon name="add-circle"></ion-icon>
+          </button>
+          <div id="icons2" (click)="exitFuelApp()" style=" margin-right: 10px;">
+          <ion-row>
+            <img style="width: 30px; height: 30px; margin-top: 10px; margin-left: 5px;" onmouseover="this.src='assets/img/logout_thumbnail_hover.jpg'"
+              onmouseout="this.src='assets/img/logout_thumbnail.jpg'" src="assets/img/logout_thumbnail.jpg">
+          </ion-row>
+          <ion-row>
+            <label style="font-size: 15px;font-weight: bold;color: #285085;text-align: center;margin-left: -7px;">
+              {{"LOGOUT" | translate}}
+            </label>
+          </ion-row>
+
+        </div>
+
+      </ion-row>
+    </ion-buttons>
+  </ion-row>
+
+
+
+</ion-header>
+
+<ion-content padding>
+
+
+<div id="duplicate"  *ngFor="let item of items" margin-bottom="20px">
+
+  <!--<ion-title id="{{this.titles[item]}}">{{this.titles[item]}}</ion-title>-->
+
+  <!--<div class="clearfix mb20">-->
+    <!--<img src={{imgSrcString}} width="100%" alt="config-image mb20 configuration diagram">-->
+  <!--</div>-->
+  <ion-row >
+
+    <ion-col class="page-div-left" style="flex:2;">
+
+
+      <div class="clearfix mb20" style="margin-top:20%; align-items: center;">
+        <img src="{{imgSrcString}}" width="100%" alt="config-image mb20 configuration diagram">
+      </div>
+      <ion-label id="{{this.titles[item]}}" style="font-size:3.2em;font-weight: bolder;color: #27509b;text-align:center; font-style: italic; font-family: Arial !important;">{{this.titles[item]}}</ion-label>
+
+    </ion-col>
+    <ion-col class="page-div-right" style="flex:2;">
+
+
+    <table cellpadding="8" class="inputgrid">
+    <tr>
+
+      <td >
+        <div>
+      <th style="font-size:17px; font-weight: bold;color: #27509b; flex:1 !important;">
+        <ion-checkbox color="michelinyellow" [checked] = steercheckboxnew (ionChange)= "steerchecked($event, item)"></ion-checkbox> {{"steer" | translate}}</th>
+       </div>
+      </td>
+
+
+  <td >
+    <div>
+  <th style="font-size:17px; font-weight: bold;color: #27509b; flex: 1 !important;">
+    <ion-checkbox color="michelinyellow" [checked] = drivecheckboxnew (ionChange)= "drivechecked($event, item)"></ion-checkbox> {{"drive" | translate}}</th>
+  </div>
+  </td>
+
+  <td *ngIf="nondrivenShow">
+    <div>
+  <th *ngIf="nondrivenShow" style="font-size:17px; font-weight: bold;color: #27509b; flex: 1 !important;">
+    <ion-checkbox [checked] = nondrivencheckboxnew (ionChange)= "nondrivenchecked($event, item)" color="michelinyellow"></ion-checkbox> {{"non_driven_axle" | translate}}</th>
+  </div>
+  </td>
+  <td *ngIf="trailerShow">
+    <div>
+  <th *ngIf="trailerShow" style="font-size:17px; font-weight: bold;color: #27509b; flex: 1 !important;">
+    <ion-checkbox [checked] = trailercheckboxnew (ionChange)= "trailerchecked($event, item)"  color="michelinyellow"></ion-checkbox> {{"trailer" | translate}}</th>
+  </div>
+  </td>
+
+
+
+  </tr>
+
+    <!--<tr class="phone-only">-->
+    <tr>
+      <td class="nada" colspan="3" style="font-size:17px; font-weight: bold; color: #27509b;  "> {{"brand" | translate}}</td>
+    </tr>
+    <tr>
+      <!--<td class="non-phone-cell" translate="Brand" style="float: right; font-size:1em; font-weight: bold;" >Brand</td>-->
+      <td >
+        <div class="formfield"   >
+
+          <input  id="{{ titles[item] + 'steerBrand' }}" (focus)="showAutocompleteModal(0, item)" [(ngModel)]=modelsList[item].autoCompleteDataSteerBrand type="text" placeholder="{{'brand' | translate}}" class="selectionStyle"   style="color: black; font-family: Arial;" *ngIf="steercheckboxnew" required >
+
+        </div>
+      </td>
+      <td >
+        <div class="formfield" >
+
+          <input  id="{{ titles[item] + 'driveBrand' }}" (focus)="showAutocompleteModal(1, item)" [(ngModel)]="modelsList[item].autoCompleteDataDriveBrand" type="text" placeholder="{{'brand' | translate}}" class="selectionStyle" style="color: black;" *ngIf="drivecheckboxnew">
+
+        </div>
+      </td>
+      <td  *ngIf="nondrivenShow" >
+        <div class="formfield" >
+
+          <input  id="{{ titles[item] + 'nondrivenBrand' }}" (focus)="showAutocompleteModal(2, item)" [(ngModel)]="modelsList[item].autoCompleteDataNondrivenBrand" type="text" placeholder="{{'brand' | translate}}" class="selectionStyle"  style="color: black; " *ngIf="nondrivencheckboxnew">
+
+        </div>
+      </td>
+      <td *ngIf="trailerShow">
+        <div class="formfield"  >
+
+          <input id="{{ titles[item] + 'trailerBrand' }}" (focus)="showAutocompleteModal(3, item)" [(ngModel)]="modelsList[item].autoCompleteDataTrailerBrand" type="text" placeholder="{{'brand' | translate}}" class="selectionStyle"  style="color: black;" *ngIf="trailercheckboxnew">
+
+          </div>
+      </td>
+    </tr>
+
+
+     <!--tire with size-->
+     <tr>
+      <td class="nada" colspan="3"  style="font-size:17px; font-weight: bold;  color: #27509b;  ">{{"tire_with_size" | translate}}</td>
+    </tr>
+    <tr >
+      <td >
+        <div class="formfield" >
+          <input  id="{{ titles[item] + 'steerSizeTire' }}" (focus)="showAutocompleteModal(8, item)" [(ngModel)]="modelsList[item].autoCompleteDataSizeSteer" type="text" placeholder="{{'tire_with_size' | translate}}" class="selectionStyle" style="color: black;font-size:17px;" *ngIf="steercheckboxnew">
+        </div>
+      </td>
+      <td >
+        <div class="formfield"  >
+          <input id="{{ titles[item] + 'driveSizeTire' }}" (focus)="showAutocompleteModal(9, item)" [(ngModel)]="modelsList[item].autoCompleteDataSizeDrive" type="text" placeholder="{{'tire_with_size' | translate}}" class="selectionStyle" style="color: black;font-size: 17px;" *ngIf="drivecheckboxnew">
+        </div>
+      </td>
+      <td  *ngIf="nondrivenShow" >
+        <div class="formfield" >
+          <input id="{{ titles[item] + 'nondrivenSizeTire' }}"   (focus)="showAutocompleteModal(10, item)" [(ngModel)]="modelsList[item].autoCompleteDataSizeNonDrive" type="text" placeholder="{{'tire_with_size' | translate}}" class="selectionStyle" style="color: black;font-size: 17px;"  *ngIf="nondrivencheckboxnew">
+        </div>
+      </td>
+      <td *ngIf="trailerShow" >
+        <div class="formfield">
+          <input   id="{{ titles[item] + 'trailerSizeTire' }}" (focus)="showAutocompleteModal(11, item)" [(ngModel)]="modelsList[item].autoCompleteDataSizeTrailer" type="text" placeholder="{{'tire_with_size' | translate}}" class="selectionStyle" style="color: black;font-size: 17px;" *ngIf="trailercheckboxnew">
+        </div>
+
+      </td>
+    </tr>
+
+    <!--<tr class="phone-only">-->
+      <!--New field added Tire with Tread-->
+    <tr>
+      <td class="nada" colspan="3"  style=" font-size:17px;font-weight: bold;  color: #27509b;  ">{{"tire_with_tread" | translate}}</td>
+    </tr>
+    <tr >
+      <td >
+        <div class="formfield" >
+          <input id="{{ titles[item] + 'steerTire' }}" (focus)="showAutocompleteModal(4, item)" [(ngModel)]="modelsList[item].autoCompleteDataTireSteer" type="text" placeholder="{{'tire_with_tread' | translate}}" class="selectionStyle" style="color: black;" *ngIf="steercheckboxnew">
+        </div>
+      </td>
+      <td >
+        <div class="formfield">
+          <input id="{{ titles[item] + 'driveTire' }}" (focus)="showAutocompleteModal(5, item)" [(ngModel)]="modelsList[item].autoCompleteDataTireDrive" type="text" placeholder="{{'tire_with_tread' | translate}}" class="selectionStyle" style="color: black;" *ngIf="drivecheckboxnew">
+        </div>
+      </td>
+      <td  *ngIf="nondrivenShow" >
+        <div class="formfield">
+          <input   id="{{ titles[item] + 'nondrivenTire' }}" (focus)="showAutocompleteModal(6, item)" [(ngModel)]="modelsList[item].autoCompleteDataTireNondriven" type="text" placeholder="{{'tire_with_tread' | translate}}" class="selectionStyle" style="color: black;"  *ngIf="nondrivencheckboxnew">
+        </div>
+      </td>
+      <td *ngIf="trailerShow">
+        <div class="formfield" >
+          <input id="{{ titles[item] + 'trailerTire' }}" (focus)="showAutocompleteModal(7, item)" [(ngModel)]="modelsList[item].autoCompleteDataTireTrailer" type="text" placeholder="{{'tire_with_tread' | translate}}" class="selectionStyle" style="color: black;" *ngIf="trailercheckboxnew">
+        </div>
+      </td>
+    </tr>
+
+   
+
+    
+    <!--tire runout kilometers-->
+    <tr >
+      <td class="nada" colspan="3" *ngIf="unit == 'miles'" style="font-size:17px; font-weight: bold;  color: #27509b;  ">{{"tire_runout_miles_help" | translate}}</td>
+      <td class="nada" colspan="3" *ngIf="unit == 'kilometers'" style="font-size:17px; font-weight: bold;  color: #27509b;  ">{{"tire_runout_kilometers_help" | translate}}</td>
+    </tr>
+    <tr >
+      <!--<td class="non-phone-cell"  style="float: right; font-size:1em; font-weight: bold;">Tire Runout {{unit}}</td>-->
+      <td ng-click="focus='steer'">
+        <div class="formfield" >
+          <input id="{{ titles[item] + 'steerRunout' }}" class="selectionStyle" (keypress)="numberOnlyValidation($event)" enumber type="text"  [ngModel]="modelsList[item].steerRunoutMiles | number:0" (ngModelChange)="onChange($event, 'steerRunoutMiles', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf="steercheckboxnew">
+        </div>
+      </td>
+
+      <td ng-click="focus='drive'">
+        <div class="formfield" >
+          <input id="{{ titles[item] + 'driveRunout' }}" class="selectionStyle"  (keypress)="numberOnlyValidation($event)" enumber type="text"  pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }"  [ngModel]="modelsList[item].driveRunoutMiles | number:0" (ngModelChange)="onChange($event, 'driveRunoutMiles', item)" *ngIf="drivecheckboxnew">
+        </div>
+      </td>
+
+
+
+      <!--for non dirven axel-->
+
+      <td *ngIf="nondrivenShow">
+        <div class="formfield">
+          <input  id="{{ titles[item] + 'nondrivenRunout' }}" class="selectionStyle" (keypress)="numberOnlyValidation($event)"  enumber type="text"  pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }"  [ngModel]="modelsList[item].nondrivenRunoutMiles | number:0" (ngModelChange)="onChange($event, 'nondrivenRunoutMiles', item)" *ngIf="nondrivencheckboxnew">
+        </div>
+      </td>
+
+      <!--end for non driven axel-->
+
+      <td  *ngIf="trailerShow">
+        <div class="formfield" >
+          <input id="{{ titles[item] + 'trailerRunout' }}"class="selectionStyle" (keypress)="numberOnlyValidation($event)" enumber type="text" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" [ngModel]="modelsList[item].trailerRunoutMiles | number:0" (ngModelChange)="onChange($event, 'trailerRunoutMiles', item)" *ngIf="trailercheckboxnew">
+        </div>
+      </td>
+    </tr>
+
+
+    <!--tire price-->
+    <tr  *ngIf="mileage_calculation_toggle">
+      <td class="nada" colspan="3"  style="font-size:17px; font-weight: bold;  color: #27509b;  ">{{"tire_price" | translate}}</td>
+    </tr>
+    <tr *ngIf="mileage_calculation_toggle">
+      <!--<td class="non-phone-cell"  style="float: right; font-size:1em; font-weight: bold;">Tire Price</td>-->
+      <!--<td class="non-phone-cell" translate="Tire_Runout_Kilometers" ng-if="units=='metric'"></td>-->
+      <td>
+        <div class="formfield" *ngIf="this.currencyPostion == 'P'">
+          <!-- <input style="background-color: chartreuse;width: 90%;" (keypress)="numberOnlyValidation($event)" ng-model-options="{ updateOn: 'blur' }" enumber  [ngModel]="modelsList[item].steerTirePrice | number" (ngModelChange)="onChange($event, 'steerTirePrice', item)" *ngIf="steercheckboxnew"><span  style=" font-size: 14px Arial;color: #252627;width: 35px; position: absolute;"> {{currencySymbol}}</span> -->
+          <input id="{{ titles[item] + 'steerTirePrice' }}" class="selectionStyle" (keypress)="numberOnlyValidation($event)"  enumber type="text" pattern="[0-9]*" style="padding-left: 13%; padding-top: 3px;" [ngModel]="modelsList[item].steerTirePrice | number" (ngModelChange)="onChange($event, 'steerTirePrice', item)" *ngIf="steercheckboxnew && currencySymbol.length>1">
+          <input id="{{ titles[item] + 'steerTirePrice' }}" class="selectionStyle" (keypress)="numberOnlyValidation($event)"  enumber type="text" pattern="[0-9]*" style="padding-left: 3%; padding-top: 3px;" [ngModel]="modelsList[item].steerTirePrice | number" (ngModelChange)="onChange($event, 'steerTirePrice', item)" *ngIf="steercheckboxnew && currencySymbol.length==1">
+          <span class="prefixSymbol" style=" left: 0px;  font-weight: bold; color: #333333; position: absolute;">{{currencySymbol}}</span>
+          <!-- <div class="dollarsign">{{currencySymbol}}</div> -->
+        </div>
+        <div class="formfield"  *ngIf="this.currencyPostion == 'S'">
+          <input id="{{ titles[item] + 'steerTirePrice' }}" class="selectionStyle" style="padding-left: 0%; padding-top: 3px;" (keypress)="numberOnlyValidation($event)" ng-model-options="{ updateOn: 'blur' }" enumber  [ngModel]="modelsList[item].steerTirePrice | number" (ngModelChange)="onChange($event, 'steerTirePrice', item)" *ngIf="steercheckboxnew">
+          <span class="prefixSymbol" style=" left: 70px; font-weight: bold; color: #333333; position: absolute;" *ngIf="this.currencyPostion == 'S'">{{currencySymbol}}</span>
+        </div>
+      </td>
+
+      <td>
+        <div class="formfield" *ngIf="this.currencyPostion == 'P'">
+          <input id="{{ titles[item] + 'driveTirePrice' }}"  class="selectionStyle" (keypress)="numberOnlyValidation($event)" enumber type="text"  pattern="[0-9]*" style="padding-left: 13%; padding-top: 3px;" [ngModel]="modelsList[item].driveTirePrice | number" (ngModelChange)="onChange($event, 'driveTirePrice', item)" *ngIf="drivecheckboxnew && currencySymbol.length>1">
+          <input id="{{ titles[item] + 'driveTirePrice' }}"  class="selectionStyle" (keypress)="numberOnlyValidation($event)" enumber type="text"  pattern="[0-9]*" style="padding-left: 3%; padding-top: 3px;" [ngModel]="modelsList[item].driveTirePrice | number" (ngModelChange)="onChange($event, 'driveTirePrice', item)" *ngIf="drivecheckboxnew && currencySymbol.length==1">
+          <span class="prefixSymbol" style=" left: 0px;  font-weight: bold; color: #333333; position: absolute;">{{currencySymbol}}</span>
+          <!-- <div class="dollarsign">{{currencySymbol}}</div> -->
+
+        </div>
+        <div class="formfield" *ngIf="this.currencyPostion == 'S'">
+          <input id="{{ titles[item] + 'driveTirePrice' }}" class="selectionStyle" style="padding-top: 3px; padding-left:0px;" (keypress)="numberOnlyValidation($event)" ng-model-options="{ updateOn: 'blur' }" enumber  [ngModel]="modelsList[item].driveTirePrice | number" (ngModelChange)="onChange($event, 'driveTirePrice', item)" *ngIf="drivecheckboxnew">
+          <span class="prefixSymbol" style=" left: 70px; font-weight: bold; color: #333333; position: absolute;" *ngIf="this.currencyPostion == 'S'">{{currencySymbol}}</span>
+        </div>
+      </td>
+      <!--for non dirven axel-->
+
+      <td  *ngIf="nondrivenShow">
+        <div class="formfield"  *ngIf="this.currencyPostion == 'P'">
+          <input  id="{{ titles[item] + 'nondrivenTirePrice' }}" class="selectionStyle" (keypress)="numberOnlyValidation($event)"  enumber type="text" pattern="[0-9]*" style="padding-left: 13%; padding-top: 3px;"[ngModel]="modelsList[item].nondrivenTirePrice | number" (ngModelChange)="onChange($event, 'nondrivenTirePrice', item)" *ngIf="nondrivencheckboxnew && currencySymbol.length>1">
+          <input  id="{{ titles[item] + 'nondrivenTirePrice' }}" class="selectionStyle" (keypress)="numberOnlyValidation($event)"  enumber type="text" pattern="[0-9]*" style="padding-left: 3%; padding-top: 3px;"[ngModel]="modelsList[item].nondrivenTirePrice | number" (ngModelChange)="onChange($event, 'nondrivenTirePrice', item)" *ngIf="nondrivencheckboxnew && currencySymbol.length==1">
+          <span class="prefixSymbol" style="left: 0px;  font-weight: bold; color: #333333; position: absolute;">{{currencySymbol}}</span>
+          <!-- <div class="dollarsign">{{currencySymbol}}</div> -->
+        </div>
+        <div class="formfield" *ngIf="this.currencyPostion == 'S'">
+          <input  id="{{ titles[item] + 'nondrivenTirePrice' }}" class="selectionStyle" style=" padding-top: 3px; padding-left: 0px;" (keypress)="numberOnlyValidation($event)" ng-model-options="{ updateOn: 'blur' }" enumber  [ngModel]="modelsList[item].nondrivenTirePrice | number" (ngModelChange)="onChange($event, 'nondrivenTirePrice', item)" *ngIf="nondrivencheckboxnew">
+          <span class="prefixSymbol" style="left: 70px; font-weight: bold; color: #333333; position: absolute;" *ngIf="this.currencyPostion == 'S'">{{currencySymbol}}</span>
+        </div>
+        
+      </td>
+      <!--end for non driven axel-->
+
+      <td  *ngIf="trailerShow">
+        <div class="formfield"  *ngIf="this.currencyPostion == 'P'">
+          <input id="{{ titles[item] + 'trailerTirePrice' }}"  class="selectionStyle" (keypress)="numberOnlyValidation($event)" enumber type="text" pattern="[0-9]*" style="padding-left: 13%; padding-top: 3px;" [ngModel]="modelsList[item].trailerTirePrice | number" (ngModelChange)="onChange($event, 'trailerTirePrice', item)" *ngIf="trailercheckboxnew && currencySymbol.length>1">
+          <input id="{{ titles[item] + 'trailerTirePrice' }}"  class="selectionStyle" (keypress)="numberOnlyValidation($event)" enumber type="text" pattern="[0-9]*" style="padding-left: 3%; padding-top: 3px;" [ngModel]="modelsList[item].trailerTirePrice | number" (ngModelChange)="onChange($event, 'trailerTirePrice', item)" *ngIf="trailercheckboxnew && currencySymbol.length==1">
+          <span class="prefixSymbol" style=" left: 0px;  font-weight: bold; color: #333333; position: absolute;">{{currencySymbol}}</span>
+          <!-- <div class="dollarsign">{{currencySymbol}}</div> -->
+        </div>
+        <div class="formfield"  *ngIf="this.currencyPostion == 'S'">
+          <input id="{{ titles[item] + 'trailerTirePrice' }}" class="selectionStyle" style="padding-top: 3px; padding-left: 0px;" (keypress)="numberOnlyValidation($event)" ng-model-options="{ updateOn: 'blur' }" enumber  [ngModel]="modelsList[item].trailerTirePrice | number" (ngModelChange)="onChange($event, 'trailerTirePrice', item)" *ngIf="trailercheckboxnew">
+          <span class="prefixSymbol" style=" left: 70px; font-weight: bold; color: #333333; position: absolute;" *ngIf="this.currencyPostion == 'S'">{{currencySymbol}}</span>
+        </div>
+      </td>
+    </tr>
+
+    <!--Base Rolling Resistance-->
+    <!-- <tr  *ngIf="fuel_calculation_toggle">
+      <td class="nada" colspan="3"  style="font-size:1.0em; font-weight: bold;  color: #27509b;  ">{{"base_rolling_resistance" | translate}}</td>
+    </tr>
+    <tr *ngIf="fuel_calculation_toggle"> -->
+      <!--<td class="non-phone-cell"  style="float: right; font-size:1em; font-weight: bold;">Base Rolling Resistance</td>-->
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+          <!-- </div> -->
+
+      <!-- <td >
+        <div class="formfield" id="{{ titles[item] + 'steerRollingResistance' }}">
+            <ion-icon  name="arrow-dropdown" *ngIf="fuel_calculation_toggle && steercheckboxnew && item > 0 && modelsList[item].steerBaseRollingResistance < 100" style="color: green"></ion-icon>
+            <ion-icon  name="arrow-dropup" *ngIf="fuel_calculation_toggle && steercheckboxnew && item > 0 && modelsList[item].steerBaseRollingResistance > 100" style="color: red"></ion-icon>
+            <input *ngIf="steercheckboxnew && fuel_calculation_toggle" type="text" style="font-size:1.2em; height: 0.9em !important;" disabled value="100"  [(ngModel)]="modelsList[item].steerBaseRollingResistance"  [ngStyle]="{'color': (item > 0 && modelsList[item].steerBaseRollingResistance > 100)? 'red' : ((item == 0 || modelsList[item].steerBaseRollingResistance == 100)? ((item > 0 && modelsList[item].steerBaseRollingResistance == 100) ? 'black': '#222'):'green')}"  text-center="">
+        </div>
+      </td> -->
+
+       <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+          <!-- </div> -->
+      <!-- <td >
+        <div class="formfield"  id="{{ titles[item] + 'driveRollingResistance' }}" >
+          <ion-icon  name="arrow-dropdown" *ngIf="fuel_calculation_toggle && drivecheckboxnew && item > 0 && modelsList[item].driveBaseRollingResistance < 100" style="color: green"></ion-icon>
+          <ion-icon  name="arrow-dropup" *ngIf="fuel_calculation_toggle && drivecheckboxnew && item > 0 && modelsList[item].driveBaseRollingResistance > 100" style="color: red"></ion-icon>
+          <input *ngIf="drivecheckboxnew &&fuel_calculation_toggle" type="text" style="font-size:1.2em; height: 0.9em !important;" disabled value="100" [(ngModel)]="modelsList[item].driveBaseRollingResistance" [ngStyle]="{'color': (item > 0 && modelsList[item].driveBaseRollingResistance > 100)? 'red' : ((item == 0  || modelsList[item].driveBaseRollingResistance == 100)? ((item > 0 && modelsList[item].steerBaseRollingResistance == 100) ? 'black': '#222'):'green')}" text-center="">
+        </div>
+      </td> -->
+
+
+      <!--for non-driven axel-->
+                <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+                <!-- </div> -->
+      <!-- <td *ngIf="nondrivenShow">
+        <div class="formfield" id="{{ titles[item] + 'nondrivenRollingResistance' }}">
+            <ion-icon  name="arrow-dropdown" *ngIf="fuel_calculation_toggle && nondrivencheckboxnew && item > 0 && modelsList[item].nondrivenBaseRollingResistance < 100" style="color: green"></ion-icon>
+            <ion-icon  name="arrow-dropup" *ngIf="fuel_calculation_toggle && nondrivencheckboxnew && item > 0 && modelsList[item].nondrivenBaseRollingResistance > 100" style="color: red"></ion-icon>
+          <input   *ngIf="fuel_calculation_toggle && nondrivencheckboxnew" type="text" style="font-size:1.2em; height: 0.9em !important;" disabled value="100" [(ngModel)]="modelsList[item].nondrivenBaseRollingResistance" [ngStyle]="{'color': (item > 0 && modelsList[item].nondrivenBaseRollingResistance > 100)? 'red' : ((item == 0 || modelsList[item].nondrivenBaseRollingResistance == 100) ? ((item > 0 && modelsList[item].steerBaseRollingResistance == 100) ? 'black': '#222'):'green')}" >
+        </div>
+      </td> -->
+
+      <!--end for non-driven axel-->
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+          <!-- </div> -->
+      <!-- <td *ngIf="trailerShow">
+        <div class="formfield" id="{{ titles[item] + 'trailerRollingResistance' }}">
+            <ion-icon name="arrow-dropdown" *ngIf="fuel_calculation_toggle && trailercheckboxnew && item > 0 && modelsList[item].trailerBaseRollingResistance < 100" style="color: green"></ion-icon>
+            <ion-icon  name="arrow-dropup" *ngIf="fuel_calculation_toggle && trailercheckboxnew && item > 0 && modelsList[item].trailerBaseRollingResistance > 100" style="color: red"></ion-icon>
+          <input *ngIf="fuel_calculation_toggle && trailercheckboxnew" type="text" style="font-size:1.2em; height: 0.9em !important;" disabled value="100" [(ngModel)]="modelsList[item].trailerBaseRollingResistance" [ngStyle]="{'color': (item > 0 && modelsList[item].trailerBaseRollingResistance > 100)? 'red' : ((item == 0 || modelsList[item].trailerBaseRollingResistance == 100)? ((item > 0 && modelsList[item].steerBaseRollingResistance == 100) ? 'black': '#222'):'green')}" >
+        </div>
+      </td>
+    </tr> -->
+
+
+    <!--Total Vehicle Rolling Resistance-->
+    <tr class="phone-only" *ngIf="fuel_calculation_toggle">
+      <td class="nada" colspan="3"  style="font-size:17px; font-weight: bold;  color: #27509b;  " *ngIf="steercheckboxnew || nondrivencheckboxnew || (trailerShow && trailercheckboxnew) || (nondrivenShow || nondrivencheckboxnew)">{{"total_vehicle_rolling_resistance" | translate}}
+        <!-- <button  (click)="showTotalBaseRollingResistance()" style="background-color: transparent; font-size: 1.2em">
+          <ion-icon name="help"></ion-icon>
+        </button> -->
+
+      </td>
+    </tr>
+    <tr *ngIf="fuel_calculation_toggle">
+      <td class="nada" colspan="3"  style=" font-size:17px; font-weight: bold;color: #27509b;  ">{{"total_vehicle_rolling_resistance" | translate}}
+
+        <!--<button  (click)="showTotalBaseRollingResistance()" style="background-color: transparent; font-size: 1.2em">-->
+          <!--<ion-icon name="help"></ion-icon>-->
+        <!--</button>-->
+
+      </td>
+    </tr>
+    <tr *ngIf="fuel_calculation_toggle">
+      <td [attr.colspan]=columns>
+        <div class="formfield" id="{{ titles[item] + 'totalRollingResistance' }}">
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+            <ion-icon name="arrow-dropdown" *ngIf="fuel_calculation_toggle && item > 0 && modelsList[item].totalRollingResistance < 100" style="color: green; font-size: 18px;"></ion-icon>
+            <ion-icon name="arrow-dropup" *ngIf="fuel_calculation_toggle && item > 0 && modelsList[item].totalRollingResistance > 100" style="color: red;font-size: 18px;"></ion-icon>
+          <input class="selectionStyle" *ngIf="fuel_calculation_toggle" type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelsList[item].totalRollingResistance"  [ngStyle]="{'color': (item > 0 && modelsList[item].totalRollingResistance > 100)? 'red' : ((item == 0 || modelsList[item].totalRollingResistance == 100) ? ((item > 0 && modelsList[item].steerBaseRollingResistance == 100) ? 'black': '#222'):'green')}" text-center="">
+          <!-- </div> -->
+
+        </div>
+      </td>
+    </tr>
+  </table>
+    </ion-col>
+  </ion-row>
+  <hr>
+  </div>
+  <ion-row style="flex:2;">
+      <div style="width: 50%; margin-left: 25%; text-align: center; ">
+    <ion-col col-span:2 style="width: 25%;">
+        <button ion-button  style="width: auto;font-size:1.2em; background:#FCE500;color:#27509b;font-weight: bold; font-family: Arial !important;" (click)="removeScenario()">
+          <div id = "remove_a_scenariodiv"  [ngStyle]="{'height': '15px','over-flow':'scroll !important', 'font-size': fontAdjustmentService.calculateFontSize('remove_a_scenariodiv')}">   
+            {{"remove_a_scenario" | translate}}</div>
+        </button>
+      </ion-col>
+      
+    <ion-col col-span:2>
+        <button ion-button style="width: auto;font-size:1.2em; background:#FCE500;color:#27509b;font-weight: bold; font-family: Arial !important;" (click)="openWeightSavingPage()">
+          <div id = "view_executive_summarydiv"  [ngStyle]="{'height': '15px','over-flow':'scroll !important', 'font-size': fontAdjustmentService.calculateFontSize('view_executive_summarydiv')}">   
+            {{"view_executive_summary" | translate}}
+          </div>
+          </button>
+      </ion-col>
+      </div>
+  </ion-row>
+  
+
+</ion-content>

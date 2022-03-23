@@ -1,0 +1,637 @@
+<ion-header>
+  <ion-navbar class="force-back-button" hideBackButton={{backShowCtrl}} color="michelinblue">
+    <button ion-button menuToggle *ngIf="showMenu" >
+      <ion-icon name="menu" style="font-size: xx-large"></ion-icon>
+    </button>
+
+    <ion-label class="header_text">{{"life_cycle_analysis" | translate}}</ion-label>
+
+
+    <ion-buttons end>
+      
+      <button (click)="navigateToScenario()" style="color: white; background-color:transparent; font-size: 1.4em" *ngIf="currentTab == 1">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+      <button  (click)="showHelpModal()" style="color: white; background-color: transparent; font-size: 1.4em">
+          <ion-icon name="help-circle"></ion-icon>
+        </button>
+  
+    </ion-buttons>
+
+  </ion-navbar>
+  <!-- <div style="background-color: rgb(252, 229, 0); height: 2px; width: 100%" ></div> -->
+
+
+  <ion-segment [(ngModel)]="lifeCycle" style="background:rgb(244, 244, 244);" color="dark">
+    <ion-segment-button class="segment-button" value="firstLife"  (click)="saveTireSegmentInfo($event, 'secondLife', 'blendedAverage')" style="font-size: 1.0em; color:dark; font-weight: bold">
+        {{"first_life" | translate}}
+    </ion-segment-button>
+    <ion-segment-button class="segment-button" value="secondLife" (click)="saveTireSegmentInfo($event, 'firstLife', 'blendedAverage')"  aria-pressed="false" style="font-size: 1.0em; color:dark; font-weight: bold">
+        {{"second_life" | translate}}
+    </ion-segment-button>
+    <ion-segment-button class="segment-button" value="blendedAverage" (click)="saveTireSegmentInfo($event, 'firstLife', 'secondLife')"  aria-pressed="false" style="font-size: 1.0em; color:dark; font-weight: bold">
+        {{"blended_average" | translate}}
+    </ion-segment-button>
+  </ion-segment>
+
+
+
+</ion-header>
+
+<ion-content padding>
+
+
+ <div *ngFor="let item of items" margin-bottom="20px">
+
+  <ion-row>
+    <ion-col class="page-div-left" style="flex:2;"   *ngIf="currentTab == 1 || currentTab == 2">
+
+
+   <div class="clearfix mb20" style="margin-top:25%;"  *ngIf="currentTab == 1 || currentTab == 2">
+     <img src={{imgSrcString}}  alt="config-image mb20 configuration diagram">
+   </div>
+   <ion-label id="{{this.titles[item]}}" style="font-size:2.8em;font-style:italic; font-weight: bolder;color: #27509b;text-align:center;" *ngIf="currentTab == 1 || currentTab == 2">{{this.titles[item]}}</ion-label>
+   
+
+  </ion-col>
+  
+    <ion-col class="page-div-right" style="flex:2;" >
+  
+  
+  <div [ngSwitch]="lifeCycle">
+
+
+  <table *ngSwitchCase="lifeCycle === 'firstLife' || lifeCycle === 'secondLife'? lifeCycle:''" cellpadding="8" class="inputgrid">
+
+
+    <tr>
+      <!-- <th class="non-phone-cell table_th"></th> -->
+      <td>
+        <div>
+      <th  style="font-size:1em; font-weight: bolder;color: #27509b; flex: 1 !important;">
+        <ion-checkbox color="michelinyellow" *ngIf="lifeCycle == 'firstLife'" [(ngModel)]="steercheckboxlifecyclenew" (ngModelChange)="onCheckboxChange($event, 'steer')"></ion-checkbox>{{"steer" | translate}}</th>
+      <!--<th ng-show="axle.nondriven>0" translate="NonDriven_Axle"></th>-->
+    </div>
+  </td>
+  <td>
+    <div>
+      <th  style="font-size:1em; font-weight: bolder;color: #27509b; flex: 1 !important;">
+        <ion-checkbox color="michelinyellow" *ngIf="lifeCycle == 'firstLife'" [(ngModel)]="drivecheckboxlifecyclenew" (ngModelChange)="onCheckboxChange($event, 'drive')"></ion-checkbox>{{"drive" | translate}}</th>
+    </div>
+  </td>
+  <td *ngIf="nondrivenShow">
+    <div>
+      <th *ngIf="nondrivenShow" style="font-size:1em; font-weight: bolder;color: #27509b;  flex: 1 !important;">
+        <ion-checkbox color="michelinyellow" *ngIf="lifeCycle == 'firstLife'" [(ngModel)]="nondrivencheckboxlifecyclenew" (ngModelChange)="onCheckboxChange($event, 'nondriven')"></ion-checkbox>{{"non_driven_axle" | translate}}</th>
+    </div>
+  </td>
+  <td *ngIf="trailerShow">
+    <div>
+
+      <th *ngIf="trailerShow"  style="font-size:1em; font-weight: bolder;color: #27509b; flex: 1 !important;">
+        <ion-checkbox color="michelinyellow" *ngIf="lifeCycle == 'firstLife'" [(ngModel)]="trailercheckboxlifecyclenew" (ngModelChange)="onCheckboxChange($event, 'trailer')"></ion-checkbox>{{"trailer" | translate}}</th>
+    </div>
+  </td>
+    </tr>
+    <!-- <tr class="phone-only"> -->
+     <tr>
+      <td class="nada" colspan="3"  style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"brand" | translate}}</td>
+    </tr>
+    <tr>
+      <!-- <td class="non-phone-cell" style="float: right; font-size:1em; font-weight: bold;">Brand</td> -->
+      <td >
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'steerBrand' }}" >
+          <!--<ion-select  [(ngModel)]="steerSelectedValue" style="max-width: 98% !important; padding-top: 0px; margin-top: 5px;">-->
+          <!--<ion-option  *ngFor="let brand of brandNames">{{brand}}</ion-option>-->
+          <!--</ion-select>-->
+
+          <input  (focus)="showAutocompleteModal(0, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataSteerBrand" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && steercheckboxlifecyclenew">
+          <input  (focus)="showAutocompleteModal(0, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataSteerBrandSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="steercheckboxlifecyclenew && currentTab == 2">
+
+
+
+        </div>
+      </td>
+      <td >
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'driveBrand' }}">
+          <!--<ion-select  [(ngModel)]="driveSelectedValue" style="max-width: 98% !important; padding-top: 0px; margin-top: 5px;">-->
+          <!--<ion-option  *ngFor="let brand of brandNames">{{brand}}</ion-option>-->
+          <!--</ion-select>-->
+          <input (focus)="showAutocompleteModal(1, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataDriveBrand" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && drivecheckboxlifecyclenew"  >
+          <input (focus)="showAutocompleteModal(1, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataDriveBrandSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 2 && drivecheckboxlifecyclenew">
+
+
+        </div>
+      </td>
+
+      <td *ngIf="nondrivenShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'nondrivenBrand' }}">
+          <input (focus)="showAutocompleteModal(2, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataNondrivenBrand" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && nondrivencheckboxlifecyclenew" >
+          <input (focus)="showAutocompleteModal(2, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataNondrivenBrandSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 2 && nondrivencheckboxlifecyclenew">
+
+
+        </div>
+      </td>
+
+
+      <td *ngIf="trailerShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'trailerBrand' }}">
+
+          <input (focus)="showAutocompleteModal(3, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTrailerBrand" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && trailercheckboxlifecyclenew">
+          <input (focus)="showAutocompleteModal(3, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTrailerBrandSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 2 && trailercheckboxlifecyclenew">
+
+
+
+        </div>
+      </td>
+    </tr>
+    <!-- <tr class="phone-only"> -->
+    <tr >   
+      <td class="nada" colspan="3"  style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"tire" | translate}}</td>
+    </tr>
+    <tr >
+      <!-- <td class="non-phone-cell" style="float: right; font-size:1em; font-weight: bold;">TIRE</td> -->
+      <td >
+        <div class="formfield"  id="{{ titles[item] + lifeCycle + 'steerTire' }}">
+          <!--<ion-select  [(ngModel)]="steerTireSelectedValue" style="max-width: 98% !important; padding-top: 0px; margin-top: 5px;">-->
+          <!--<ion-option  *ngFor="let tire of tireTypeNames">{{tire}}</ion-option>-->
+          <!--</ion-select>-->
+          <input (focus)="showAutocompleteModal(4, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireSteer" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && steercheckboxlifecyclenew">
+          <input (focus)="showAutocompleteModal(4, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireSteerSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 2 && steercheckboxlifecyclenew">
+
+        </div>
+
+      </td>
+      <td >
+        <div class="formfield"  id="{{ titles[item] + lifeCycle + 'driveTire' }}">
+          <!--<ion-select  [(ngModel)]="driveTireSelectedValue" style="max-width: 98% !important; padding-top: 0px; margin-top: 5px;">-->
+          <!--<ion-option  *ngFor="let tire of tireTypeNames">{{tire}}</ion-option>-->
+          <!--</ion-select>-->
+          <input (focus)="showAutocompleteModal(5, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireDrive" type="text" placeholder="Select One" style="color: black;" *ngIf=" currentTab == 1 && drivecheckboxlifecyclenew">
+          <input (focus)="showAutocompleteModal(5, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireDriveSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf=" currentTab == 2 && drivecheckboxlifecyclenew">
+
+
+        </div>
+
+      </td>
+
+      <td *ngIf="nondrivenShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle +  'nondrivenTire' }}">
+
+          <input (focus)="showAutocompleteModal(6, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireNondriven" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && nondrivencheckboxlifecyclenew">
+          <input (focus)="showAutocompleteModal(6, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireNondrivenSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 2 && nondrivencheckboxlifecyclenew">
+
+
+        </div>
+
+      </td>
+
+
+
+      <td *ngIf="trailerShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'trailerTire' }}">
+          <!--<ion-select  [(ngModel)]="trailerTireSelectedValue" style="max-width: 98% !important; padding-top: 0px; margin-top: 5px;">-->
+          <!--<ion-option  *ngFor="let tire of tireTypeNames">{{tire}}</ion-option>-->
+          <!--</ion-select>-->
+          <input (focus)="showAutocompleteModal(7, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireTrailer" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 1 && trailercheckboxlifecyclenew">
+          <input (focus)="showAutocompleteModal(7, item)" [(ngModel)]="modelListLifeCycle[item].autoCompleteDataTireTrailerSecondLife" type="text" placeholder="Select One" style="color: black;" *ngIf="currentTab == 2 && trailercheckboxlifecyclenew">
+
+        </div>
+
+      </td>
+    </tr>
+
+    <!--tire runout kilometers-->
+    <!-- <tr class="phone-only" *ngIf="mileage_calculation_toggle"> -->
+    <tr *ngIf="mileage_calculation_toggle">            
+        <td class="nada" colspan="3"  style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"tire_runout_mile" | translate}}</td>
+    </tr>
+    <tr *ngIf="mileage_calculation_toggle">
+      <!-- <td class="non-phone-cell"  style="float: right; font-size:1em; font-weight: bold;">TIRE RUNOUT MILES</td> -->
+      <!--<td class="non-phone-cell" translate="Tire_Runout_Kilometers" ng-if="units=='metric'"></td>-->
+      <td ng-click="focus='steer'">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'steerRunout' }}">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].steerRunoutMiles | number:0" (ngModelChange)="onChange($event, 'steerRunoutMiles', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf=" currentTab == 1 && steercheckboxlifecyclenew">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].steerRunoutMilesSecondLife | number:0" (ngModelChange)="onChange($event, 'steerRunoutMilesSecondLife', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf=" currentTab == 2 && steercheckboxlifecyclenew">
+        </div>
+      </td>
+      <!--<td ng-click="focus='nondriven'" ng-show="axle.nondriven>0">-->
+      <!--<div class="freelabel-formfield" ng-class="{invalid: !valid[2].runout}">-->
+      <!--<input enumber type="text" ng-model="selector[2].runout" ng-change="changeRunout(2)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }">-->
+      <!--</div>-->
+      <!--</td>-->
+      <td>
+        <div class="formfield" id="{{ titles[item] + lifeCycle+'driveRunout' }}">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].driveRunoutMiles | number:0" (ngModelChange)="onChange($event, 'driveRunoutMiles', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf=" currentTab == 1 && drivecheckboxlifecyclenew">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].driveRunoutMilesSecondLife | number:0" (ngModelChange)="onChange($event, 'driveRunoutMilesSecondLife', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur'}" *ngIf=" currentTab == 2 && drivecheckboxlifecyclenew">
+        </div>
+      </td>
+
+      <td *ngIf="nondrivenShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'nondrivenRunout' }}">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].nondrivenRunoutMiles | number:0" (ngModelChange)="onChange($event, 'nondrivenRunoutMiles', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf="currentTab == 1 && nondrivencheckboxlifecyclenew">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].nondrivenRunoutMilesSecondLife | number:0" (ngModelChange)="onChange($event, 'nondrivenRunoutMilesSecondLife', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf="currentTab == 2 && nondrivencheckboxlifecyclenew">
+        </div>
+      </td>
+
+
+      <td ng-click="focus='trailer'" *ngIf="trailerShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'trailerRunout' }}">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].trailerRunoutMiles | number:0" (ngModelChange)="onChange($event, 'trailerRunoutMiles', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf="currentTab == 1 && trailercheckboxlifecyclenew">
+          <input enumber type="text" [ngModel]="modelListLifeCycle[item].trailerRunoutMilesSecondLife | number:0" (ngModelChange)="onChange($event, 'trailerRunoutMilesSecondLife', item)" pattern="[0-9]*" ng-model-options="{ updateOn: 'blur' }" *ngIf="currentTab == 2 && trailercheckboxlifecyclenew">
+
+        </div>
+      </td>
+    </tr>
+
+
+    <!--tire price-->
+    <!-- <tr class="phone-only" *ngIf="mileage_calculation_toggle"> -->
+   <tr  *ngIf="mileage_calculation_toggle">
+      <td class="nada" colspan="3"  style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"tire_price" | translate}}</td>
+    </tr>
+    <tr *ngIf="mileage_calculation_toggle">
+      <!-- <td class="non-phone-cell"  style="float: right; font-size:1em; font-weight: bold;">TIRE PRICE</td> -->
+      <!--<td class="non-phone-cell" translate="Tire_Runout_Kilometers" ng-if="units=='metric'"></td>-->
+      <td ng-click="focus='steer'">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'steerTirePrice' }}">
+          <input enumber [ngModel]="modelListLifeCycle[item].steerTirePrice | number" (ngModelChange)="onChange($event, 'steerTirePrice', item)" type="text" pattern="[0-9]*" style="margin-left: 20px" *ngIf=" currentTab == 1 && steercheckboxlifecyclenew">
+          <input enumber [ngModel]="modelListLifeCycle[item].steerTirePriceSecondLife | number" (ngModelChange)="onChange($event, 'steerTirePriceSecondLife', item)" type="text" pattern="[0-9]*" style="margin-left: 20px" *ngIf=" currentTab == 2 && steercheckboxlifecyclenew">
+          <div class="dollarsign">{{currencySymbol}}</div>
+        </div>
+      </td>
+
+      <td >
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'driveTirePrice' }}">
+          <input enumber [ngModel]="modelListLifeCycle[item].driveTirePrice | number" (ngModelChange)="onChange($event, 'driveTirePrice', item)" type="text" pattern="[0-9]*" style="margin-left: 20px;" *ngIf=" currentTab == 1 && drivecheckboxlifecyclenew">
+          <input enumber [ngModel]="modelListLifeCycle[item].driveTirePriceSecondLife | number" (ngModelChange)="onChange($event, 'driveTirePriceSecondLife', item)" type="text" pattern="[0-9]*" style="margin-left: 20px;" *ngIf=" currentTab == 2 && drivecheckboxlifecyclenew">
+          <div class="dollarsign">{{currencySymbol}}</div>
+
+        </div>
+      </td>
+
+
+      <td *ngIf="nondrivenShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'nondrivenTirePrice' }}">
+          <input enumber [ngModel]="modelListLifeCycle[item].nondrivenTirePrice | number" (ngModelChange)="onChange($event, 'nondrivenTirePrice', item)" type="text" pattern="[0-9]*" style="margin-left: 20px;" *ngIf="currentTab == 1 && nondrivencheckboxlifecyclenew">
+          <input enumber [ngModel]="modelListLifeCycle[item].nondrivenTirePriceSecondLife | number" (ngModelChange)="onChange($event, 'nondrivenTirePriceSecondLife', item)" type="text" pattern="[0-9]*" style="margin-left: 20px;" *ngIf="currentTab == 2 && nondrivencheckboxlifecyclenew">
+          <div class="dollarsign">{{currencySymbol}}</div>
+
+        </div>
+      </td>
+
+      <td ng-click="focus='trailer'" *ngIf="trailerShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'trailerTirePrice' }}">
+          <input enumber [ngModel]="modelListLifeCycle[item].trailerTirePrice | number" (ngModelChange)="onChange($event, 'trailerTirePrice', item)" type="text" pattern="[0-9]*" style="margin-left: 20px" *ngIf="currentTab == 1 && trailercheckboxlifecyclenew">
+          <input enumber [ngModel]="modelListLifeCycle[item].trailerTirePriceSecondLife | number" (ngModelChange)="onChange($event, 'trailerTirePriceSecondLife', item)" type="text" pattern="[0-9]*" style="margin-left: 20px" *ngIf="currentTab == 2 && trailercheckboxlifecyclenew">
+          <div class="dollarsign">{{currencySymbol}}</div>
+        </div>
+      </td>
+    </tr>
+
+    <!--Base Rolling Resistance-->
+    <!-- <tr class="phone-only" *ngIf="fuel_calculation_toggle"> -->
+   <tr  *ngIf="fuel_calculation_toggle">               
+      <td class="nada" colspan="3"  style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"base_rolling_resistance" | translate}}</td>
+    </tr>
+    <tr *ngIf="fuel_calculation_toggle">
+      <!-- <td class="non-phone-cell"  style="float: right; font-size:1em; font-weight: bold;">Base Rolling Resistance</td> -->
+
+      <td>
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'steerRollingResistance' }}">
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+            <ion-icon name="arrow-dropdown" *ngIf="steercheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].steerBaseRollingResistance < 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].steerBaseRollingResistanceSecondLife< 100)) " style="color: green"></ion-icon>
+            <ion-icon name="arrow-dropup" *ngIf="steercheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].steerBaseRollingResistance > 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].steerBaseRollingResistanceSecondLife > 100))" style="color: red"></ion-icon>
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].steerBaseRollingResistance" *ngIf=" currentTab == 1 && steercheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].steerBaseRollingResistance > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].steerBaseRollingResistance == 100) ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].steerBaseRollingResistanceSecondLife" *ngIf=" currentTab == 2 && steercheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].steerBaseRollingResistanceSecondLife > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].steerBaseRollingResistanceSecondLife == 100) ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+
+          <!-- </div> -->
+        </div>
+      </td>
+
+      <td>
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'driveRollingResistance' }}">
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+            <ion-icon name="arrow-dropdown" *ngIf="drivecheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].driveBaseRollingResistance < 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].driveBaseRollingResistanceSecondLife < 100))" style="color: green"></ion-icon>
+            <ion-icon name="arrow-dropup" *ngIf="drivecheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].driveBaseRollingResistance > 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].driveBaseRollingResistanceSecondLife > 100))" style="color: red"></ion-icon>
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].driveBaseRollingResistance" *ngIf=" currentTab == 1 && drivecheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].driveBaseRollingResistance > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].driveBaseRollingResistance == 100) ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].driveBaseRollingResistanceSecondLife" *ngIf=" currentTab == 2 && drivecheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].driveBaseRollingResistanceSecondLife > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].driveBaseRollingResistanceSecondLife == 100) ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+
+          <!-- </div> -->
+        </div>
+      </td>
+
+      <td *ngIf="nondrivenShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'nondrivenRollingResistance' }}">
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+            <ion-icon name="arrow-dropdown" *ngIf="nondrivencheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].nondrivenBaseRollingResistance < 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].nondrivenBaseRollingResistanceSecondLife< 100))" style="color: green"></ion-icon>
+            <ion-icon name="arrow-dropup" *ngIf="nondrivencheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].nondrivenBaseRollingResistance > 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].nondrivenBaseRollingResistanceSecondLife> 100))" style="color: red"></ion-icon>
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].nondrivenBaseRollingResistance" *ngIf="currentTab == 1 && nondrivencheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].nondrivenBaseRollingResistance > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].nondrivenBaseRollingResistance == 100) ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].nondrivenBaseRollingResistanceSecondLife" *ngIf="currentTab == 2 && nondrivencheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].nondrivenBaseRollingResistanceSecondLife > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].nondrivenBaseRollingResistanceSecondLife == 100)? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+
+          <!-- </div> -->
+        </div>
+      </td>
+
+
+      <td *ngIf="trailerShow">
+        <div class="formfield" id="{{ titles[item] + lifeCycle + 'trailerRollingResistance' }}">
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+            <ion-icon name="arrow-dropdown" *ngIf="trailercheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].trailerBaseRollingResistance < 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].trailerBaseRollingResistanceSecondLife< 100))" style="color: green"></ion-icon>
+            <ion-icon name="arrow-dropup" *ngIf="trailercheckboxlifecyclenew && item > 0 && ((modelListLifeCycle[item].trailerBaseRollingResistance > 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].trailerBaseRollingResistanceSecondLife >  100))" style="color: red"></ion-icon>
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].trailerBaseRollingResistance" *ngIf="currentTab == 1" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].trailerBaseRollingResistance > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].trailerBaseRollingResistance == 100)? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].trailerBaseRollingResistanceSecondLife" *ngIf="currentTab == 2 && trailercheckboxlifecyclenew" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].trailerBaseRollingResistanceSecondLife > 100)? 'red' : ((item == 0  || modelListLifeCycle[item].trailerBaseRollingResistanceSecondLife == 100)? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+
+          <!-- </div> -->
+        </div>
+      </td>
+    </tr>
+
+
+    <!--Total Vehicle Rolling Resistance-->
+    <tr class="phone-only" *ngIf="fuel_calculation_toggle">
+      <td class="nada" colspan="3"  style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"total_vehicle_rolling_resistance" | translate}}
+        <!-- <button  (click)="showTotalBaseRollingResistance()" style="background-color: transparent; font-size: 1.2em">
+          <ion-icon name="help"></ion-icon>
+        </button> -->
+
+      </td>
+    </tr>
+    <tr *ngIf="fuel_calculation_toggle">
+      <td class="nada" colspan="3" style="font-size:1em; font-weight: bold;color: #27509b;font-family: michelin-regular-webfont;">{{"total_vehicle_rolling_resistance" | translate}}
+        <!-- <button  (click)="showTotalBaseRollingResistance()" style="background-color: transparent; font-size: 1.2em">
+          <ion-icon name="help"></ion-icon>
+        </button> -->
+
+      </td>
+    </tr>
+    <tr *ngIf="fuel_calculation_toggle">
+      <td [attr.colspan]=columns>
+        <div class="formfield" id="{{ titles[item] +lifeCycle+ 'totalRollingResistance' }}">
+          <!-- <div style="width: 50%; margin-left: 45%; text-align: left"> -->
+            <ion-icon name="arrow-dropdown" *ngIf="item > 0 && ((modelListLifeCycle[item].totalRollingResistance < 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].totalRollingResistanceSecondLife< 100))" style="color: green"></ion-icon>
+            <ion-icon name="arrow-dropup" *ngIf="item > 0 && ((modelListLifeCycle[item].totalRollingResistance > 100 && currentTab == 1) || (currentTab == 2 && modelListLifeCycle[item].totalRollingResistanceSecondLife > 100))" style="color: red"></ion-icon>
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].totalRollingResistance" *ngIf="currentTab == 1" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].totalRollingResistance > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].totalRollingResistance == 100) ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+          <input type="text" style="font-size:1.2em; height: 1.0em !important;" disabled value="100" [(ngModel)]="modelListLifeCycle[item].totalRollingResistanceSecondLife" *ngIf="currentTab == 2" [ngStyle]="{'color': (item > 0 && modelListLifeCycle[item].totalRollingResistanceSecondLife > 100)? 'red' : ((item == 0 || modelListLifeCycle[item].totalRollingResistanceSecondLife == 100)  ? ((item > 0 && modelListLifeCycle[item].steerBaseRollingResistance == 100)? 'black': '#222'):'green')}">
+
+          <!-- </div> -->
+        </div>
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+
+    <div style="margin-left: 38%;" >
+      <button ion-button style="width: auto;font-size:0.9em; background:#FCE500;color:#27509b;font-weight: bold;" (click)="removeLifecycleScenario()" *ngIf="currentTab == 1 && item == items.length-1">{{"remove_a_scenario" | translate}}</button>
+    </div>
+
+
+  <div *ngSwitchCase="'blendedAverage'" >
+
+    <ion-grid *ngIf="item == 0" style="width:100%;">
+      <ion-row>
+        <ion-col >
+          <!--<span align="right" class="col col-50">{{avgprice}}</span>
+          <span align="left" class="col col-50">Average Price of New Tire</span>-->
+          <div class="row" text-center="">
+            <!--<div class="col col-50">-->
+              <ion-label style="font-size:1.5em; font-weight: bold;text-align:center;font-style: italic;  ">
+                {{"percentage_of_use" | translate}}
+              </ion-label>
+            <!--</div>-->
+          </div>
+
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col width-33="" margin-left="5%">
+          <p><br></p>
+          <div class="row" >
+            <div class="col col-12" style="flex: 1">
+              <ion-label style="font-size:1em; font-weight: bold;text-align:center; color: transparent">
+                  {{"first_life" | translate}}
+              </ion-label>
+
+
+          <ion-row  style="background-color: transparent; margin-bottom: 5px;" *ngIf="steercheckboxlifecyclenew">
+
+          <ion-label style="font-size: 1em; font-weight: bold; text-align: right">{{"steer" | translate}}</ion-label>
+          </ion-row>
+          <ion-row style="background-color: transparent; margin-bottom: 5px;" *ngIf="drivecheckboxlifecyclenew">
+            <ion-label style="font-size: 1em; font-weight: bold; text-align: right">{{"drive" | translate}}</ion-label>
+          </ion-row>
+
+              <ion-row *ngIf="nondrivenShow && nondrivencheckboxlifecyclenew" style="margin-bottom:5px;background-color: transparent;">
+                <ion-label style="font-size: 1em; font-weight: bold; text-align: right">{{"non_driven_axle" | translate}}</ion-label>
+              </ion-row>
+
+
+          <ion-row *ngIf="trailerShow && trailercheckboxlifecyclenew"  style="margin-bottom: 5px;background-color: transparent;">
+            <ion-label style="font-size: 1em; font-weight: bold; text-align: right">{{"trailer" | translate}}</ion-label>
+          </ion-row>
+            </div>
+          </div>
+
+        </ion-col>
+        <ion-col width-15="">
+          <p><br></p>
+          <!-- <div class="row" text-center=""> -->
+            <div class="col col-12" style="flex: 1">
+              <ion-label style="font-size:1em; font-weight: bold;text-align:center;">
+                  {{"first_life" | translate}}
+              </ion-label>
+
+              <!--<ion-item>-->
+                <!--<ion-label>STEER</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageSteerFirstLife  (ngModelChange)="onChangeAverage($event, 'steerFirstLife')">-->
+                  <!--<ion-option *ngFor="let percentageSteer of percentages" style="color:#0079DA">{{percentageSteer}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+
+              <ion-row  class="bottom-line" *ngIf="steercheckboxlifecyclenew">
+                <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageSteerFirstLife  (ngModelChange)="onChangeAverage($event, 'steerFirstLife')"  style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+                  <!--<option *ngFor="let percentageSteer of percentages" style="color:#0079DA">{{percentageSteer}}</option>-->
+                <!--</select>-->
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'steerFirstLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageSteerFirstLife " type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent; margin-top: 10px; margin-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b;"></ion-icon>
+
+
+              </ion-row>
+
+
+
+
+              <!--<ion-item>-->
+                <!--<ion-label>DRIVE</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageDriveFirstLife (ngModelChange)="onChangeAverage($event, 'driveFirstLife')">-->
+                  <!--<ion-option *ngFor="let percentageDrive of percentages" style="color:#0079DA">{{percentageDrive}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+
+
+              <ion-row class="bottom-line" *ngIf="drivecheckboxlifecyclenew">
+                <!--<ion-label style="font-size: 1em; font-weight: bold; text-align: right">DRIVE</ion-label>-->
+                <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageDriveFirstLife (ngModelChange)="onChangeAverage($event, 'driveFirstLife')"  style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+                  <!--<option *ngFor="let percentageDrive of percentages" style="color:#0079DA">{{percentageDrive}}</option>-->
+                <!--</select>-->
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'driveFirstLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageDriveFirstLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent;  margin-top: 10px; margin-bottom: 6px; font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b;"></ion-icon>
+
+
+              </ion-row>
+
+
+
+              <!--<ion-item *ngIf="nondrivenShow">-->
+                <!--<ion-label>NONDRIVEN</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageNondrivenFirstLife (ngModelChange)="onChangeAverage($event, 'nondrivenFirstLife')">-->
+                  <!--<ion-option *ngFor="let percentageNonDrive of percentages" style="color:#0079DA">{{percentageNonDrive}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+
+              <ion-row class="bottom-line" *ngIf="nondrivenShow && nondrivencheckboxlifecyclenew" >
+              <!--<ion-label style="font-size: 1em; font-weight: bold; text-align: right">NONDRIVEN</ion-label>-->
+              <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageNondrivenFirstLife (ngModelChange)="onChangeAverage($event, 'nondrivenFirstLife')" style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+              <!--<option *ngFor="let percentageNonDrive of percentages" style="color:#0079DA">{{percentageNonDrive}}</option>-->
+              <!--</select>-->
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'nondrivenFirstLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageNondrivenFirstLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent;  margin-top: 10px; margin-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b;"></ion-icon>
+
+
+              </ion-row>
+
+
+
+
+
+              <!--<ion-item *ngIf="trailerShow">-->
+                <!--<ion-label>TRAILER</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageTrailerFirstLife (ngModelChange)="onChangeAverage($event, 'trailerFirstLife')">-->
+                  <!--<ion-option *ngFor="let percentageTrailer of percentages" style="color:#0079DA">{{percentageTrailer}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+
+              <ion-row class="bottom-line" *ngIf="trailerShow && trailercheckboxlifecyclenew">
+
+                <!--<ion-label style="font-size: 1em; font-weight: bold; text-align: right">TRAILER</ion-label>-->
+                <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageTrailerFirstLife (ngModelChange)="onChangeAverage($event, 'trailerFirstLife')"  style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+                  <!--<option *ngFor="let percentageTrailer of percentages" style="color:#0079DA">{{percentageTrailer}}</option>-->
+                <!--</select>-->
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'trailerFirstLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageTrailerFirstLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent; margin-top: 10px; padding-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b;"></ion-icon>
+
+
+              </ion-row>
+
+            </div>
+          </ion-col>
+            <ion-col width-15="" >
+              <p><br></p>
+            <div  class="col col-12" style="flex: 1;margin-left:30px;">
+              <ion-label style="font-size:1em; font-weight: bold;text-align:center;">
+                  {{"second_life" | translate}}
+              </ion-label>
+
+              <!--<ion-item>-->
+                <!--<ion-label>STEER</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageSteerSecondLife (ngModelChange)="onChangeAverage($event, 'steerSecondLife')">-->
+                  <!--<ion-option *ngFor="let percentageSecondLifeSteer of percentages" style="color:#0079DA">{{percentageSecondLifeSteer}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+
+              <ion-row  class="bottom-line" *ngIf="steercheckboxlifecyclenew">
+                <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageSteerSecondLife (ngModelChange)="onChangeAverage($event, 'steerSecondLife')" style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+                  <!--<option *ngFor="let percentageSecondLifeSteer of percentages" style="color:#0079DA">{{percentageSecondLifeSteer}}</option>-->
+                <!--</select>-->
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'steerSecondLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageSteerSecondLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent;  margin-top: 10px; margin-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b"></ion-icon>
+
+
+              </ion-row>
+
+
+
+              <!--<ion-item>-->
+                <!--<ion-label>DRIVE</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageDriveSecondLife (ngModelChange)="onChangeAverage($event, 'driveSecondLife')">-->
+                  <!--<ion-option *ngFor="let percentageSecondLifeDrive of percentages" style="color:#0079DA">{{percentageSecondLifeDrive}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+
+
+              <ion-row class="bottom-line" *ngIf="drivecheckboxlifecyclenew">
+              <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageDriveSecondLife (ngModelChange)="onChangeAverage($event, 'driveSecondLife')"  style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+                <!--<option *ngFor="let percentageSecondLifeDrive of percentages" style="color:#0079DA">{{percentageSecondLifeDrive}}</option>-->
+              <!--</select>-->
+
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'driveSecondLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageDriveSecondLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent;  margin-top: 10px; margin-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b"></ion-icon>
+
+
+              </ion-row>
+
+
+              <!--<ion-item *ngIf="nondrivenShow">-->
+                <!--<ion-label>NONDRIVEN</ion-label>-->
+                <!--<ion-select [(ngModel)]=modelListLifeCycle[0].blendedAverageNondrivenSecondLife (ngModelChange)="onChangeAverage($event, 'nondrivenSecondLife')">-->
+                  <!--<ion-option *ngFor="let percentageSecondLifeNondriven of percentages" style="color:#0079DA">{{percentageSecondLifeNondriven}}</ion-option>-->
+                <!--</ion-select>-->
+              <!--</ion-item>-->
+
+              <ion-row class="bottom-line" *ngIf="nondrivenShow && nondrivencheckboxlifecyclenew">
+              <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageNondrivenSecondLife (ngModelChange)="onChangeAverage($event, 'nondrivenSecondLife')" style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+              <!--<option *ngFor="let percentageSecondLifeNondriven of percentages" style="color:#0079DA">{{percentageSecondLifeNondriven}}</option>-->
+              <!--</select>-->
+
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'nondrivenSecondLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageNondrivenSecondLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent;  margin-top: 10px; margin-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b"></ion-icon>
+
+
+              </ion-row>
+
+
+
+              <ion-row class="bottom-line" *ngIf="trailerShow && trailercheckboxlifecyclenew">
+                <!--<select [(ngModel)]=modelListLifeCycle[0].blendedAverageTrailerSecondLife (ngModelChange)="onChangeAverage($event, 'trailerSecondLife')"  style="margin-right: 6px; border-color: transparent; background-color: transparent">-->
+                  <!--<option *ngFor="let percentageSecondLifeTrailer of percentages" style="color:#0079DA">{{percentageSecondLifeTrailer}}</option>-->
+                <!--</select>-->
+                <ion-input  (focus)="showAutocompleteModalPercentage($event, 'trailerSecondLife')" [(ngModel)]="modelListLifeCycle[0].blendedAverageTrailerSecondLife" type="text" placeholder="50%" style="margin-right: 6px; border-color: transparent; background-color: transparent;  margin-top: 10px; margin-bottom: 6px;font-weight:bold;" text-center="" ></ion-input>
+                <ion-icon name="arrow-down" style="margin-top:10px; margin-right: 5px; padding-bottom: 6px;color:#27509b"></ion-icon>
+
+              </ion-row>
+            </div>
+          <!-- </div> -->
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+    <div text-center="">
+    <button fab-center  ion-button style="width: auto;font-size:0.9em; background:#FCE500;color:#27509b;font-weight: bold;" (click)="openWeightSavingPage()" *ngIf="item == items.length-1"> {{"view_executive_summary" | translate}}</button>
+    </div>
+  </div>
+
+  </div>
+</ion-col>
+</ion-row>
+
+ </div>
+
+</ion-content>

@@ -1,0 +1,261 @@
+[
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "275/80 R 22.5",
+        "tread": "R297",
+        "rr": "6",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "295/80 R 22.5",
+        "tread": "M729",
+        "rr": "7.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "295/80 R 22.5",
+        "tread": "M792 ECOPIA",
+        "rr": "6.1",
+        "Changes": "to be changed"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "295/80 R 22.5",
+        "tread": "M736",
+        "rr": "7.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "295/80 R 22.5",
+        "tread": "R269",
+        "rr": "6.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "295/80 R 22.5",
+        "tread": "R268",
+        "rr": "6.5",
+        "Changes": "to be changed"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "275/80 R 22.5",
+        "tread": "R269",
+        "rr": "7.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "275/80 R 22.5",
+        "tread": "HSR2",
+        "rr": "5.8",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "295/80 R 22.5",
+        "tread": "CONTI HYBRID HS3",
+        "rr": "6.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "295/80 R 22.5",
+        "tread": "HTR1",
+        "rr": "6.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "275/80 R 22.5",
+        "tread": "CONTI HYBRID HS3",
+        "rr": "5.8",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "295/80 R 22.5",
+        "tread": "CONTI HYBRID HD3",
+        "rr": "7.1",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "295/80 R 22.5",
+        "tread": "HSR2",
+        "rr": "5.9",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "CONTINENTAL",
+        "size": "275/80 R 22.5",
+        "tread": "CONTI HYBRID HD3",
+        "rr": "7.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "GOODYEAR",
+        "size": "295/80 R 22.5",
+        "tread": "KMAX EXTREME",
+        "rr": "7.3",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "GOODYEAR",
+        "size": "295/80 R 22.5",
+        "tread": "KMAX D",
+        "rr": "6.7",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "GOODYEAR",
+        "size": "295/80 R 22.5",
+        "tread": "KMAX S",
+        "rr": "6.3",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "GOODYEAR",
+        "size": "275/80 R 22.5",
+        "tread": "KMAX S",
+        "rr": "6.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "GOODYEAR",
+        "size": "275/80 R 22.5",
+        "tread": "KMAX EXTREME",
+        "rr": "7.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "GOODYEAR",
+        "size": "275/80 R 22.5",
+        "tread": "KMAX D",
+        "rr": "7.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "295/80 R 22.5",
+        "tread": "X MULTI Z+",
+        "rr": "5.8",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "295/80 R 22.5",
+        "tread": "XM Energy Z",
+        "rr": "4.9",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi T",
+        "rr": "5.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi D2",
+        "rr": "6.8",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "295/80 R 22.5",
+        "tread": "XM Energy D",
+        "rr": "5.9",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "275/80 R 22.5",
+        "tread": "X MULTI D",
+        "rr": "7.7",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "MICHELIN",
+        "size": "275/80 R 22.5",
+        "tread": "X MULTI Z",
+        "rr": "6.1",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "275/80 R 22.5",
+        "tread": "FR:01",
+        "rr": "5.8",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "275/80 R 22.5",
+        "tread": "FR88",
+        "rr": "6.1",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "295/80 R 22.5",
+        "tread": "FR88",
+        "rr": "5.8",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "295/80 R 22.5",
+        "tread": "FR:01",
+        "rr": "5.9",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "295/80 R 22.5",
+        "tread": "TR:01",
+        "rr": "6.9",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "275/80 R 22.5",
+        "tread": "TR:01",
+        "rr": "6.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "275/80 R 22.5",
+        "tread": "TR88",
+        "rr": "6.5",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "PIRELLI",
+        "size": "295/80 R 22.5",
+        "tread": "TR88",
+        "rr": "8.6",
+        "Changes": "To be keeped"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "275/80 R 22.5",
+        "tread": "R268",
+        "rr": "6.5",
+        "Changes": "to be included"
+    },
+    {
+        "mfg": "BRIDGESTONE",
+        "size": "295/80 R 22.5",
+        "tread": "R268 ECOPIA",
+        "rr": "4.7",
+        "Changes": "to be included"
+    }
+]

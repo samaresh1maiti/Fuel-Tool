@@ -1,0 +1,97 @@
+page-weight-saving {
+   .selectlabel{
+     color: #262627; flex:1; min-width: 35%; font-size: 0.9em; font-weight: bold;
+     text-align: right;
+     font-family: "michelin-regular-webfont";
+   }
+
+  .selectlabel1{
+    color: black; flex:1; width: 5px; font-size: 1.2em; font-weight: bold;
+    text-align: right;
+  }
+
+   .selectvalue{
+     padding-top: 4px; 
+     padding-bottom: 4px; 
+     padding-left: 4px; 
+     margin-top: 5px; 
+     margin-bottom: 5px;
+      flex:1; 
+      background-color: #f4f6fa; 
+      border-color: transparent; 
+      font-size: 1.2em;
+      color: #12151b;
+   }
+  //select {
+  //  -webkit-appearance: none;
+  //}
+
+  select::-ms-expand {
+    //display:none;
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+  }
+
+
+  input.text-input.text-input-md.ng-untouched.ng-pristine.ng-valid{
+
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    min-width: 280px;
+    width: 100%;
+  }
+
+
+  input.text-input.text-input-md.ng-pristine.ng-valid.ng-touched{
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    min-width: 280px;
+    width: 100%;
+
+  }
+
+
+  .header_text{
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff ;
+    font-family: Arial;
+    font-size: 30px !important;
+    font-weight: bold !important;
+  }
+
+
+  .sub-title-header {
+    text-align:center; 
+     color:#262627; 
+     font-weight: bold;
+     font-size: 1.0em;
+     font-style: italic;
+  }
+ .custom-label{
+   background-color: #FCE500; margin-top: 15px; margin-bottom: 5px;height: 45px;
+ }
+ .custom-input-box{
+   background-color: white; margin-top: 15px; margin-bottom: 5px;height: 45px;
+   border-color:#27509b !important;
+   border-top: 1px solid map-get($colors, primary);
+   border-right: 1px solid map-get($colors, primary);
+   border-bottom: 1px solid map-get($colors, primary);
+ } 
+ .custom-input-value{
+   color: #27509b; flex:1; 
+   max-width: 1000px; 
+   font-size: 1.1em;
+   font-weight: bold !important;
+   text-align: center;
+   
+ }
+ .item[no-lines].bottom-border { 
+  border-bottom: 1px solid #FCE500; 
+  border-width: 2px;
+}
+
+
+
+}

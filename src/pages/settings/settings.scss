@@ -1,0 +1,62 @@
+.label_text{
+  // background-color: #8c8c8c;
+  height : 100%;
+  display: flex;
+  color:#545556 !important;
+  align-items: center;
+  font-size: 1.25em;
+}
+
+select::-ms-expand {
+  //display:none;
+  background-color: transparent;
+  border-color: transparent;
+  border: none;
+}
+.body{
+  font-family: Arial !important;
+}
+
+div.center
+{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.label-md{
+  margin-left: 20px !important;
+}
+
+
+.outer-content{
+  //background: url("../../assets/img/BIB-MICHELIN.jpg") no-repeat;
+  background-position: center;
+
+}
+
+.item[no-lines].bottom-border {
+  border-bottom: 1px solid #FCE500;
+  border-width: 2px;
+}
+.label-ios + ion-input .text-input, .label-ios + ion-textarea .text-input, .label-ios + .input + .cloned-input {
+   margin-left: 0px; 
+}
+
+//input.text-input.text-input-md.ng-pristine.ng-valid.ng-touched{
+//  height: 20px !important;
+//  //width: 60% !important;
+//}
+//input.text-input.text-input-md.ng-untouched.ng-pristine.ng-valid{
+//  height: 20px !important;
+//}
+//
+//input.ng-valid.ng-dirty.ng-touched{
+//  height: 20px !important;
+//}
+//
+//.text-input-md{
+//  height: 20px !important;
+//}

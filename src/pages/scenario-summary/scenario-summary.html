@@ -1,0 +1,60 @@
+<!--
+  Generated template for the ScenarioSummary page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+    <ion-title>{{"scenario_summary" | translate}}</ion-title>
+    <!--<ion-buttons end>-->
+      <!--<button (click)="navigateToScenario()" style="background-color: transparent; font-size: 2em">-->
+        <!--+-->
+      <!--</button>-->
+    <!--</ion-buttons>-->
+
+  </ion-navbar>
+</ion-header>
+
+
+
+
+
+<ion-content padding>
+
+
+  <ion-grid>
+
+    <ion-row *ngFor="let item of items">
+      <ion-col>
+        <button ion-button icon-right color="mblue" style="font-weight: bold;font-style: italic;text-align: left;" (click)="displayScenario(item.id);">
+          {{item.title}}
+        </button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+
+
+    <!--<ion-list>-->
+     <!--<ion-item-sliding *ngFor="let item of items">-->
+       <!--<ion-item>-->
+         <!--{{item.title}}-->
+       <!--</ion-item>-->
+       <!--<ion-item-options>-->
+         <!--<button danger (click)="removeItem(item)" style="background-color: red">-->
+            <!--Delete-->
+         <!--</button>-->
+       <!--</ion-item-options>-->
+     <!--</ion-item-sliding>-->
+   <!--</ion-list>-->
+</ion-content>
+
+
+

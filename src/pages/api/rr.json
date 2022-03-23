@@ -1,0 +1,9497 @@
+[
+  {
+    "mfg":"ADVANCE",
+    "size":"345/85 R 16",
+    "tread":"GL090 A",
+    "rim":16,
+    "rr":5.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"385/65 R 22.5",
+    "tread":"HN205 +",
+    "rim":22.5,
+    "rr":5.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"295/80 R 22.5",
+    "tread":"HN236",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"295/80 R 22.5",
+    "tread":"HN305",
+    "rim":22.5,
+    "rr":7.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"215/75 R 17.5",
+    "tread":"HN309",
+    "rim":17.5,
+    "rr":8.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"13 R 22.5",
+    "tread":"HN353",
+    "rim":22.5,
+    "rr":6.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"315/70 R 22.5",
+    "tread":"HN355",
+    "rim":22.5,
+    "rr":7.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"385/55 R 22.5",
+    "tread":"HN805",
+    "rim":22.5,
+    "rr":5.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"385/65 R 22.5",
+    "tread":"HN805",
+    "rim":22.5,
+    "rr":5.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"215/75 R 17.5",
+    "tread":"HN826 +",
+    "rim":17.5,
+    "rr":6.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"AEOLUS",
+    "size":"235/75 R 17.5",
+    "tread":"HN826 +",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"AMAR GOLD",
+    "rim":20,
+    "rr":9.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"11 R 22.5",
+    "tread":"ENDURACE HA",
+    "rim":22.5,
+    "rr":6.02,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"11 R 22.5",
+    "tread":"ENDURACE RA",
+    "rim":22.5,
+    "rr":7.0,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"11 R 22.5",
+    "tread":"ENDURACE RD",
+    "rim":22.5,
+    "rr":7.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"MA326",
+    "rim":20,
+    "rr":6.82,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"XT7",
+    "rim":20,
+    "rr":8.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BARUM",
+    "size":"385/65 R 22.5",
+    "tread":"BT43",
+    "rim":22.5,
+    "rr":5.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BARUM",
+    "size":"315/80 R 22.5",
+    "tread":"ROAD DRIVE BD22",
+    "rim":22.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BARUM",
+    "size":"315/80 R 22.5",
+    "tread":"ROAD FRONT BF15",
+    "rim":22.5,
+    "rr":5.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BARUM",
+    "size":"385/65 R 22.5",
+    "tread":"ROAD TRAILER BT43",
+    "rim":22.5,
+    "rr":4.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BELSHINA",
+    "size":"9.00 R 20",
+    "tread":"IN-142BM",
+    "rim":20,
+    "rr":9.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BFG",
+    "size":"215/75 R 17.5",
+    "tread":"ST250 TL 126/124M VG GO",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"ECOPIA H-DRIVE 001",
+    "rim":22.5,
+    "rr":4.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"ECOPIA H-DRIVE 001",
+    "rim":22.5,
+    "rr":4.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"ECOPIA H-DRIVE 001",
+    "rim":22.5,
+    "rr":4.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"ECOPIA H-STEER 001",
+    "rim":22.5,
+    "rr":4.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"ECOPIA H-STEER 001",
+    "rim":22.5,
+    "rr":4.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/55 R 22.5",
+    "tread":"ECOPIA H-TRAILER 001",
+    "rim":22.5,
+    "rr":4.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12.00 R 24",
+    "tread":"G580 S",
+    "rim":24,
+    "rr":4.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12.00 R 24",
+    "tread":"G582",
+    "rim":24,
+    "rr":4.56,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"495/45 R 22.5",
+    "tread":"GREATEC M729",
+    "rim":22.5,
+    "rr":5.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"7.50 R 16",
+    "tread":"JAMAL VSJA",
+    "rim":16,
+    "rr":7.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12 R 22.5",
+    "tread":"L317",
+    "rim":22.5,
+    "rr":7.58,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"L355",
+    "rim":22.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12 R 22.5",
+    "tread":"L355 z",
+    "rim":22.5,
+    "rr":7.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"13 R 22.5",
+    "tread":"L355 z",
+    "rim":22.5,
+    "rr":6.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"495/45 R 22.5",
+    "tread":"M709 ECOPIA",
+    "rim":22.5,
+    "rr":4.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"M714",
+    "rim":17.5,
+    "rr":6.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M718",
+    "rim":22.5,
+    "rr":6.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11.00 R 22",
+    "tread":"M729",
+    "rim":22,
+    "rr":8.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"M729",
+    "rim":17.5,
+    "rr":7.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"245/70 R 17.5",
+    "tread":"M729",
+    "rim":17.5,
+    "rr":7.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"285/70 R 19.5",
+    "tread":"M729",
+    "rim":19.5,
+    "rr":7.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/60 R 22.5",
+    "tread":"M729",
+    "rim":22.5,
+    "rr":6.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M729",
+    "rim":22.5,
+    "rr":8.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"M729",
+    "rim":22.5,
+    "rr":8.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M729",
+    "rim":22.5,
+    "rr":8.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M729 SUPER",
+    "rim":22.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M730",
+    "rim":22.5,
+    "rr":8.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"M730",
+    "rim":22.5,
+    "rr":7.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M730",
+    "rim":22.5,
+    "rr":8.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"M748",
+    "rim":22.5,
+    "rr":5.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"425/65 R 22.5",
+    "tread":"M748",
+    "rim":22.5,
+    "rr":4.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"445/65 R 22.5",
+    "tread":"M748",
+    "rim":22.5,
+    "rr":4.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/60 R 22.5",
+    "tread":"M749",
+    "rim":22.5,
+    "rr":6.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M749",
+    "rim":22.5,
+    "rr":5.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/45 R 22.5",
+    "tread":"M749",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/60 R 22.5",
+    "tread":"M749",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"M749",
+    "rim":22.5,
+    "rr":6.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M749",
+    "rim":22.5,
+    "rr":6.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/60 R 22.5",
+    "tread":"M749 ECOPIA",
+    "rim":22.5,
+    "rr":6.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"M749 ECOPIA",
+    "rim":22.5,
+    "rr":5.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M749 ECOPIA",
+    "rim":22.5,
+    "rr":5.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M758",
+    "rim":22.5,
+    "rr":6.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M788",
+    "rim":22.5,
+    "rr":5.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"M788",
+    "rim":22.5,
+    "rr":5.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"M788",
+    "rim":22.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"M788 cz",
+    "rim":17.5,
+    "rr":7.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"M788 cz",
+    "rim":17.5,
+    "rr":7.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/80 R 22.5",
+    "tread":"M801 ECOPIA",
+    "rim":22.5,
+    "rr":4.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"10.00 R 20",
+    "tread":"M840",
+    "rim":20,
+    "rr":5.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12 R 22.5",
+    "tread":"M840",
+    "rim":22.5,
+    "rr":5.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12.00 R 24",
+    "tread":"M840",
+    "rim":24,
+    "rr":5.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"13 R 22.5",
+    "tread":"M840",
+    "rim":22.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M840",
+    "rim":22.5,
+    "rr":5.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"M840",
+    "rim":22.5,
+    "rr":5.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12 R 22.5",
+    "tread":"M843",
+    "rim":22.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"445/65 R 22.5",
+    "tread":"M844",
+    "rim":22.5,
+    "rr":4.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11.00 R 20",
+    "tread":"M857",
+    "rim":20,
+    "rr":5.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11.00 R 20",
+    "tread":"M858",
+    "rim":20,
+    "rr":5.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"M880",
+    "rim":22.5,
+    "rr":5.93,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/80 R 22.5",
+    "tread":"M880",
+    "rim":22.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"M881 ECOPIA",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"M881 ECOPIA",
+    "rim":22.5,
+    "rr":4.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/80 R 22.5",
+    "tread":"M881 ECOPIA",
+    "rim":22.5,
+    "rr":4.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"M891 ECOPIA",
+    "rim":22.5,
+    "rr":4.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"M891 II ECOPIA",
+    "rim":22.5,
+    "rr":4.58,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M891 II ECOPIA",
+    "rim":22.5,
+    "rr":4.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/80 R 22.5",
+    "tread":"M901 ECOPIA",
+    "rim":22.5,
+    "rr":8.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/80 R 22.5",
+    "tread":"M911 II ECOPIA",
+    "rim":22.5,
+    "rr":5.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/55 R 22.5",
+    "tread":"R109 ECOPIA",
+    "rim":22.5,
+    "rr":4.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R109 ECOPIA",
+    "rim":22.5,
+    "rr":4.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R150",
+    "rim":22.5,
+    "rr":6.02,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"R150 II",
+    "rim":22.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R150 II",
+    "rim":22.5,
+    "rr":5.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"12.00 R 24",
+    "tread":"R152",
+    "rim":24,
+    "rr":4.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R152",
+    "rim":22.5,
+    "rr":5.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R152",
+    "rim":22.5,
+    "rr":5.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"7.50 R 16",
+    "tread":"R156",
+    "rim":16,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R157",
+    "rim":22.5,
+    "rr":4.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R164",
+    "rim":22.5,
+    "rr":4.73,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R164 II",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"R166",
+    "rim":17.5,
+    "rr":6.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"265/70 R 19.5",
+    "tread":"R166",
+    "rim":19.5,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R166",
+    "rim":22.5,
+    "rr":5.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"435/50 R 19.5",
+    "tread":"R166 II",
+    "rim":19.5,
+    "rr":5.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"R168",
+    "rim":17.5,
+    "rr":5.93,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"235/75 R 17.5",
+    "tread":"R168",
+    "rim":17.5,
+    "rr":5.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"245/70 R 17.5",
+    "tread":"R168",
+    "rim":17.5,
+    "rr":5.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"265/70 R 19.5",
+    "tread":"R168",
+    "rim":19.5,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/55 R 22.5",
+    "tread":"R168",
+    "rim":22.5,
+    "rr":5.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R168",
+    "rim":22.5,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R168 PLUS",
+    "rim":22.5,
+    "rr":5.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R174 II",
+    "rim":22.5,
+    "rr":4.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R174 II",
+    "rim":22.5,
+    "rr":4.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R174 z",
+    "rim":22.5,
+    "rr":4.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/70 R 22.5",
+    "tread":"R192 CITY",
+    "rim":22.5,
+    "rr":5.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R221 II ECOPIA",
+    "rim":22.5,
+    "rr":4.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"R227",
+    "rim":17.5,
+    "rr":5.87,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"245/70 R 17.5",
+    "tread":"R227",
+    "rim":17.5,
+    "rr":5.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"285/70 R 19.5",
+    "tread":"R227",
+    "rim":19.5,
+    "rr":5.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R227",
+    "rim":22.5,
+    "rr":5.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R227",
+    "rim":22.5,
+    "rr":5.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R227 cz",
+    "rim":22.5,
+    "rr":5.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/60 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/60 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":6.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":5.73,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":5.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R249",
+    "rim":22.5,
+    "rr":5.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R249 ECOPIA",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R249 ECOPIA",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R249 ECOPIA",
+    "rim":22.5,
+    "rr":5.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/55 R 22.5",
+    "tread":"R249 ECOPIA",
+    "rim":22.5,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"R249 ECOPIA",
+    "rim":22.5,
+    "rr":5.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/60 R 22.5",
+    "tread":"R249 EVO",
+    "rim":22.5,
+    "rr":6.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R249 EVO",
+    "rim":22.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/60 R 22.5",
+    "tread":"R249 EVO ECOPIA",
+    "rim":22.5,
+    "rr":5.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"355/50 R 22.5",
+    "tread":"R249 EVO ECOPIA",
+    "rim":22.5,
+    "rr":5.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11.00 R 22",
+    "tread":"R250",
+    "rim":22,
+    "rr":5.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R250",
+    "rim":22.5,
+    "rr":5.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"215/70 R 17.5",
+    "tread":"R265",
+    "rim":17.5,
+    "rr":6.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R268",
+    "rim":22.5,
+    "rr":5.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11.00 R 20",
+    "tread":"R288",
+    "rim":20,
+    "rr":4.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/80 R 22.5",
+    "tread":"R297",
+    "rim":22.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R297",
+    "rim":22.5,
+    "rr":6.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R297",
+    "rim":22.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R297",
+    "rim":22.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R297 EVO",
+    "rim":22.5,
+    "rr":6.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R-DRIVE 001",
+    "rim":22.5,
+    "rr":6.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R-DRIVE 001",
+    "rim":22.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R-DRIVE 001",
+    "rim":22.5,
+    "rr":6.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R-DRIVE 001",
+    "rim":22.5,
+    "rr":4.87,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R-STEER 001",
+    "rim":22.5,
+    "rr":5.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"R-STEER 001",
+    "rim":22.5,
+    "rr":5.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R-STEER 001",
+    "rim":22.5,
+    "rr":5.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"R-STEER 001",
+    "rim":22.5,
+    "rr":4.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/55 R 22.5",
+    "tread":"S167",
+    "rim":22.5,
+    "rr":5.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"S190",
+    "rim":22.5,
+    "rr":5.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"355/50 R 22.5",
+    "tread":"S190",
+    "rim":22.5,
+    "rr":5.58,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"S709Z",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"275/70 R 22.5",
+    "tread":"U-AP001",
+    "rim":22.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"385/55 R 22.5",
+    "tread":"V STELL RIB",
+    "rim":22.5,
+    "rr":5.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"W900",
+    "rim":22.5,
+    "rr":10.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"W910",
+    "rim":22.5,
+    "rr":7.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"W911 II ECOPIA",
+    "rim":22.5,
+    "rr":5.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"W970",
+    "rim":22.5,
+    "rr":7.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"W970 z",
+    "rim":22.5,
+    "rr":7.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"W970 z",
+    "rim":22.5,
+    "rr":7.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"W985",
+    "rim":22.5,
+    "rr":7.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"315/70 R 22.5",
+    "tread":"W990",
+    "rim":22.5,
+    "rr":6.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"11 R 22.5",
+    "tread":"W990 A",
+    "rim":22.5,
+    "rr":9.02,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CHAO YANG",
+    "size":"7.50 R 16",
+    "tread":"CR869",
+    "rim":16,
+    "rr":8.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CHAOYANG",
+    "size":"11.00 R 20",
+    "tread":"CM988",
+    "rim":20,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"CITYPLUS HA3",
+    "rim":22.5,
+    "rr":3.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"COACH HA3",
+    "rim":22.5,
+    "rr":4.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"CONTI ECOPLUS HT3",
+    "rim":22.5,
+    "rr":3.91,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"CONTI HYBRID HS3",
+    "rim":22.5,
+    "rr":5.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"CONTI HYBRID LS3",
+    "rim":17.5,
+    "rr":5.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/70 R 22.5",
+    "tread":"CONTI URBAN HA3",
+    "rim":22.5,
+    "rr":5.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/70 R 22.5",
+    "tread":"CONTI URBAN HA3",
+    "rim":22.5,
+    "rr":5.91,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/70 R 22.5",
+    "tread":"CONTI URBAN SCAN HA3",
+    "rim":22.5,
+    "rr":6.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/70 R 22.5",
+    "tread":"CONTI URBAN SCAN HD3",
+    "rim":22.5,
+    "rr":6.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"ECOPLUS HD3",
+    "rim":22.5,
+    "rr":4.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"ECOPLUS HS3 XL",
+    "rim":22.5,
+    "rr":4.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"14.00 R 20",
+    "tread":"HCS",
+    "rim":20,
+    "rr":6.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"14.00 R 20",
+    "tread":"HCS",
+    "rim":20,
+    "rr":6.48,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/60 R 22.5",
+    "tread":"HD HYBRID",
+    "rim":22.5,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/60 R 22.5",
+    "tread":"HD HYBRID",
+    "rim":22.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HD HYBRID",
+    "rim":22.5,
+    "rr":6.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HD HYBRID",
+    "rim":22.5,
+    "rr":6.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HDC",
+    "rim":22.5,
+    "rr":6.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HDC +",
+    "rim":22.5,
+    "rr":6.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HDC1",
+    "rim":22.5,
+    "rr":7.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDC1",
+    "rim":22.5,
+    "rr":6.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDL1",
+    "rim":22.5,
+    "rr":5.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDL1",
+    "rim":22.5,
+    "rr":5.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDL1 #",
+    "rim":22.5,
+    "rr":5.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDL1 #",
+    "rim":22.5,
+    "rr":5.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDL1 ECOPLUS",
+    "rim":22.5,
+    "rr":6.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/60 R 22.5",
+    "tread":"HDL2",
+    "rim":22.5,
+    "rr":6.16,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDL2 + ECOPLUS",
+    "rim":22.5,
+    "rr":5.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDL2 ECOPLUS",
+    "rim":22.5,
+    "rr":5.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDL2 ECOPLUS",
+    "rim":22.5,
+    "rr":5.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"10.00 R 20",
+    "tread":"HDR",
+    "rim":20,
+    "rr":7.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"285/70 R 19.5",
+    "tread":"HDR",
+    "rim":19.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/60 R 22.5",
+    "tread":"HDR",
+    "rim":22.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDR",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/60 R 22.5",
+    "tread":"HDR +",
+    "rim":22.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/60 R 22.5",
+    "tread":"HDR +",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDR +",
+    "rim":22.5,
+    "rr":5.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDR +",
+    "rim":22.5,
+    "rr":5.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDR1",
+    "rim":22.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDR2",
+    "rim":22.5,
+    "rr":6.91,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDR2",
+    "rim":22.5,
+    "rr":6.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDR2",
+    "rim":22.5,
+    "rr":6.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDR2",
+    "rim":22.5,
+    "rr":6.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDR2 SA",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDR2+",
+    "rim":22.5,
+    "rr":6.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HDRSA",
+    "rim":22.5,
+    "rr":6.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/70 R 22.5",
+    "tread":"HDU",
+    "rim":22.5,
+    "rr":6.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDW",
+    "rim":22.5,
+    "rr":6.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDW SCAN",
+    "rim":22.5,
+    "rr":6.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HDW2 SCAN",
+    "rim":22.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HDW2 SCAN",
+    "rim":22.5,
+    "rr":6.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HSC",
+    "rim":22.5,
+    "rr":5.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HSC +",
+    "rim":22.5,
+    "rr":5.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HSC1",
+    "rim":22.5,
+    "rr":6.48,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSC1",
+    "rim":22.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HSC1",
+    "rim":22.5,
+    "rr":5.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSL1",
+    "rim":22.5,
+    "rr":4.82,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSL1",
+    "rim":22.5,
+    "rr":4.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSL1 #",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSL1 ##",
+    "rim":22.5,
+    "rr":5.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSL1 ECOPLUS",
+    "rim":22.5,
+    "rr":5.16,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSL2 + ECOPLUS",
+    "rim":22.5,
+    "rr":4.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSL2 + ECOPLUS",
+    "rim":22.5,
+    "rr":4.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HSL2 + ECOPLUS",
+    "rim":22.5,
+    "rr":4.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSL2 + ECOPLUS XL",
+    "rim":22.5,
+    "rr":4.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSL2 + ECOPLUS XL",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"355/50 R 22.5",
+    "tread":"HSL2 + ECOPLUS XL",
+    "rim":22.5,
+    "rr":4.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/60 R 22.5",
+    "tread":"HSL2 ECOPLUS",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSL2 ECOPLUS",
+    "rim":22.5,
+    "rr":4.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSL2 ECOPLUS",
+    "rim":22.5,
+    "rr":4.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/60 R 22.5",
+    "tread":"HSL2 ECOPLUS XL",
+    "rim":22.5,
+    "rr":4.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSL2 ECOPLUS XL",
+    "rim":22.5,
+    "rr":4.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"13 R 22.5",
+    "tread":"HSO MILITARY",
+    "rim":22.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"265/70 R 19.5",
+    "tread":"HSR1",
+    "rim":19.5,
+    "rr":5.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"285/70 R 19.5",
+    "tread":"HSR1",
+    "rim":19.5,
+    "rr":5.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/60 R 22.5",
+    "tread":"HSR1",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSR1",
+    "rim":22.5,
+    "rr":4.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/60 R 22.5",
+    "tread":"HSR1",
+    "rim":22.5,
+    "rr":5.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSR1",
+    "rim":22.5,
+    "rr":5.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSR1",
+    "rim":22.5,
+    "rr":5.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HSR1",
+    "rim":22.5,
+    "rr":5.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSR1SA",
+    "rim":22.5,
+    "rr":5.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSR2",
+    "rim":22.5,
+    "rr":5.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSR2",
+    "rim":22.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSR2",
+    "rim":22.5,
+    "rr":6.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSR2",
+    "rim":22.5,
+    "rr":5.08,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSR2",
+    "rim":22.5,
+    "rr":5.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HSR2",
+    "rim":22.5,
+    "rr":4.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/80 R 22.5",
+    "tread":"HSR2 SA",
+    "rim":22.5,
+    "rr":5.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSR2 SA",
+    "rim":22.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSR2 XL",
+    "rim":22.5,
+    "rr":5.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HSR2 XL",
+    "rim":22.5,
+    "rr":4.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSR2 XL  156/150L CT",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/70 R 22.5",
+    "tread":"HSU1",
+    "rim":22.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"275/80 R 22.5",
+    "tread":"HSU1",
+    "rim":22.5,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSU1",
+    "rim":22.5,
+    "rr":5.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSW",
+    "rim":22.5,
+    "rr":5.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"295/80 R 22.5",
+    "tread":"HSW2 COACH",
+    "rim":22.5,
+    "rr":5.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HSW2 SCAN",
+    "rim":22.5,
+    "rr":5.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/70 R 22.5",
+    "tread":"HSW2 SCANDINAVIA",
+    "rim":22.5,
+    "rr":5.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"315/80 R 22.5",
+    "tread":"HSW2 SCANDINAVIA",
+    "rim":22.5,
+    "rr":5.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HT3",
+    "rim":22.5,
+    "rr":3.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HTC1",
+    "rim":22.5,
+    "rr":5.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HTL ECOPLUS",
+    "rim":22.5,
+    "rr":4.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HTL1",
+    "rim":22.5,
+    "rr":4.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"445/45 R 19.5",
+    "tread":"HTL1",
+    "rim":19.5,
+    "rr":5.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"445/45 R 19.5",
+    "tread":"HTL1 ECOPLUS",
+    "rim":19.5,
+    "rr":5.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"245/70 R 17.5",
+    "tread":"HTL2 ECOPLUS",
+    "rim":17.5,
+    "rr":5.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HTL2 ECOPLUS",
+    "rim":22.5,
+    "rr":4.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HTL2 ECOPLUS XL",
+    "rim":22.5,
+    "rr":4.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"HTR",
+    "rim":17.5,
+    "rr":5.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"235/75 R 17.5",
+    "tread":"HTR",
+    "rim":17.5,
+    "rr":5.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"245/70 R 17.5",
+    "tread":"HTR",
+    "rim":17.5,
+    "rr":5.73,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"265/70 R 19.5",
+    "tread":"HTR",
+    "rim":19.5,
+    "rr":5.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HTR EXTRA DUTY",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HTR1",
+    "rim":22.5,
+    "rr":4.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HTR1 #",
+    "rim":22.5,
+    "rr":4.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HTR2",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HTR2",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/65 R 22.5",
+    "tread":"HTR2",
+    "rim":22.5,
+    "rr":4.93,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"385/55 R 22.5",
+    "tread":"HTW2 SCAN",
+    "rim":22.5,
+    "rr":6.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"LDR",
+    "rim":17.5,
+    "rr":7.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"LDR1",
+    "rim":17.5,
+    "rr":7.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"245/70 R 17.5",
+    "tread":"LDR1",
+    "rim":17.5,
+    "rr":8.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"LDR1 +",
+    "rim":17.5,
+    "rr":7.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"245/70 R 17.5",
+    "tread":"LDR1 +",
+    "rim":17.5,
+    "rr":7.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"LSR",
+    "rim":17.5,
+    "rr":6.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"LSR1",
+    "rim":17.5,
+    "rr":6.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"245/70 R 17.5",
+    "tread":"LSR1",
+    "rim":17.5,
+    "rr":6.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"215/75 R 17.5",
+    "tread":"LSR1 +",
+    "rim":17.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"245/70 R 17.5",
+    "tread":"LSR1 +",
+    "rim":17.5,
+    "rr":6.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CONTINENTAL",
+    "size":"335/80 R 20",
+    "tread":"MPT81",
+    "rim":20,
+    "rr":8.16,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"12.00 R 20",
+    "tread":"RLB1",
+    "rim":20,
+    "rr":5.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"13 R 22.5",
+    "tread":"RLB200",
+    "rim":22.5,
+    "rr":5.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"315/80 R 22.5",
+    "tread":"RLB450",
+    "rim":22.5,
+    "rr":6.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"425/65 R 22.5",
+    "tread":"RLB900 +",
+    "rim":22.5,
+    "rr":5.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"10.00 R 20",
+    "tread":"RLB900A",
+    "rim":20,
+    "rr":6.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"11 R 22.5",
+    "tread":"RR100",
+    "rim":22.5,
+    "rr":5.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"315/80 R 22.5",
+    "tread":"RR202",
+    "rim":22.5,
+    "rr":4.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"11.00 R 20",
+    "tread":"RR9",
+    "rim":20,
+    "rr":5.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"385/65 R 22.5",
+    "tread":"RR905",
+    "rim":22.5,
+    "rr":4.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"11.00 R 20",
+    "tread":"RR988",
+    "rim":20,
+    "rr":5.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DOUBLE COIN",
+    "size":"385/65 R 22.5",
+    "tread":"RT910",
+    "rim":22.5,
+    "rr":4.08,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"12 R 22.5",
+    "tread":"G600",
+    "rim":22.5,
+    "rr":6.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"11 R 22.5",
+    "tread":"SP020 A",
+    "rim":22.5,
+    "rr":7.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"11 R 22.5",
+    "tread":"SP080",
+    "rim":22.5,
+    "rr":7.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"295/80 R 22.5",
+    "tread":"SP120 F",
+    "rim":22.5,
+    "rr":6.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"215/75 R 17.5",
+    "tread":"SP241",
+    "rim":17.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"265/70 R 19.5",
+    "tread":"SP241",
+    "rim":19.5,
+    "rr":5.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/65 R 22.5",
+    "tread":"SP242",
+    "rim":22.5,
+    "rr":4.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/55 R 22.5",
+    "tread":"SP244",
+    "rim":22.5,
+    "rr":4.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"215/75 R 17.5",
+    "tread":"SP252",
+    "rim":17.5,
+    "rr":5.58,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"235/75 R 17.5",
+    "tread":"SP252",
+    "rim":17.5,
+    "rr":5.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"245/70 R 17.5",
+    "tread":"SP252",
+    "rim":17.5,
+    "rr":4.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/55 R 22.5",
+    "tread":"SP252",
+    "rim":22.5,
+    "rr":4.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/65 R 22.5",
+    "tread":"SP252",
+    "rim":22.5,
+    "rr":4.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"435/50 R 19.5",
+    "tread":"SP252",
+    "rim":19.5,
+    "rr":4.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"455/40 R 22.5",
+    "tread":"SP252",
+    "rim":22.5,
+    "rr":4.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"455/40 R 22.5",
+    "tread":"SP252 +",
+    "rim":22.5,
+    "rr":4.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/65 R 22.5",
+    "tread":"SP282",
+    "rim":22.5,
+    "rr":5.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"445/65 R 22.5",
+    "tread":"SP282",
+    "rim":22.5,
+    "rr":4.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/70 R 22.5",
+    "tread":"SP341",
+    "rim":22.5,
+    "rr":5.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP341",
+    "rim":22.5,
+    "rr":4.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"215/75 R 17.5",
+    "tread":"SP344",
+    "rim":17.5,
+    "rr":7.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"245/70 R 17.5",
+    "tread":"SP344",
+    "rim":17.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"245/70 R 17.5",
+    "tread":"SP344",
+    "rim":17.5,
+    "rr":6.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"265/70 R 19.5",
+    "tread":"SP344",
+    "rim":19.5,
+    "rr":6.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"285/70 R 19.5",
+    "tread":"SP344",
+    "rim":19.5,
+    "rr":5.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/70 R 22.5",
+    "tread":"SP344",
+    "rim":22.5,
+    "rr":5.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP344",
+    "rim":22.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/65 R 22.5",
+    "tread":"SP344",
+    "rim":22.5,
+    "rr":5.16,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"215/75 R 17.5",
+    "tread":"SP351",
+    "rim":17.5,
+    "rr":6.21,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"245/70 R 17.5",
+    "tread":"SP351",
+    "rim":17.5,
+    "rr":5.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"285/70 R 19.5",
+    "tread":"SP351",
+    "rim":19.5,
+    "rr":4.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/60 R 22.5",
+    "tread":"SP352",
+    "rim":22.5,
+    "rr":4.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/70 R 22.5",
+    "tread":"SP352",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP352",
+    "rim":22.5,
+    "rr":4.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"385/55 R 22.5",
+    "tread":"SP352",
+    "rim":22.5,
+    "rr":4.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP355",
+    "rim":22.5,
+    "rr":5.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP362",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"275/70 R 22.5",
+    "tread":"SP372 CITY",
+    "rim":22.5,
+    "rr":6.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"275/70 R 22.5",
+    "tread":"SP372 CITY",
+    "rim":22.5,
+    "rr":6.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"13 R 22.5",
+    "tread":"SP382",
+    "rim":22.5,
+    "rr":5.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"215/75 R 17.5",
+    "tread":"SP431",
+    "rim":17.5,
+    "rr":6.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"245/70 R 17.5",
+    "tread":"SP431",
+    "rim":17.5,
+    "rr":6.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"285/70 R 19.5",
+    "tread":"SP431",
+    "rim":19.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP431",
+    "rim":22.5,
+    "rr":6.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/70 R 22.5",
+    "tread":"SP442",
+    "rim":22.5,
+    "rr":5.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP442",
+    "rim":22.5,
+    "rr":6.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"215/75 R 17.5",
+    "tread":"SP444",
+    "rim":17.5,
+    "rr":6.87,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"245/70 R 17.5",
+    "tread":"SP444",
+    "rim":17.5,
+    "rr":6.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"265/70 R 19.5",
+    "tread":"SP444",
+    "rim":19.5,
+    "rr":6.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"285/70 R 19.5",
+    "tread":"SP444",
+    "rim":19.5,
+    "rr":6.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/70 R 22.5",
+    "tread":"SP444",
+    "rim":22.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP444",
+    "rim":22.5,
+    "rr":6.58,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"295/60 R 22.5",
+    "tread":"SP452",
+    "rim":22.5,
+    "rr":5.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/60 R 22.5",
+    "tread":"SP452",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/70 R 22.5",
+    "tread":"SP452",
+    "rim":22.5,
+    "rr":6.21,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP452",
+    "rim":22.5,
+    "rr":6.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"315/80 R 22.5",
+    "tread":"SP462",
+    "rim":22.5,
+    "rr":6.91,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"13 R 22.5",
+    "tread":"SP482",
+    "rim":22.5,
+    "rr":6.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"275/70 R 22.5",
+    "tread":"SP531 CITY",
+    "rim":22.5,
+    "rr":7.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"275/80 R 22.5",
+    "tread":"SP650",
+    "rim":22.5,
+    "rr":5.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"11 R 22.5",
+    "tread":"SP678 K",
+    "rim":22.5,
+    "rr":4.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"275/80 R 22.5",
+    "tread":"SP678 K",
+    "rim":22.5,
+    "rr":4.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"DUNLOP",
+    "size":"275/70 R 22.5",
+    "tread":"SP741 CITY",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FATE",
+    "size":"295/80 R 22.5",
+    "tread":"DR400",
+    "rim":22.5,
+    "rr":6.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FATE",
+    "size":"295/80 R 22.5",
+    "tread":"SR200",
+    "rim":22.5,
+    "rr":5.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"265/70 R 19.5",
+    "tread":"FD600",
+    "rim":19.5,
+    "rr":6.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"FD600",
+    "rim":22.5,
+    "rr":7.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"FD600",
+    "rim":22.5,
+    "rr":7.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"265/70 R 19.5",
+    "tread":"FS400",
+    "rim":19.5,
+    "rr":5.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"315/80 R 22.5",
+    "tread":"FS400",
+    "rim":22.5,
+    "rr":5.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"12.00 R 24",
+    "tread":"FS598",
+    "rim":24,
+    "rr":4.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"12.00 R 24",
+    "tread":"FSR4000",
+    "rim":24,
+    "rr":4.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"215/75 R 17.5",
+    "tread":"TSP3000",
+    "rim":17.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"265/70 R 19.5",
+    "tread":"TSP3000",
+    "rim":19.5,
+    "rr":5.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FIRESTONE",
+    "size":"385/65 R 22.5",
+    "tread":"TSP3000",
+    "rim":22.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"275/70 R 22.5",
+    "tread":"CITY CONTROL",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"315/70 R 22.5",
+    "tread":"ECOCONTROL 2",
+    "rim":22.5,
+    "rr":4.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"315/70 R 22.5",
+    "tread":"ECOFORCE",
+    "rim":22.5,
+    "rr":6.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"315/70 R 22.5",
+    "tread":"ECOFORCE 2",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"385/55 R 22.5",
+    "tread":"ECOTONN",
+    "rim":22.5,
+    "rr":4.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"385/65 R 22.5",
+    "tread":"ECOTONN +",
+    "rim":22.5,
+    "rr":4.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"215/75 R 17.5",
+    "tread":"REGIOCONTROL",
+    "rim":17.5,
+    "rr":6.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"225/75 R 17.5",
+    "tread":"REGIOCONTROL",
+    "rim":17.5,
+    "rr":6.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"315/80 R 22.5",
+    "tread":"REGIOCONTROL PLUS ",
+    "rim":22.5,
+    "rr":5.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"215/75 R 17.5",
+    "tread":"REGIOFORCE",
+    "rim":17.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"225/75 R 17.5",
+    "tread":"REGIOFORCE",
+    "rim":17.5,
+    "rr":7.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"315/80 R 22.5",
+    "tread":"REGIOFORCE +",
+    "rim":22.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"13 R 22.5",
+    "tread":"VARIOCONTROL",
+    "rim":22.5,
+    "rr":5.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"FULDA",
+    "size":"13 R 22.5",
+    "tread":"VARIOFORCE",
+    "rim":22.5,
+    "rr":6.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODRIDE",
+    "size":"315/80 R 22.5",
+    "tread":"CR960",
+    "rim":22.5,
+    "rr":5.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"CITY MAX",
+    "rim":22.5,
+    "rr":7.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/80 R 22.5",
+    "tread":"CITYMAX",
+    "rim":22.5,
+    "rr":6.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"FUELMAX D",
+    "rim":22.5,
+    "rr":4.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"FUELMAX D",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"FUELMAX S",
+    "rim":22.5,
+    "rr":4.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"FUELMAX S",
+    "rim":22.5,
+    "rr":4.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"FUELMAX S HL",
+    "rim":22.5,
+    "rr":4.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"FUELMAX T",
+    "rim":22.5,
+    "rr":3.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"FUELMAX T",
+    "rim":22.5,
+    "rr":3.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"G114 T",
+    "rim":17.5,
+    "rr":5.73,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"12.00 R 24",
+    "tread":"G293A",
+    "rim":24,
+    "rr":4.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"7.50 R 16",
+    "tread":"G32",
+    "rim":16,
+    "rr":6.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"11.00 R 22",
+    "tread":"G358 LHS",
+    "rim":22,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G358 LHS",
+    "rim":22.5,
+    "rr":5.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/80 R 22.5",
+    "tread":"G365",
+    "rim":22.5,
+    "rr":6.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G367B",
+    "rim":22.5,
+    "rr":7.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"12 R 22.5",
+    "tread":"G377",
+    "rim":22.5,
+    "rr":8.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"12 R 22.5",
+    "tread":"G377 MSD",
+    "rim":22.5,
+    "rr":7.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"12 R 22.5",
+    "tread":"G386",
+    "rim":22.5,
+    "rr":7.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"G465 E",
+    "rim":22.5,
+    "rr":4.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/70 R 22.5",
+    "tread":"G617",
+    "rim":22.5,
+    "rr":5.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G657",
+    "rim":22.5,
+    "rr":5.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/80 R 22.5",
+    "tread":"G658",
+    "rim":22.5,
+    "rr":6.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G658",
+    "rim":22.5,
+    "rr":6.07,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/80 R 22.5",
+    "tread":"G665",
+    "rim":22.5,
+    "rr":6.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/80 R 22.5",
+    "tread":"G665 PLUS",
+    "rim":22.5,
+    "rr":6.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G667",
+    "rim":22.5,
+    "rr":6.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G686 MSS PLUS",
+    "rim":22.5,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"G687",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"KMAX D",
+    "rim":22.5,
+    "rr":5.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"KMAX S",
+    "rim":22.5,
+    "rr":4.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"KMAX S HL",
+    "rim":22.5,
+    "rr":4.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"KMAX T",
+    "rim":22.5,
+    "rr":4.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"KMAX T",
+    "rim":22.5,
+    "rr":4.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"KMAXD",
+    "rim":22.5,
+    "rr":5.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/60 R 22.5",
+    "tread":"LHD",
+    "rim":22.5,
+    "rr":5.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON COACH",
+    "rim":22.5,
+    "rr":5.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHD",
+    "rim":22.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"495/45 R 22.5",
+    "tread":"MARATHON LHD",
+    "rim":22.5,
+    "rr":4.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"MARATHON LHD +",
+    "rim":22.5,
+    "rr":6.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHD + E",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"265/55 R 19.5",
+    "tread":"MARATHON LHD II",
+    "rim":19.5,
+    "rr":6.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/55 R 22.5",
+    "tread":"MARATHON LHD II",
+    "rim":22.5,
+    "rr":5.82,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/60 R 22.5",
+    "tread":"MARATHON LHD II",
+    "rim":22.5,
+    "rr":5.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON LHD II",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"MARATHON LHD II",
+    "rim":22.5,
+    "rr":5.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHD II",
+    "rim":22.5,
+    "rr":5.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"MARATHON LHD II",
+    "rim":22.5,
+    "rr":5.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON LHD II +",
+    "rim":22.5,
+    "rr":5.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"MARATHON LHD II +",
+    "rim":22.5,
+    "rr":5.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHD II +",
+    "rim":22.5,
+    "rr":5.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHS",
+    "rim":22.5,
+    "rr":4.87,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"MARATHON LHS",
+    "rim":22.5,
+    "rr":4.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"MARATHON LHS E",
+    "rim":22.5,
+    "rr":5.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHS E",
+    "rim":22.5,
+    "rr":4.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"355/50 R 22.5",
+    "tread":"MARATHON LHS E",
+    "rim":22.5,
+    "rr":4.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"MARATHON LHS E",
+    "rim":22.5,
+    "rr":4.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON LHS E LR8",
+    "rim":22.5,
+    "rr":4.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/60 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":5.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":4.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":4.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":4.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":4.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"355/50 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":5.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"375/50 R 22.5",
+    "tread":"MARATHON LHS II",
+    "rim":22.5,
+    "rr":4.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"355/50 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"MARATHON LHS II +",
+    "rim":22.5,
+    "rr":4.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"MARATHON LHS II + HL",
+    "rim":22.5,
+    "rr":4.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"MARATHON LHS II+ HL",
+    "rim":22.5,
+    "rr":4.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"MARATHON LHT",
+    "rim":17.5,
+    "rr":5.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"MARATHON LHT",
+    "rim":17.5,
+    "rr":4.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"265/55 R 19.5",
+    "tread":"MARATHON LHT",
+    "rim":19.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"265/70 R 19.5",
+    "tread":"MARATHON LHT",
+    "rim":19.5,
+    "rr":4.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/60 R 19.5",
+    "tread":"MARATHON LHT",
+    "rim":19.5,
+    "rr":4.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"MARATHON LHT",
+    "rim":22.5,
+    "rr":4.56,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"MARATHON LHT",
+    "rim":22.5,
+    "rr":5.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"MARATHON LHT",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"435/50 R 19.5",
+    "tread":"MARATHON LHT",
+    "rim":19.5,
+    "rr":4.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"455/40 R 22.5",
+    "tread":"MARATHON LHT +",
+    "rim":22.5,
+    "rr":4.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"205/65 R 17.5",
+    "tread":"MARATHON LHT E",
+    "rim":17.5,
+    "rr":5.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"MARATHON LHT E",
+    "rim":17.5,
+    "rr":5.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"435/50 R 22.5",
+    "tread":"MARATHON LHT E",
+    "rim":22.5,
+    "rr":3.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"455/40 R 22.5",
+    "tread":"MARATHON LHT E",
+    "rim":22.5,
+    "rr":4.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"MARATHON LHT II",
+    "rim":22.5,
+    "rr":3.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"MARATHON LHT II",
+    "rim":22.5,
+    "rr":3.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"435/50 R 19.5",
+    "tread":"MARATHON LHT II",
+    "rim":19.5,
+    "rr":3.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/70 R 22.5",
+    "tread":"METRO MCD",
+    "rim":22.5,
+    "rr":6.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/70 R 22.5",
+    "tread":"METRO MCS*",
+    "rim":22.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"13 R 22.5",
+    "tread":"OMNITRAC MSD",
+    "rim":22.5,
+    "rr":6.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"OMNITRAC MSD",
+    "rim":22.5,
+    "rr":6.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"495/45 R 22.5",
+    "tread":"OMNITRAC MSD",
+    "rim":22.5,
+    "rr":4.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"13 R 22.5",
+    "tread":"OMNITRAC MSD II",
+    "rim":22.5,
+    "rr":6.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"OMNITRAC MSD II",
+    "rim":22.5,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"OMNITRAC MSD II",
+    "rim":22.5,
+    "rr":4.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"OMNITRAC MSD II DURASEAL",
+    "rim":22.5,
+    "rr":6.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"13 R 22.5",
+    "tread":"OMNITRAC MSS",
+    "rim":22.5,
+    "rr":6.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"OMNITRAC MSS",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"13 R 22.5",
+    "tread":"OMNITRAC MSS II",
+    "rim":22.5,
+    "rr":5.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"OMNITRAC MSS II",
+    "rim":22.5,
+    "rr":5.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"OMNITRAC MSS II",
+    "rim":22.5,
+    "rr":5.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"OMNITRAC MSS II DURASEAL",
+    "rim":22.5,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"OMNITRAC MST",
+    "rim":22.5,
+    "rr":5.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"OMNITRAC MST II",
+    "rim":22.5,
+    "rr":5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"285/70 R 19.5",
+    "tread":"REGIONAL RHD",
+    "rim":19.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"REGIONAL RHD",
+    "rim":22.5,
+    "rr":5.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"REGIONAL RHD II",
+    "rim":22.5,
+    "rr":6.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"REGIONAL RHD II",
+    "rim":22.5,
+    "rr":6.02,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"REGIONAL RHD II +",
+    "rim":22.5,
+    "rr":6.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"REGIONAL RHD II +",
+    "rim":22.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"REGIONAL RHD II+",
+    "rim":17.5,
+    "rr":6.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"REGIONAL RHD II+",
+    "rim":17.5,
+    "rr":5.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"285/70 R 19.5",
+    "tread":"REGIONAL RHS",
+    "rim":19.5,
+    "rr":5.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"REGIONAL RHS",
+    "rim":22.5,
+    "rr":4.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"REGIONAL RHS II",
+    "rim":22.5,
+    "rr":5.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"REGIONAL RHS II",
+    "rim":22.5,
+    "rr":5.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"REGIONAL RHS II",
+    "rim":22.5,
+    "rr":5.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/60 R 22.5",
+    "tread":"REGIONAL RHS II HL",
+    "rim":22.5,
+    "rr":4.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"REGIONAL RHS II HL",
+    "rim":22.5,
+    "rr":4.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"REGIONAL RHS II HL",
+    "rim":22.5,
+    "rr":4.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"REGIONAL RHS II+",
+    "rim":17.5,
+    "rr":5.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"REGIONAL RHS II+ HL",
+    "rim":17.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"REGIONAL RHT",
+    "rim":22.5,
+    "rr":4.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"REGIONAL RHT",
+    "rim":22.5,
+    "rr":4.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"REGIONAL RHT II",
+    "rim":17.5,
+    "rr":4.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"265/70 R 19.5",
+    "tread":"REGIONAL RHT II",
+    "rim":19.5,
+    "rr":4.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/55 R 22.5",
+    "tread":"REGIONAL RHT II",
+    "rim":22.5,
+    "rr":4.15,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"REGIONAL RHT II",
+    "rim":22.5,
+    "rr":4.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"REGIONAL RHT II",
+    "rim":22.5,
+    "rr":4.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"RHD",
+    "rim":17.5,
+    "rr":7.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"RHD",
+    "rim":17.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"RHD",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"RHD II",
+    "rim":17.5,
+    "rr":6.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"285/70 R 19.5",
+    "tread":"RHD II",
+    "rim":19.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/60 R 22.5",
+    "tread":"RHD II",
+    "rim":22.5,
+    "rr":5.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"RHD II",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"RHS",
+    "rim":17.5,
+    "rr":7.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"RHS",
+    "rim":17.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"RHS",
+    "rim":22.5,
+    "rr":5.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"215/75 R 17.5",
+    "tread":"RHS II",
+    "rim":17.5,
+    "rr":6.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 17.5",
+    "tread":"RHS II",
+    "rim":17.5,
+    "rr":6.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"285/70 R 19.5",
+    "tread":"RHS II",
+    "rim":19.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"RHS II",
+    "rim":22.5,
+    "rr":5.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"ULTRA GRIP WTD",
+    "rim":22.5,
+    "rr":6.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"ULTRA GRIP WTD",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/70 R 22.5",
+    "tread":"ULTRA GRIP WTS",
+    "rim":22.5,
+    "rr":5.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"315/80 R 22.5",
+    "tread":"ULTRA GRIP WTS",
+    "rim":22.5,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"295/80 R 22.5",
+    "tread":"ULTRAGRIP COACH",
+    "rim":22.5,
+    "rr":5.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/70 R 22.5",
+    "tread":"URBAN MAX MCA",
+    "rim":22.5,
+    "rr":6.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"275/70 R 22.5",
+    "tread":"URBAN MAX MCD",
+    "rim":22.5,
+    "rr":7.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"245/70 R 19.5",
+    "tread":"URBANMAX MCA",
+    "rim":19.5,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"265/70 R 19.5",
+    "tread":"URBANMAX MCA",
+    "rim":19.5,
+    "rr":5.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GOODYEAR",
+    "size":"385/65 R 22.5",
+    "tread":"WTS",
+    "rim":22.5,
+    "rr":5.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/70 R 22.5",
+    "tread":"GSR220",
+    "rim":22.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/80 R 22.5",
+    "tread":"GSR220",
+    "rim":22.5,
+    "rr":5.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"215/75 R 17.5",
+    "tread":"GT268",
+    "rim":17.5,
+    "rr":6.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"13 R 22.5",
+    "tread":"GT276",
+    "rim":22.5,
+    "rr":6.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/80 R 22.5",
+    "tread":"GT279",
+    "rim":22.5,
+    "rr":5.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/80 R 22.5",
+    "tread":"GT288",
+    "rim":22.5,
+    "rr":5.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/70 R 22.5",
+    "tread":"GT659 +",
+    "rim":22.5,
+    "rr":6.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/80 R 22.5",
+    "tread":"GT659 +",
+    "rim":22.5,
+    "rr":6.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"215/75 R 17.5",
+    "tread":"GT679",
+    "rim":17.5,
+    "rr":7.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/70 R 22.5",
+    "tread":"GT679",
+    "rim":22.5,
+    "rr":6.48,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"315/80 R 22.5",
+    "tread":"GT679",
+    "rim":22.5,
+    "rr":5.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"13 R 22.5",
+    "tread":"GT686",
+    "rim":22.5,
+    "rr":6.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"385/65 R 22.5",
+    "tread":"GT978",
+    "rim":22.5,
+    "rr":4.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"385/55 R 22.5",
+    "tread":"GT988 +",
+    "rim":22.5,
+    "rr":5.02,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"GT RADIAL",
+    "size":"455/45 R 22.5",
+    "tread":"SUPER DAN",
+    "rim":22.5,
+    "rr":5.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"215/75 R 17.5",
+    "tread":"AH06",
+    "rim":17.5,
+    "rr":5.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"215/75 R 17.5",
+    "tread":"AH11",
+    "rim":17.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"265/70 R 19.5",
+    "tread":"AH11",
+    "rim":19.5,
+    "rr":5.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"285/70 R 19.5",
+    "tread":"AH11",
+    "rim":19.5,
+    "rr":5.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"AH11",
+    "rim":22.5,
+    "rr":5.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"295/80 R 22.5",
+    "tread":"AH22",
+    "rim":22.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"AH22",
+    "rim":22.5,
+    "rr":5.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"295/80 R 22.5",
+    "tread":"AH22 +",
+    "rim":22.5,
+    "rr":5.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"AH22 +",
+    "rim":22.5,
+    "rr":5.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"AH22 +",
+    "rim":22.5,
+    "rr":5.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"295/80 R 22.5",
+    "tread":"AL02",
+    "rim":22.5,
+    "rr":4.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/60 R 22.5",
+    "tread":"AL02",
+    "rim":22.5,
+    "rr":5.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"295/80 R 22.5",
+    "tread":"AL10 E CUBE",
+    "rim":22.5,
+    "rr":4.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"AL10 E CUBE",
+    "rim":22.5,
+    "rr":4.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"AL10 E CUBE",
+    "rim":22.5,
+    "rr":5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/55 R 22.5",
+    "tread":"AL10 E CUBE",
+    "rim":22.5,
+    "rr":4.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"12.00 R 20",
+    "tread":"AM01",
+    "rim":20,
+    "rr":6.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"13 R 22.5",
+    "tread":"AM01",
+    "rim":22.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/65 R 22.5",
+    "tread":"AM02",
+    "rim":22.5,
+    "rr":4.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"13 R 22.5",
+    "tread":"AM06",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"AM06",
+    "rim":22.5,
+    "rr":5.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/65 R 22.5",
+    "tread":"AM15",
+    "rim":22.5,
+    "rr":5.48,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"275/70 R 22.5",
+    "tread":"AU03",
+    "rim":22.5,
+    "rr":5.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"215/75 R 17.5",
+    "tread":"DH01",
+    "rim":17.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"215/75 R 17.5",
+    "tread":"DH05",
+    "rim":17.5,
+    "rr":7.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"285/70 R 19.5",
+    "tread":"DH05",
+    "rim":19.5,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"295/80 R 22.5",
+    "tread":"DH05",
+    "rim":22.5,
+    "rr":6.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"DH05",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"DH05",
+    "rim":22.5,
+    "rr":6.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"295/80 R 22.5",
+    "tread":"DL02",
+    "rim":22.5,
+    "rr":6.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"DL02",
+    "rim":22.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"DL10 E CUBE",
+    "rim":22.5,
+    "rr":5.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"DL10 E CUBE",
+    "rim":22.5,
+    "rr":5.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"12.00 R 20",
+    "tread":"DM03",
+    "rim":20,
+    "rr":5.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"13 R 22.5",
+    "tread":"DM03",
+    "rim":22.5,
+    "rr":6.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/80 R 22.5",
+    "tread":"DM03",
+    "rim":22.5,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"13 R 22.5",
+    "tread":"DM04",
+    "rim":22.5,
+    "rr":6.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"SMART FLEX AH31",
+    "rim":22.5,
+    "rr":5.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"315/70 R 22.5",
+    "tread":"SMART FLEX DH31",
+    "rim":22.5,
+    "rr":6.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/65 R 22.5",
+    "tread":"TH02",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"235/75 R 17.5",
+    "tread":"TH10",
+    "rim":17.5,
+    "rr":5.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/55 R 22.5",
+    "tread":"TH10",
+    "rim":22.5,
+    "rr":4.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/55 R 22.5",
+    "tread":"TH10",
+    "rim":22.5,
+    "rr":4.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/65 R 22.5",
+    "tread":"TH10",
+    "rim":22.5,
+    "rr":4.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/65 R 22.5",
+    "tread":"TH22",
+    "rim":22.5,
+    "rr":5.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"385/65 R 22.5",
+    "tread":"TL10 E CUBE",
+    "rim":22.5,
+    "rr":4.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"HANKOOK",
+    "size":"445/45 R 19.5",
+    "tread":"TL10 E CUBE",
+    "rim":19.5,
+    "rr":4.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"10.00 R 20",
+    "tread":"JDH",
+    "rim":20,
+    "rr":6.48,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"10.00 R 20",
+    "tread":"JET R MILES",
+    "rim":20,
+    "rr":8.93,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"10.00 R 20",
+    "tread":"JET TRAK",
+    "rim":20,
+    "rr":7.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"10.00 R 20",
+    "tread":"JUC2",
+    "rim":20,
+    "rr":6.02,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"10.00 R 20",
+    "tread":"JUH*",
+    "rim":20,
+    "rr":5.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"10.00 R 20",
+    "tread":"JUH3",
+    "rim":20,
+    "rr":5.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK TYRE",
+    "size":"295/80 R 22.5",
+    "tread":"JUL",
+    "rim":22.5,
+    "rr":5.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KAMA",
+    "size":"11.00 R 20",
+    "tread":"111AM",
+    "rim":20,
+    "rr":7.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KAMA",
+    "size":"315/80 R 22.5",
+    "tread":"NF201",
+    "rim":22.5,
+    "rr":4.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KAMA",
+    "size":"315/80 R 22.5",
+    "tread":"NR201",
+    "rim":22.5,
+    "rr":6.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KAMA",
+    "size":"385/65 R 22.5",
+    "tread":"NT201",
+    "rim":22.5,
+    "rr":4.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"D",
+    "rim":17.5,
+    "rr":7.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/70 R 22.5",
+    "tread":"D",
+    "rim":22.5,
+    "rr":6.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/70 R 22.5",
+    "tread":"F",
+    "rim":22.5,
+    "rr":5.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/80 R 22.5",
+    "tread":"F",
+    "rim":22.5,
+    "rr":4.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"275/70 R 22.5",
+    "tread":"KORMORAN C",
+    "rim":22.5,
+    "rr":6.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11 R 22.5",
+    "tread":"KORMORAN C TL 148/145J KO",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"275/70 R 22.5",
+    "tread":"KORMORAN C TL 148/145J KO",
+    "rim":22.5,
+    "rr":6.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"275/70 R 22.5",
+    "tread":"KORMORAN C TL 148/145J MS KO",
+    "rim":22.5,
+    "rr":6.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"295/80 R 22.5",
+    "tread":"KORMORAN C TL 152/148J MS KO",
+    "rim":22.5,
+    "rr":6.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN D",
+    "rim":22.5,
+    "rr":6.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"10.00 R 20",
+    "tread":"KORMORAN D 146/143K KO",
+    "rim":20,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11.00 R 20",
+    "tread":"KORMORAN D 150/146K KO",
+    "rim":20,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN D ON/OFF",
+    "rim":22.5,
+    "rr":6.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11 R 22.5",
+    "tread":"KORMORAN D ON/OFF TL 148/145K KO",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"12 R 22.5",
+    "tread":"KORMORAN D ON/OFF TL 152/148K KO",
+    "rim":22.5,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"295/80 R 22.5",
+    "tread":"KORMORAN D ON/OFF TL 152/148K KO",
+    "rim":22.5,
+    "rr":6.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"12.00 R 20",
+    "tread":"KORMORAN D ON/OFF TL 154/150K KO",
+    "rim":20,
+    "rr":6.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN D ON/OFF TL 154/150K NL KO",
+    "rim":22.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN D ON/OFF TL 156/150K KO",
+    "rim":22.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN D TL 126/124M KO",
+    "rim":17.5,
+    "rr":7.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"265/70 R 19.5",
+    "tread":"KORMORAN D TL 140/138M KO",
+    "rim":19.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11 R 22.5",
+    "tread":"KORMORAN D TL 148/145L KO",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"12 R 22.5",
+    "tread":"KORMORAN D TL 152/148L KO",
+    "rim":22.5,
+    "rr":6.73,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/70 R 22.5",
+    "tread":"KORMORAN D TL 154/150L KO",
+    "rim":22.5,
+    "rr":6.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN F ON/OFF",
+    "rim":22.5,
+    "rr":5.56,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11 R 22.5",
+    "tread":"KORMORAN F ON/OFF TL 148/145K KO",
+    "rim":22.5,
+    "rr":5.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"12 R 22.5",
+    "tread":"KORMORAN F ON/OFF TL 152/148K KO",
+    "rim":22.5,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"295/80 R 22.5",
+    "tread":"KORMORAN F ON/OFF TL 152/148K KO",
+    "rim":22.5,
+    "rr":5.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN F ON/OFF TL 154/150K MS KO",
+    "rim":22.5,
+    "rr":6.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN F ON/OFF TL 156/150K MS KO",
+    "rim":22.5,
+    "rr":6.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"265/70 R 19.5",
+    "tread":"KORMORAN F TL 140/138M MS KO",
+    "rim":19.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/70 R 22.5",
+    "tread":"KORMORAN F TL 154/150L MS KO",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"385/65 R 22.5",
+    "tread":"KORMORAN ON/OFF TL 158K MS KO",
+    "rim":22.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN ROADS 2D TL 126/124M KO",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"KORMORAN ROADS 2D TL 132/130M KO",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"245/70 R 17.5",
+    "tread":"KORMORAN ROADS 2D TL 136/134M KO",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN ROADS 2F TL 126/124M KO",
+    "rim":17.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"KORMORAN ROADS 2F TL 132/130M KO",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"245/70 R 17.5",
+    "tread":"KORMORAN ROADS 2F TL 136/134M KO",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN ROADS 2T TL 135/133J KO",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"KORMORAN ROADS 2T TL 143/141J KO",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"245/70 R 17.5",
+    "tread":"KORMORAN ROADS 2T TL 143/141J KO",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"225/75 R 17.5",
+    "tread":"KORMORAN ROADS D TL 129/127M KO",
+    "rim":17.5,
+    "rr":6.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"KORMORAN ROADS D TL 132/130M KO",
+    "rim":17.5,
+    "rr":7.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"285/70 R 19.5",
+    "tread":"KORMORAN ROADS D TL 146/144L KO",
+    "rim":19.5,
+    "rr":5.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"295/80 R 22.5",
+    "tread":"KORMORAN ROADS D TL 152/148M KO",
+    "rim":22.5,
+    "rr":6.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN ROADS D TL 156/150L KO",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"225/75 R 17.5",
+    "tread":"KORMORAN ROADS F TL 129/127M KO",
+    "rim":17.5,
+    "rr":5.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"KORMORAN ROADS F TL 132/130M MS KO",
+    "rim":17.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"285/70 R 19.5",
+    "tread":"KORMORAN ROADS F TL 146/144L MS KO",
+    "rim":19.5,
+    "rr":5.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"295/80 R 22.5",
+    "tread":"KORMORAN ROADS F TL 152/148M MS KO",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN ROADS F TL 156/150L MS KO",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"KORMORAN ROADS T TL 143/141J KO",
+    "rim":17.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"8.25 R 15",
+    "tread":"KORMORAN T 143/141G KO",
+    "rim":15,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN T TL 135/133J KO",
+    "rim":17.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"245/70 R 17.5",
+    "tread":"KORMORAN T TL 143/141J KO",
+    "rim":17.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"265/70 R 19.5",
+    "tread":"KORMORAN T TL 143/141J NL KO",
+    "rim":19.5,
+    "rr":5.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"365/80 R 20",
+    "tread":"KORMORAN T TL 160J KO",
+    "rim":20,
+    "rr":4.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"385/65 R 22.5",
+    "tread":"KORMORAN T TL 160J KO",
+    "rim":22.5,
+    "rr":4.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN U",
+    "rim":17.5,
+    "rr":6.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"10.00 R 20",
+    "tread":"KORMORAN U 146/143K MS KO",
+    "rim":20,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11.00 R 20",
+    "tread":"KORMORAN U 150/146K MS KO",
+    "rim":20,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"8.5 R 17.5",
+    "tread":"KORMORAN U TL 121/120M KO",
+    "rim":17.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN U TL 126/124M MS KO",
+    "rim":17.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"10 R 22.5",
+    "tread":"KORMORAN U TL 144/142L KO",
+    "rim":22.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"11 R 22.5",
+    "tread":"KORMORAN U TL 148/145L MS KO",
+    "rim":23,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"275/70 R 22.5",
+    "tread":"KORMORAN U TL 148/145M MS KO",
+    "rim":22.5,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"12 R 22.5",
+    "tread":"KORMORAN U TL 152/148L MS KO",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"12.00 R 20",
+    "tread":"KORMORAN U TL 154/150K MS KO",
+    "rim":20,
+    "rr":5.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"235/75 R 17.5",
+    "tread":"T",
+    "rim":17.5,
+    "rr":5.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KORMORAN",
+    "size":"385/65 R 22.5",
+    "tread":"T",
+    "rim":22.5,
+    "rr":4.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KUMHO",
+    "size":"315/80 R 22.5",
+    "tread":"945",
+    "rim":22.5,
+    "rr":5.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KUMHO",
+    "size":"315/80 R 22.5",
+    "tread":"964",
+    "rim":22.5,
+    "rr":5.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KUMHO",
+    "size":"295/80 R 22.5",
+    "tread":"KRD02",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"KUMHO",
+    "size":"295/80 R 22.5",
+    "tread":"KSR15",
+    "rim":22.5,
+    "rr":5.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"LASSA",
+    "size":"12 R 22.5",
+    "tread":"ENERGIA 5500",
+    "rim":22.5,
+    "rr":8.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"LINGLONG",
+    "size":"315/70 R 22.5",
+    "tread":"D905",
+    "rim":22.5,
+    "rr":6.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"LINGLONG",
+    "size":"385/65 R 22.5",
+    "tread":"LLA18",
+    "rim":22.5,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"275/70 R 22.5",
+    "tread":"CITY FU1",
+    "rim":22.5,
+    "rr":5.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"13 R 22.5",
+    "tread":"DM1",
+    "rim":22.5,
+    "rr":6.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"315/80 R 22.5",
+    "tread":"DM1",
+    "rim":22.5,
+    "rr":6.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"315/70 R 22.5",
+    "tread":"DR1",
+    "rim":22.5,
+    "rr":6.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"315/80 R 22.5",
+    "tread":"DR1",
+    "rim":22.5,
+    "rr":6.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"215/75 R 17.5",
+    "tread":"DR3",
+    "rim":17.5,
+    "rr":7.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"225/75 R 17.5",
+    "tread":"DR3",
+    "rim":17.5,
+    "rr":7.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"385/65 R 22.5",
+    "tread":"FH2",
+    "rim":22.5,
+    "rr":4.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"13 R 22.5",
+    "tread":"FM1",
+    "rim":22.5,
+    "rr":5.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"315/80 R 22.5",
+    "tread":"FM2",
+    "rim":22.5,
+    "rr":5.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"315/70 R 22.5",
+    "tread":"FR2",
+    "rim":22.5,
+    "rr":5.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"315/80 R 22.5",
+    "tread":"FR2",
+    "rim":22.5,
+    "rr":5.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"215/75 R 17.5",
+    "tread":"FR3",
+    "rim":17.5,
+    "rr":7.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"225/75 R 17.5",
+    "tread":"FR3",
+    "rim":17.5,
+    "rr":6.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"385/65 R 22.5",
+    "tread":"TH1",
+    "rim":22.5,
+    "rr":4.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"235/75 R 17.5",
+    "tread":"TH2",
+    "rim":17.5,
+    "rr":5.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MATADOR",
+    "size":"385/65 R 22.5",
+    "tread":"TM1",
+    "rim":22.5,
+    "rr":5.41,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MAXXIS",
+    "size":"295/80 R 22.5",
+    "tread":"UR288",
+    "rim":22.5,
+    "rr":5.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"X LINE ENERGY D2",
+    "rim":22.5,
+    "rr":3.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"X COACH HL Z",
+    "rim":22.5,
+    "rr":5.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"X COACH XD",
+    "rim":22.5,
+    "rr":6.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/60 R 22.5",
+    "tread":"X ENERGY XF",
+    "rim":22.5,
+    "rr":5.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/60 R 22.5",
+    "tread":"X ENERGY XF",
+    "rim":22.5,
+    "rr":5.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"275/70 R 22.5",
+    "tread":"X INCITY HL Z",
+    "rim":22.5,
+    "rr":5.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"275/70 R 22.5",
+    "tread":"X INCITY XZU",
+    "rim":22.5,
+    "rr":6.12,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"X LINE ENERGY D",
+    "rim":22.5,
+    "rr":4.61,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"X LINE ENERGY D",
+    "rim":22.5,
+    "rr":4.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"X LINE ENERGY D2",
+    "rim":22.5,
+    "rr":3.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/55 R 22.5",
+    "tread":"X LINE ENERGY F",
+    "rim":22.5,
+    "rr":3.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"X LINE ENERGY F",
+    "rim":22.5,
+    "rr":4.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"265/70 R 19.5",
+    "tread":"X LINE ENERGY T",
+    "rim":19.5,
+    "rr":4.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/55 R 22.5",
+    "tread":"X LINE ENERGY T",
+    "rim":22.5,
+    "rr":3.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"X LINE ENERGY T",
+    "rim":22.5,
+    "rr":3.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"X LINE ENERGY Z",
+    "rim":22.5,
+    "rr":4.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"X LINE ENERGY Z",
+    "rim":22.5,
+    "rr":4.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"205/65 R 17.5",
+    "tread":"X MAXITRAILER",
+    "rim":17.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"285/70 R 19.5",
+    "tread":"X MULTI D",
+    "rim":19.5,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"265/70 R 19.5",
+    "tread":"X MULTI D TL",
+    "rim":19.5,
+    "rr":6.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"X MULTI F",
+    "rim":22.5,
+    "rr":5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/55 R 22.5",
+    "tread":"X MULTI T",
+    "rim":22.5,
+    "rr":4.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"X MULTI T",
+    "rim":22.5,
+    "rr":4.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"X MULTI WINTER T",
+    "rim":22.5,
+    "rr":5.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"X MULTI WINTER Z",
+    "rim":22.5,
+    "rr":6.52,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"265/70 R 19.5",
+    "tread":"X MULTI Z",
+    "rim":19.5,
+    "rr":6.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"285/70 R 19.5",
+    "tread":"X MULTI Z",
+    "rim":19.5,
+    "rr":5.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"X MULTIWAY 3D XDE",
+    "rim":22.5,
+    "rr":6.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"X MULTIWAY 3D XDE",
+    "rim":22.5,
+    "rr":6.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"X MULTIWAY 3D XDE",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"X MULTIWAY 3D XZE",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"X MULTIWAY 3D XZE",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"X MULTIWAY 3D XZE",
+    "rim":22.5,
+    "rr":5.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/60 R 22.5",
+    "tread":"X MULTIWAY XD",
+    "rim":22.5,
+    "rr":7.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/60 R 22.5",
+    "tread":"X MULTIWAY XD",
+    "rim":22.5,
+    "rr":7.5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"455/45 R 22.5",
+    "tread":"X ONE MAXITRAILER +",
+    "rim":22.5,
+    "rr":4.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"495/45 R 22.5",
+    "tread":"X ONE MULTI D",
+    "rim":22.5,
+    "rr":6.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"455/45 R 22.5",
+    "tread":"X ONE XDU",
+    "rim":22.5,
+    "rr":5.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"495/45 R 22.5",
+    "tread":"X ONE XDU",
+    "rim":22.5,
+    "rr":5.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"13 R 22.5",
+    "tread":"X WORKS XDY",
+    "rim":22.5,
+    "rr":6.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"X WORKS XDY",
+    "rim":22.5,
+    "rr":6.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"13 R 22.5",
+    "tread":"X WORKS XZY",
+    "rim":22.5,
+    "rr":5.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"X WORKS XZY",
+    "rim":22.5,
+    "rr":5.6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/60 R 22.5",
+    "tread":"XDA 2+ ENERGY",
+    "rim":22.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"XDA 2+ ENERGY",
+    "rim":22.5,
+    "rr":5.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/60 R 22.5",
+    "tread":"XDA 2+ ENERGY",
+    "rim":22.5,
+    "rr":6,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"205/75 R 17.5",
+    "tread":"XDE 2",
+    "rim":17.5,
+    "rr":7.15,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"XDE2+",
+    "rim":22.5,
+    "rr":7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"XDW ICE GRIP",
+    "rim":22.5,
+    "rr":6.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"XDW ICE GRIP",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"XDW ICE GRIP",
+    "rim":22.5,
+    "rr":6.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/55 R 22.5",
+    "tread":"XFA2 ENERGY AS",
+    "rim":22.5,
+    "rr":4.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/70 R 22.5",
+    "tread":"XFN 2 AS",
+    "rim":22.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/55 R 22.5",
+    "tread":"XFN 2 AS",
+    "rim":22.5,
+    "rr":5.25,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"XFN 2 AS",
+    "rim":22.5,
+    "rr":5.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/80 R 22.5",
+    "tread":"XFN 2+",
+    "rim":22.5,
+    "rr":6.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"445/45 R 19.5",
+    "tread":"XTA 2+ ENERGY",
+    "rim":19.5,
+    "rr":4.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"265/70 R 19.5",
+    "tread":"XTE2",
+    "rim":19.5,
+    "rr":5.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"285/70 R 19.5",
+    "tread":"XTE2",
+    "rim":19.5,
+    "rr":5.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"425/65 R 22.5",
+    "tread":"XTE2",
+    "rim":22.5,
+    "rr":4.68,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"445/65 R 22.5",
+    "tread":"XTE2",
+    "rim":22.5,
+    "rr":4.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"265/70 R 19.5",
+    "tread":"XTY2",
+    "rim":19.5,
+    "rr":6.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/60 R 22.5",
+    "tread":"XZA2 ENERGY",
+    "rim":22.5,
+    "rr":5.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"XZA2 ENERGY",
+    "rim":22.5,
+    "rr":4.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"315/60 R 22.5",
+    "tread":"XZA2 ENERGY",
+    "rim":22.5,
+    "rr":5.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"11 R 22.5",
+    "tread":"XZU3+",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"385/65 R 22.5",
+    "tread":"XZY 3",
+    "rim":22.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"425/65 R 22.5",
+    "tread":"XZY 3",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"445/65 R 22.5",
+    "tread":"XZY 3",
+    "rim":22.5,
+    "rr":5.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MRF",
+    "size":"10.00 R 20",
+    "tread":"S1R4",
+    "rim":20,
+    "rr":6.34,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MRF",
+    "size":"295/80 R 22.5",
+    "tread":"S1R4",
+    "rim":22.5,
+    "rr":5.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MRF",
+    "size":"10.00 R 20",
+    "tread":"SUPER FIFTY PLUS",
+    "rim":20,
+    "rr":8.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MRF",
+    "size":"10.00 R 20",
+    "tread":"SUPER MILER 909",
+    "rim":20,
+    "rr":7.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"NOKIAN",
+    "size":"315/70 R 22.5",
+    "tread":"NTR831",
+    "rim":22.5,
+    "rr":6.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FG:01",
+    "rim":22.5,
+    "rr":6.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"FG85",
+    "rim":22.5,
+    "rr":6.01,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FH:01",
+    "rim":22.5,
+    "rr":5.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/70 R 22.5",
+    "tread":"FH01",
+    "rim":22.5,
+    "rr":4.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"FH01",
+    "rim":22.5,
+    "rr":4.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/55 R 22.5",
+    "tread":"FH01",
+    "rim":22.5,
+    "rr":4.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"11.00 R 22",
+    "tread":"FH55",
+    "rim":22,
+    "rr":5.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FH55",
+    "rim":22.5,
+    "rr":5.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/65 R 22.5",
+    "tread":"FH55",
+    "rim":22.5,
+    "rr":5.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FH75",
+    "rim":22.5,
+    "rr":6.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FH85 AMARANTO",
+    "rim":22.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"FH85 AMARANTO",
+    "rim":22.5,
+    "rr":5.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/70 R 22.5",
+    "tread":"FH88 AMARANTO",
+    "rim":22.5,
+    "rr":5.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"275/80 R 22.5",
+    "tread":"FR:01",
+    "rim":22.5,
+    "rr":5.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FR:01",
+    "rim":22.5,
+    "rr":5.44,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"FR:01",
+    "rim":22.5,
+    "rr":5.19,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/70 R 22.5",
+    "tread":"FR01",
+    "rim":22.5,
+    "rr":4.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"FR01",
+    "rim":22.5,
+    "rr":5.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"275/80 R 22.5",
+    "tread":"FR85 VANGUARD",
+    "rim":22.5,
+    "rr":5.82,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"FR85 VANGUARD",
+    "rim":22.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"FW01",
+    "rim":22.5,
+    "rr":5.48,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"275/80 R 22.5",
+    "tread":"MC:01",
+    "rim":22.5,
+    "rr":5.69,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"215/75 R 17.5",
+    "tread":"MC45",
+    "rim":17.5,
+    "rr":7.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"275/80 R 22.5",
+    "tread":"MC85 ALPHA",
+    "rim":22.5,
+    "rr":5.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"275/80 R 22.5",
+    "tread":"MC95",
+    "rim":22.5,
+    "rr":5.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"MC95",
+    "rim":22.5,
+    "rr":5.93,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"335/80 R 20",
+    "tread":"PISTA PS22",
+    "rim":20,
+    "rr":6.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/55 R 22.5",
+    "tread":"ST:01 BASE",
+    "rim":22.5,
+    "rr":3.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/55 R 22.5",
+    "tread":"ST:01 NEVERENDING",
+    "rim":22.5,
+    "rr":3.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/55 R 22.5",
+    "tread":"ST01",
+    "rim":22.5,
+    "rr":4.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/65 R 22.5",
+    "tread":"ST01",
+    "rim":22.5,
+    "rr":4.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"435/50 R 19.5",
+    "tread":"ST01",
+    "rim":19.5,
+    "rr":4.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/65 R 22.5",
+    "tread":"ST01 NEVERENDING",
+    "rim":22.5,
+    "rr":3.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"385/55 R 22.5",
+    "tread":"ST35",
+    "rim":22.5,
+    "rr":4.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"205/65 R 17.5",
+    "tread":"ST55",
+    "rim":17.5,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"TG:01",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/70 R 22.5",
+    "tread":"TH01",
+    "rim":22.5,
+    "rr":5.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"TH01",
+    "rim":22.5,
+    "rr":5.56,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"TH65",
+    "rim":22.5,
+    "rr":6.79,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"TH85 AMARANTO",
+    "rim":22.5,
+    "rr":6.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/70 R 22.5",
+    "tread":"TH88 AMARANTO",
+    "rim":22.5,
+    "rr":7.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"TR01",
+    "rim":22.5,
+    "rr":6.57,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/70 R 22.5",
+    "tread":"TR01",
+    "rim":22.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"315/80 R 22.5",
+    "tread":"TR01",
+    "rim":22.5,
+    "rr":6.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PIRELLI",
+    "size":"295/80 R 22.5",
+    "tread":"TR85",
+    "rim":22.5,
+    "rr":7.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"PRIME WELL",
+    "size":"11.00 R 20",
+    "tread":"PW01",
+    "rim":20,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"215/75 R 17.5",
+    "tread":"EXTENGO 2 D TL 126/124M VG RI",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"235/75 R 17.5",
+    "tread":"EXTENGO 2 D TL 132/130M VG RI",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"245/70 R 17.5",
+    "tread":"EXTENGO 2 D TL 136/134M VG RI",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"295/80 R 22.5",
+    "tread":"EXTENGO 2 D TL 152/148M RI",
+    "rim":22.5,
+    "rr":6.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"315/80 R 22.5",
+    "tread":"EXTENGO 2 D TL 156/150L RI",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"215/75 R 17.5",
+    "tread":"EXTENGO 2 F TL 126/124M VG RI",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"235/75 R 17.5",
+    "tread":"EXTENGO 2 F TL 132/130M VG RI",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"245/70 R 17.5",
+    "tread":"EXTENGO 2 F TL 136/134M VG RI",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"295/80 R 22.5",
+    "tread":"EXTENGO 2 F TL 152/148M RI",
+    "rim":22.5,
+    "rr":5.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"315/80 R 22.5",
+    "tread":"EXTENGO 2 F TL 156/150L RI",
+    "rim":22.5,
+    "rr":5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"215/75 R 17.5",
+    "tread":"EXTENGO 2 T TL 135/133J VG RI",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"235/75 R 17.5",
+    "tread":"EXTENGO 2 T TL 143/141J RI",
+    "rim":17.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"235/75 R 17.5",
+    "tread":"EXTENGO 2 T TL 143/141J VG RI",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"245/70 R 17.5",
+    "tread":"EXTENGO 2 T TL 143/141J VG RI",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"215/75 R 17.5",
+    "tread":"EXTENGO DRIVE TL 126/124M RI",
+    "rim":17.5,
+    "rr":7.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"265/70 R 19.5",
+    "tread":"EXTENGO DRIVE TL 140/138M RI",
+    "rim":19.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"12 R 22.5",
+    "tread":"EXTENGO DRIVE TL 152/148L NL RI",
+    "rim":22.5,
+    "rr":6.46,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"315/70 R 22.5",
+    "tread":"EXTENGO DRIVE TL 154/150L RI",
+    "rim":22.5,
+    "rr":6.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"215/75 R 17.5",
+    "tread":"EXTENGO TL 126/124M RI",
+    "rim":17.5,
+    "rr":6.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"265/70 R 19.5",
+    "tread":"EXTENGO TL 140/138M NL RI",
+    "rim":19.5,
+    "rr":5.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"275/70 R 22.5",
+    "tread":"EXTENGO TL 148/145M RI",
+    "rim":22.5,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"12 R 22.5",
+    "tread":"EXTENGO TL 152/148L NL RI",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"315/70 R 22.5",
+    "tread":"EXTENGO TL 154/150L RI",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"8.25 R 15",
+    "tread":"EXTENGO TRAILER 143/141G RI",
+    "rim":15,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"215/75 R 17.5",
+    "tread":"EXTENGO TRAILER TL 135/133J RI",
+    "rim":17.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"265/70 R 19.5",
+    "tread":"EXTENGO TRAILER TL 143/141J NL RI",
+    "rim":19.5,
+    "rr":5.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"245/70 R 17.5",
+    "tread":"EXTENGO TRAILER TL 143/141J RI",
+    "rim":17.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"385/65 R 22.5",
+    "tread":"EXTENGO TRAILER TL 160J NL RI",
+    "rim":22.5,
+    "rr":4.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"12 R 22.5",
+    "tread":"GRIPSTAR DRIVE TL 152/148K RI",
+    "rim":22.5,
+    "rr":6.55,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"13 R 22.5",
+    "tread":"GRIPSTAR DRIVE TL 154/150K NL RI",
+    "rim":22.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"315/80 R 22.5",
+    "tread":"GRIPSTAR DRIVE TL 156/150K RI",
+    "rim":22.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"11 R 22.5",
+    "tread":"GRIPSTAR TL 148/145K RI",
+    "rim":22.5,
+    "rr":5.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"12 R 22.5",
+    "tread":"GRIPSTAR TL 152/148K",
+    "rim":22.5,
+    "rr":6.13,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"13 R 22.5",
+    "tread":"GRIPSTAR TL 154/150K NL RI",
+    "rim":22.5,
+    "rr":5.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"315/80 R 22.5",
+    "tread":"GRIPSTAR TL 156/150K RI",
+    "rim":22.5,
+    "rr":5.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"RIKEN",
+    "size":"385/65 R 22.5",
+    "tread":"GRIPSTAR TL 158K RI",
+    "rim":22.5,
+    "rr":5.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"215/75 R 17.5",
+    "tread":"AVANT A3",
+    "rim":17.5,
+    "rr":6.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"225/75 R 17.5",
+    "tread":"AVANT A3",
+    "rim":17.5,
+    "rr":6.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"315/80 R 22.5",
+    "tread":"AVANT A3",
+    "rim":22.5,
+    "rr":4.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"315/80 R 22.5",
+    "tread":"AVANT A3 PLUS",
+    "rim":22.5,
+    "rr":5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"13 R 22.5",
+    "tread":"AVANT MS2",
+    "rim":22.5,
+    "rr":5.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"235/75 R 17.5",
+    "tread":"CARGO C3",
+    "rim":17.5,
+    "rr":5.21,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"385/65 R 22.5",
+    "tread":"CARGO C3",
+    "rim":22.5,
+    "rr":4.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"385/65 R 22.5",
+    "tread":"CARGO C3 PLUS",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"275/70 R 22.5",
+    "tread":"CITY U4",
+    "rim":22.5,
+    "rr":6.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"315/80 R 22.5",
+    "tread":"ORJAK 03 PLUS",
+    "rim":22.5,
+    "rr":6.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SAVA",
+    "size":"13 R 22.5",
+    "tread":"ORJAK MS",
+    "rim":22.5,
+    "rr":6.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"SEMPERIT",
+    "size":"385/55 R 22.5",
+    "tread":"EURO-TRAILER",
+    "rim":22.5,
+    "rr":5.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"11.00 R 20",
+    "tread":"D77 M",
+    "rim":20,
+    "rr":7.2,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/70 R 22.5",
+    "tread":"K0RMORAN F",
+    "rim":22.5,
+    "rr":5.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/70 R 22.5",
+    "tread":"KORMORAN D",
+    "rim":22.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN D ON/OFF",
+    "rim":22.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN D ON/OFF",
+    "rim":22.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN D ON/OFF",
+    "rim":22.5,
+    "rr":6.4,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN F",
+    "rim":22.5,
+    "rr":4.83,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/80 R 22.5",
+    "tread":"KORMORAN F",
+    "rim":22.5,
+    "rr":4.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN F ON/OFF",
+    "rim":22.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"13 R 22.5",
+    "tread":"KORMORAN F ON/OFF",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"385/65 R 22.5",
+    "tread":"KORMORAN T",
+    "rim":22.5,
+    "rr":4.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"385/65 R 22.5",
+    "tread":"KORMORAN T",
+    "rim":22.5,
+    "rr":4.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"11.00 R 20",
+    "tread":"KORMORAN U",
+    "rim":20,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"11.00 R 20",
+    "tread":"KORMORAN U",
+    "rim":20,
+    "rr":5.71,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"11.00 R 20",
+    "tread":"KORMORAN U",
+    "rim":20,
+    "rr":5.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"215/75 R 17.5",
+    "tread":"KORMORAN U",
+    "rim":17.5,
+    "rr":6.75,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/80 R 22.5",
+    "tread":"STEEL D",
+    "rim":22.5,
+    "rr":7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/80 R 22.5",
+    "tread":"STEEL D",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/80 R 22.5",
+    "tread":"STEEL F",
+    "rim":22.5,
+    "rr":6.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"315/80 R 22.5",
+    "tread":"STEEL F",
+    "rim":22.5,
+    "rr":5.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"STOMIL",
+    "size":"385/65 R 22.5",
+    "tread":"STEEL T",
+    "rim":22.5,
+    "rr":4.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"9.00 R 20",
+    "tread":"RFT 5",
+    "rim":20,
+    "rr":6.91,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TAURUS ROADS 2D TL 126/124M TA",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"235/75 R 17.5",
+    "tread":"TAURUS ROADS 2D TL 132/130M TA",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"245/70 R 17.5",
+    "tread":"TAURUS ROADS 2D TL 136/134M TA",
+    "rim":17.5,
+    "rr":6.92,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TAURUS ROADS 2F TL 126/124M TA",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"235/75 R 17.5",
+    "tread":"TAURUS ROADS 2F TL 132/130M TA",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"245/70 R 17.5",
+    "tread":"TAURUS ROADS 2F TL 136/134M TA",
+    "rim":17.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TAURUS ROADS 2T TL 135/133J TA",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"235/75 R 17.5",
+    "tread":"TAURUS ROADS 2T TL 143/141J TA",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"245/70 R 17.5",
+    "tread":"TAURUS ROADS 2T TL 143/141J TA",
+    "rim":17.5,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"225/75 R 17.5",
+    "tread":"TAURUS ROADS D TL 129/127M TA",
+    "rim":17.5,
+    "rr":6.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"235/75 R 17.5",
+    "tread":"TAURUS ROADS D TL 132/130M TA",
+    "rim":17.5,
+    "rr":7.14,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"285/70 R 19.5",
+    "tread":"TAURUS ROADS D TL 146/144L TA",
+    "rim":19.5,
+    "rr":5.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"295/80 R 22.5",
+    "tread":"TAURUS ROADS D TL 152/148M TA",
+    "rim":22.5,
+    "rr":6.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TAURUS ROADS D TL 156/150L TA",
+    "rim":22.5,
+    "rr":6.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"225/75 R 17.5",
+    "tread":"TAURUS ROADS F TL 129/127M TA",
+    "rim":17.5,
+    "rr":5.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"235/75 R 17.5",
+    "tread":"TAURUS ROADS F TL 132/130M TA",
+    "rim":17.5,
+    "rr":5.77,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"285/70 R 19.5",
+    "tread":"TAURUS ROADS F TL 146/144L TA",
+    "rim":19.5,
+    "rr":5.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"295/80 R 22.5",
+    "tread":"TAURUS ROADS F TL 152/148M TA",
+    "rim":22.5,
+    "rr":5.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TAURUS ROADS F TL 156/150L TA",
+    "rim":22.5,
+    "rr":5,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"235/75 R 17.5",
+    "tread":"TAURUS ROADS T TL 143/141J TA",
+    "rim":17.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"275/70 R 22.5",
+    "tread":"TOP 2000 C TL 148/145J TA",
+    "rim":22.5,
+    "rr":6.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TOP 2000 D TL 126/124M TA",
+    "rim":17.5,
+    "rr":7.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"265/70 R 19.5",
+    "tread":"TOP 2000 D TL 140/138M TA",
+    "rim":19.5,
+    "rr":6.74,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"11 R 22.5",
+    "tread":"TOP 2000 D TL 148/145L TA",
+    "rim":22.5,
+    "rr":6.27,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12 R 22.5",
+    "tread":"TOP 2000 D TL 152/148L TA",
+    "rim":22.5,
+    "rr":6.73,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/70 R 22.5",
+    "tread":"TOP 2000 D TL 154/150L TA",
+    "rim":22.5,
+    "rr":6.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12 R 22.5",
+    "tread":"TOP 2000 F 152/148L TL",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"265/70 R 19.5",
+    "tread":"TOP 2000 F TL 140/138M NL TA",
+    "rim":19.5,
+    "rr":5.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/70 R 22.5",
+    "tread":"TOP 2000 F TL 154/150L TA",
+    "rim":22.5,
+    "rr":5.54,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"385/65 R 22.5",
+    "tread":"TOP 2000 T",
+    "rim":22.5,
+    "rr":5.56,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"8.25 R 15",
+    "tread":"TOP 2000 T 143/141G TA",
+    "rim":15,
+    "rr":6.26,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TOP 2000 T TL 135/133J TA",
+    "rim":17.5,
+    "rr":5.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"265/70 R 19.5",
+    "tread":"TOP 2000 T TL 143/141J NL TA",
+    "rim":19.5,
+    "rr":5.33,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"245/70 R 17.5",
+    "tread":"TOP 2000 T TL 143/141J TA",
+    "rim":17.5,
+    "rr":5.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"385/65 R 22.5",
+    "tread":"TOP 2000 T TL 160J BRUIT 1 TA",
+    "rim":22.5,
+    "rr":4.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TOP 2000 U TL 126/124M TA",
+    "rim":17.5,
+    "rr":6.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"11 R 22.5",
+    "tread":"TOP 2000 U TL 148/145L TA",
+    "rim":22.5,
+    "rr":5.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12.00 R 20",
+    "tread":"TOP 2000 U TL 154/150K TA",
+    "rim":20,
+    "rr":5.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TOP 300",
+    "rim":22.5,
+    "rr":5.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TOP 300",
+    "rim":22.5,
+    "rr":5.47,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TOP 401",
+    "rim":22.5,
+    "rr":5.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TOP 401",
+    "rim":22.5,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12.00 R 20",
+    "tread":"TOP 420",
+    "rim":20,
+    "rr":5.7,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12.00 R 20",
+    "tread":"TOP 430",
+    "rim":20,
+    "rr":7.15,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"385/65 R 22.5",
+    "tread":"TOP 500",
+    "rim":22.5,
+    "rr":5.36,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TOP 600",
+    "rim":17.5,
+    "rr":6.81,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"265/70 R 19.5",
+    "tread":"TOP 600",
+    "rim":19.5,
+    "rr":6.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"215/75 R 17.5",
+    "tread":"TOP 710",
+    "rim":17.5,
+    "rr":7.53,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12 R 22.5",
+    "tread":"TOP2000 D ON/OFF TL 152/148K TA",
+    "rim":22.5,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"13 R 22.5",
+    "tread":"TOP2000 D ON/OFF TL 154/150K NL TA",
+    "rim":22.5,
+    "rr":6.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12.00 R 20",
+    "tread":"TOP2000 D ON/OFF TL 154/150K TA",
+    "rim":20,
+    "rr":6.38,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TOP2000 D ON/OFF TL 156/150K TA",
+    "rim":22.5,
+    "rr":6.29,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"385/65 R 22.5",
+    "tread":"TOP2000 ON/OFF TL 158K TA",
+    "rim":22.5,
+    "rr":5.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"11 R 22.5",
+    "tread":"TOP2000 U ON/OFF TL 148/145K TA",
+    "rim":22.5,
+    "rr":5.88,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"12 R 22.5",
+    "tread":"TOP2000 U ON/OFF TL 152/148K TA",
+    "rim":22.5,
+    "rr":5.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"295/80 R 22.5",
+    "tread":"TOP2000 U ON/OFF TL 152/148K TA",
+    "rim":22.5,
+    "rr":5.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"13 R 22.5",
+    "tread":"TOP2000 U ON/OFF TL 154/150K NL TA",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TAURUS",
+    "size":"315/80 R 22.5",
+    "tread":"TOP2000 U ON/OFF TL 156/150K TA",
+    "rim":22.5,
+    "rr":5.8,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TIGAR",
+    "size":"11 R 22.5",
+    "tread":"TG915",
+    "rim":22.5,
+    "rr":5.94,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TIGAR",
+    "size":"11.00 R 20",
+    "tread":"TG915",
+    "rim":20,
+    "rr":5.82,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TIGAR",
+    "size":"12.00 R 20",
+    "tread":"TG915",
+    "rim":20,
+    "rr":5.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"315/80 R 22.5",
+    "tread":"M142",
+    "rim":22.5,
+    "rr":5.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"315/80 R 22.5",
+    "tread":"M144",
+    "rim":22.5,
+    "rr":5.63,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"315/80 R 22.5",
+    "tread":"M605",
+    "rim":22.5,
+    "rr":6.67,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"315/80 R 22.5",
+    "tread":"M622",
+    "rim":22.5,
+    "rr":6.76,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"275/80 R 22.5",
+    "tread":"M626",
+    "rim":22.5,
+    "rr":5.16,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"11 R 22.5",
+    "tread":"M919",
+    "rim":22.5,
+    "rr":8.1,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TOYO",
+    "size":"11 R 22.5",
+    "tread":"M966 ZEROSYS",
+    "rim":22.5,
+    "rr":6.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TRIANGLE",
+    "size":"10.00 R 20",
+    "tread":"TR666",
+    "rim":20,
+    "rr":6.28,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TRIANGLE",
+    "size":"11.00 R 20",
+    "tread":"TR666",
+    "rim":20,
+    "rr":6.06,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TRIANGLE",
+    "size":"315/80 R 22.5",
+    "tread":"TR666",
+    "rim":22.5,
+    "rr":5.59,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TRIANGLE",
+    "size":"315/80 R 22.5",
+    "tread":"TR688",
+    "rim":22.5,
+    "rr":6.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TRIANGLE",
+    "size":"385/65 R 22.5",
+    "tread":"TR697",
+    "rim":22.5,
+    "rr":6.23,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TYREX",
+    "size":"385/65 R 22.5",
+    "tread":"YA607",
+    "rim":22.5,
+    "rr":5.31,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TYREX",
+    "size":"315/80 R 22.5",
+    "tread":"YA626",
+    "rim":22.5,
+    "rr":6.32,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"TYREX",
+    "size":"315/80 R 22.5",
+    "tread":"YA636",
+    "rim":22.5,
+    "rr":6.95,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"UNIROYAL",
+    "size":"385/55 R 22.5",
+    "tread":"TH110",
+    "rim":22.5,
+    "rr":5.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"WANLI",
+    "size":"10.00 R 20",
+    "tread":"S3050",
+    "rim":20,
+    "rr":6.09,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"WANLI",
+    "size":"11 R 22.5",
+    "tread":"S3071",
+    "rim":22.5,
+    "rr":5.9,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"WEST LAKE",
+    "size":"315/80 R 22.5",
+    "tread":"CR960",
+    "rim":22.5,
+    "rr":5.18,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YAROSLAVL",
+    "size":"11.00 R 20",
+    "tread":"D3 MA",
+    "rim":20,
+    "rr":6.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YAROSLAVL",
+    "size":"315/80 R 22.5",
+    "tread":"R452",
+    "rim":22.5,
+    "rr":7.24,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YAROSLAVL",
+    "size":"385/65 R 22.5",
+    "tread":"R469",
+    "rim":22.5,
+    "rr":6.96,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YAROSLAVL",
+    "size":"215/75 R 17.5",
+    "tread":"R482",
+    "rim":17.5,
+    "rr":8.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YAROSLAVL",
+    "size":"315/80 R 22.5",
+    "tread":"R510",
+    "rim":22.5,
+    "rr":7.98,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"13 R 22.5",
+    "tread":"LY717",
+    "rim":22.5,
+    "rr":6.03,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"315/80 R 22.5",
+    "tread":"RY023",
+    "rim":22.5,
+    "rr":5.39,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"295/80 R 22.5",
+    "tread":"RY237",
+    "rim":22.5,
+    "rr":5.65,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"385/65 R 22.5",
+    "tread":"RY253",
+    "rim":22.5,
+    "rr":4.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"315/80 R 22.5",
+    "tread":"RY637",
+    "rim":22.5,
+    "rr":5.45,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"315/70 R 22.5",
+    "tread":"SY397",
+    "rim":22.5,
+    "rr":8.16,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"315/80 R 22.5",
+    "tread":"SY397",
+    "rim":22.5,
+    "rr":7.62,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"275/80 R 22.5",
+    "tread":"TY287",
+    "rim":22.5,
+    "rr":4.85,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"315/80 R 22.5",
+    "tread":"TY517 E",
+    "rim":22.5,
+    "rr":6.3,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"YOKOHAMA",
+    "size":"315/80 R 22.5",
+    "tread":"TY607",
+    "rim":22.5,
+    "rr":6.93,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"Endurace LD",
+    "rim":20.0,
+    "rr":7.43,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"295/80 R 22.5",
+    "tread":"Endurace RA",
+    "rim":22.5,
+    "rr":6.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"295/90 R 20",
+    "tread":"Endurace RA nRG",
+    "rim":20.0,
+    "rr":5.08,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"Endurace RA",
+    "rim":20.0,
+    "rr":5.50,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"Endurace MD+",
+    "rim":20.0,
+    "rr":7.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"10.00 R 20",
+    "tread":"Endurace LHD",
+    "rim":20.0,
+    "rr":7.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"APOLLO",
+    "size":"295/80 R 22.5",
+    "tread":"Endurance RD",
+    "rim":22.5,
+    "rr":7.97,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"R156",
+    "rim":22.5,
+    "rr":6.17,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"10.00 R 20",
+    "tread":"R153",
+    "rim":20.0,
+    "rr":6.51,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"10.00 R 20",
+    "tread":"M751",
+    "rim":20.0,
+    "rr":6.80,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"BRIDGESTONE",
+    "size":"295/80 R 22.5",
+    "tread":"M751",
+    "rim":22.5,
+    "rr":6.99,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"CEAT",
+    "size":"295/80 R 22.5",
+    "tread":"PRO10",
+    "rim":22.5,
+    "rr":5.90,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK",
+    "size":"295/80 R 22.5",
+    "tread":"JDL",
+    "rim":22.5,
+    "rr":6.84,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK",
+    "size":"10.00 R 20",
+    "tread":"Jetway JUH5",
+    "rim":20.0,
+    "rr":7.72,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK",
+    "size":"295/80 R 22.5",
+    "tread":"JUL1",
+    "rim":22.5,
+    "rr":6.37,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK",
+    "size":"8.25 R 20",
+    "tread":"JUH3+",
+    "rim":20.0,
+    "rr":7.05,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK",
+    "size":"8.25 R 20",
+    "tread":"JUH3",
+    "rim":20.0,
+    "rr":7.04,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"JK",
+    "size":"295/80 R 22.5",
+    "tread":"Jetway JUM",
+    "rim":22.5,
+    "rr":8.00,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/80 R 22.5",
+    "tread":"X Multi D+",
+    "rim":22.5,
+    "rr":7.11,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"10.00 R 20",
+    "tread":"X Multi D",
+    "rim":20.0,
+    "rr":6.91,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"8.25 R 20",
+    "tread":"XMZ",
+    "rim":20.0,
+    "rr":6.66,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"11 R 22.5",
+    "tread":"X Multi D",
+    "rim":22.5,
+    "rr":7.78,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"11 R 22.5",
+    "tread":"X Multi Z",
+    "rim":22.5,
+    "rr":6.42,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/90 R 20",
+    "tread":"X Multi Z",
+    "rim":20.0,
+    "rr":5.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"MICHELIN",
+    "size":"295/90 R 20",
+    "tread":"X Multi D",
+    "rim":20.0,
+    "rr":6.64,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"10.00 R 20",
+    "tread":"Z",
+    "rim":20.0,
+    "rr":6.40,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"10.00 R 20",
+    "tread":"D",
+    "rim":20.0,
+    "rr":7.35,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"11.00 R 22.5",
+    "tread":"Z",
+    "rim":22.5,
+    "rr":6.86,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"11.00 R 22.5",
+    "tread":"D",
+    "rim":22.5,
+    "rr":7.89,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"295/80 R 22.5",
+    "tread":"Z",
+    "rim":22.5,
+    "rr":6.49,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"295/80 R 22.5",
+    "tread":"D",
+    "rim":22.5,
+    "rr":7.22,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"295/90 R 20",
+    "tread":"Z",
+    "rim":20.0,
+    "rr":6.40,
+    "weight":0,
+    "xone":0
+  },
+  {
+    "mfg":"OTHERS",
+    "size":"295/90 R 20",
+    "tread":"D",
+    "rim":20.0,
+    "rr":7.35,
+    "weight":0,
+    "xone":0
+  }
+]

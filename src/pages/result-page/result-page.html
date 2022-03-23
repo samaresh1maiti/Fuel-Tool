@@ -1,0 +1,1303 @@
+<ion-header style="background-color:#f0f0f0;border-bottom: 3px solid #545454;max-height: 70px;">
+  <ion-row>
+    <div (click)="goBack()" style="cursor: pointer;padding-left: 20px;">
+      <ion-col>
+        <ion-row>
+          <img onmouseover="this.src='assets/img/back_button_thumnail_hover.jpg'"
+            onmouseout="this.src='assets/img/back_button_thumnail.jpg'" src="assets/img/back_button_thumnail.jpg"
+            style="  height: 35px; width: 35px;margin-top: 0px !important;margin-top: 2px;">
+        </ion-row>
+        <ion-row>
+        </ion-row>
+      </ion-col>
+    </div>
+    <ion-col style="min-width: 280px;max-width: 250px;">
+      <ion-label style=" color: #27509b;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:25px;
+         ">{{"version" | translate}}:04.12.21</ion-label>
+    </ion-col>
+    <ion-col col-1></ion-col>
+    <!-- <div style="width: 10px !important;"></div> -->
+    <ion-col style="height: 65px;max-width: 300px;min-width: 300px;">
+      <ion-item no-lines
+        style=" padding-left: 1px; background-color: transparent;pointer-events:none !important;height: 65px;margin-top: 0 !important;">
+        <ion-label text-wrap="" text-right class="titletext2">{{"step_1" | translate}}</ion-label>
+        <ion-radio style="margin: 0;" color="secondary" checked></ion-radio>
+      </ion-item>
+    </ion-col>
+    <ion-col class="navdot2" style="max-width:110px; border-color: rgb(9, 243, 9);width: 80px;">
+    </ion-col>
+    <ion-col style="height: 65px;max-width: 230px;min-width: 220px;">
+      <ion-item no-lines
+        style=" padding-left: 1px; background-color: transparent; padding-right: 5px;pointer-events:none !important;height: 65px;margin-top: 0 !important;">
+        <ion-label text-wrap="" text-right class="titletext2">{{"step_2" | translate}}</ion-label>
+        <ion-radio style="margin: 0;" color="secondary" checked></ion-radio>
+      </ion-item>
+    </ion-col>
+    <ion-col class="navdot2" style="max-width:110px; border-color: rgb(9, 243, 9);">
+    </ion-col>
+    <ion-col style="height: 65px;max-width: 220px;min-width: 220px;">
+      <ion-item no-lines
+        style=" padding-left: 1px; padding-right: 15px;background-color: transparent;pointer-events:none !important;height: 65px;margin-top: 0 !important;">
+        <ion-label text-wrap="" text-right class="titletext2" style="color: #285085;width: auto;">{{"step_3" |
+          translate}}</ion-label>
+        <ion-radio color="success" checked></ion-radio>
+
+      </ion-item>
+    </ion-col>
+    <ion-col></ion-col>
+
+    <ion-buttons end>
+      <ion-row>
+
+        <div icon-right color="mblue"
+          style="margin-right: 30px; color: #285085;font-size: 15px;font-weight: bold;align-items: center;"
+          (click)="testPdf()">
+          <ion-col>
+            <ion-row>
+              <img onmouseover="this.src='assets/img/send_user_report_thumbnail_hover.png'"
+                onmouseout="this.src='assets/img/send_user_report_thumbnail.png'"
+                src="assets/img/send_user_report_thumbnail.png"
+                style="margin-top: -4px;margin-left: 35px;cursor: pointer; height: 30px;width: 30px;">
+            </ion-row>
+            <ion-row>
+              <label style="margin-left:0px; cursor: pointer; text-align: center;">
+                {{"send_report" | translate}}
+              </label>
+            </ion-row>
+
+          </ion-col>
+        </div>
+        <div (click)="exitFuelApp()"
+          style="margin-right: 10px !important; color: #285085;font-size: 15px;font-weight: bold;">
+          <ion-col>
+            <ion-row>
+              <img onmouseover="this.src='assets/img/logout_thumbnail_hover.jpg'"
+                onmouseout="this.src='assets/img/logout_thumbnail.jpg'" src="assets/img/logout_thumbnail.jpg"
+                style="margin-top: -4px;cursor: pointer;margin-left: 10px;height: 30px;width: 30px;">
+            </ion-row>
+            <ion-row>
+              <label style="text-align: center;margin-left: 0px;cursor: pointer; font-size: 15px;">
+                {{"LOGOUT" | translate}}
+              </label>
+            </ion-row>
+          </ion-col>
+        </div>
+      </ion-row>
+    </ion-buttons>
+
+  </ion-row>
+
+  <!-- </ion-navbar> -->
+</ion-header>
+
+<ion-content padding class="resultpage">
+
+  <div id='tableresult'>
+    <ion-row style="margin-left: 0.4%;margin-right: 0.4%;">
+      <ion-col col-4 id="headPart">
+        <ion-row>
+          <ion-col id="fuel_heading">
+            <ion-label style="padding: 0; margin: 0;">{{"fuel_tool" | translate}}</ion-label>
+          </ion-col>
+          <ion-col style="font-size: 18px; color: white;text-align: center;">
+
+            <label wrap-text=" " style="padding: 0; margin: 0;">{{"show_calculation" | translate}}
+              <ion-checkbox [checked]=showcalculation (ionChange)="openGDPRPage($event)" style="margin-left: 1%;zoom: 2.0;"></ion-checkbox>
+            </label>
+          </ion-col>
+        </ion-row>
+        <ion-row style="font-size: 1.2em; font-weight: bold;margin-left: 5%;color: white;">
+          <ion-label style="padding: 0; margin: 0;"><u>{{"your_saving" | translate}}</u></ion-label>
+        </ion-row>
+      </ion-col>
+      <ion-col id="customerDtlsPart">
+        <ion-row>
+          <ion-label style="padding: 0; margin: 0;">{{companyName}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label style="padding: 0; margin: 0;">{{customerName}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label style="padding: 0; margin: 0;">{{customerEmail}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label style="padding: 0; margin: 0;">{{customerMobile}}</ion-label>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div [ngSwitch]="results" style="width:100%; padding: 0;">
+          <!--In progress-->
+          <ion-grid text-center>
+            <ion-row>
+              <ion-col col-12
+                style="background-color: #285085; height:45px; margin-bottom:5px; font-size: 25px;font-style: italic; font-family: Arial !important;color: white;align-items: center;">
+                <label><b>{{"cost_at_fleet_level" | translate}}</b></label>
+              </ion-col>
+            </ion-row>
+            <ion-row class="all-four-border-1" >
+              <ion-col class="all-four-border-right"></ion-col>
+              <ion-col class="all-four-border-right"><b class="fontsizeIn" style="font-size: 18px;">{{"fuel_consumed_liters" | translate}}</b>
+              </ion-col>
+              <ion-col class="all-four-border-right"><b class="fontsizeIn" style="font-size: 18px;">{{"fule_costs" | translate}}</b>
+              </ion-col>
+              <ion-col class="all-four-border-right"><b class="fontsizeIn" style="font-size: 18px;">{{"tire_costs" | translate}}</b>
+              </ion-col>
+              <ion-col class="all-four-border-right"><b class="fontsizeIn" style="font-size: 18px;">{{"fuel_tire_costs_current_tires" | translate}}</b>
+              </ion-col>
+              <ion-col class="all-four-border-right"><b class="fontsizeIn" style="font-size: 18px;">{{"co2_emissions_tire" | translate}}</b>
+              </ion-col>
+              <ion-col class="all-four-border-right"><b class="fontsizeIn" style="font-size: 18px;">{{"co2_emissions_fuel" | translate}}</b>
+              </ion-col>
+              <ion-col style="max-width: 12.5%;"> <b class="fontsizeIn" style="font-size: 18px;">{{"co2_emissions_total" | translate}}</b></ion-col>
+              
+            </ion-row>
+
+            <ion-row class="all-four-border-2" style=" background-color: #f2f2f2;">
+              <ion-col class="all-four-border-right">
+                <ion-label no-lines text-wrap="" style="text-align: center; justify-content: center;"><b class="fontsizeIn">{{"current_scenario"|
+                    translate }}</b></ion-label>
+              </ion-col>
+              <ion-col class="all-four-border-right">
+                <ion-label no-lines text-wrap style="text-align: center;justify-content: center; "><span
+                    class="fontsizeIn">{{currentTireFuelConsumedWholeFleets}}</span></ion-label>
+              </ion-col>
+              <ion-col class="all-four-border-right">
+                <ion-label no-lines text-wrap style="text-align: center; justify-content: center;" *ngIf="this.currencyPostion == 'P'"><span
+                    class="fontsizeIn"> {{currency}} {{currentFuelCostsWholeFleets}}</span></ion-label>
+                <ion-label no-lines text-wrap style="text-align: center; justify-content: center;" *ngIf="this.currencyPostion == 'S'"><span
+                    class="fontsizeIn"> {{currentFuelCostsWholeFleets}} {{currency}}</span></ion-label>
+              </ion-col>
+              <ion-col class="all-four-border-right">
+                <ion-label no-lines text-wrap style="text-align: center; justify-content: center;" *ngIf="this.currencyPostion == 'P'">
+                  <span class="fontsizeIn"> {{currency}} {{currentTireCostsWholeFleets}} </span>
+                </ion-label >
+                <ion-label  no-lines text-wrap style="text-align: center; justify-content: center;" *ngIf="this.currencyPostion == 'S'">
+                  <span class="fontsizeIn"> {{currentTireCostsWholeFleets}} {{currency}} </span>
+                </ion-label >
+              </ion-col>
+              <ion-col class="all-four-border-right">
+                <ion-label  no-lines text-wrap style="text-align: center; justify-content: center;" *ngIf="this.currencyPostion == 'P'">
+                  <span class="fontsizeIn">{{currency}} {{currentFuelAndTireAnnualCostsWholeFleets}}</span>
+                </ion-label >
+                <ion-label  no-lines text-wrap style="text-align: center; justify-content: center;" *ngIf="this.currencyPostion == 'S'">
+                  <span class="fontsizeIn">{{currentFuelAndTireAnnualCostsWholeFleets}} {{currency}}</span>
+                </ion-label >
+              </ion-col>
+              <ion-col class="all-four-border-right">
+                <!-- <ion-label *ngIf="selectedCountry=='Japan'" no-lines text-wrap style="text-align: center; justify-content: center;">
+                  <span class="fontsizeIn">{{(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000).toFixed(0).toLocaleString(localStr)}}</span>
+                </ion-label > -->
+                <ion-label  no-lines text-wrap style="text-align: center; justify-content: center;">
+                  <span class="fontsizeIn">{{(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000).toLocaleString(localStr)}}</span>
+                </ion-label >
+              </ion-col>
+              <ion-col class="all-four-border-right">
+                <!-- <ion-label *ngIf="selectedCountry=='Japan'" no-lines text-wrap style="text-align: center;">
+                  <span class="fontsizeIn">{{(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000).toFixed(0).toLocaleString(localStr)}}</span>
+                </ion-label > -->
+                <ion-label  no-lines text-wrap style="text-align: center;">
+                  <span class="fontsizeIn">{{(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000).toLocaleString(localStr)}}</span>
+                </ion-label >
+              </ion-col>
+              <ion-col>
+                <ion-label   no-lines text-wrap style="text-align: center;">
+                  <span class="fontsizeIn">{{((((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000)+(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)).toLocaleString(localStr)}}</span>
+                </ion-label>
+                <!-- <ion-label  *ngIf="selectedCountry=='Japan'" no-lines text-wrap style="text-align: center;">
+                  <span class="fontsizeIn">{{(((((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000)+(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)).toFixed(0)).toLocaleString(localStr)}}</span>
+                </ion-label> -->
+              </ion-col>
+            </ion-row>
+            <span *ngFor="let item of proposedItems;let i = index" [attr.data-index]="i">
+              <ion-row class="all-four-border-3" style="background-color: #d9d9d9;">
+                <ion-col class="all-four-border-right">
+                  <ion-label  no-lines text-wrap style="text-align: center; justify-content: center;"><b class="fontsizeIn">{{"proposed_scenario"|
+                      translate }} {{i+1}}</b></ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap style="text-align: center;"><span
+                      class="fontsizeIn">{{proposedModelList[item-1].proposedFuelConsumptionFleets}} </span></ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    <span class="fontsizeIn">{{currency}}
+                      {{proposedModelList[item-1].proposedFuelCostsWholeFleets}}</span>
+                  </ion-label>
+                  <ion-label  no-lines text-wrap style="text-align: center;" *ngIf="this.currencyPostion == 'S'">
+                    <span class="fontsizeIn">{{proposedModelList[item-1].proposedFuelCostsWholeFleets}}
+                      {{currency}}</span>
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <ion-label  no-lines text-wrap style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    <span class="fontsizeIn">{{currency}}
+                      {{proposedModelList[item-1].proposedTireCostsWholeFleets}}</span>
+                  </ion-label>
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="this.currencyPostion == 'S'">
+                    <span class="fontsizeIn">{{proposedModelList[item-1].proposedTireCostsWholeFleets}}
+                      {{currency}}</span>
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    <span class="fontsizeIn">{{currency}}
+                      {{proposedModelList[item-1].proposedFuelAndTireAnnualCostsWholeFleets}}
+                    </span>
+                  </ion-label>
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="this.currencyPostion == 'S'">
+                    <span class="fontsizeIn">{{proposedModelList[item-1].proposedFuelAndTireAnnualCostsWholeFleets}}
+                      {{currency}}</span>
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="item == 2">
+                    <span  class="fontsizeIn">{{(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000).toLocaleString(localStr)}}</span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000).toFixed(0).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="item > 2">
+                    <span  class="fontsizeIn">{{(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000).toLocaleString(localStr)}}</span>
+                    <!-- <span  *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000).toFixed(0).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                    <ion-label no-lines text-wrap style="text-align: center;">
+                      <span  class="fontsizeIn">{{(((proposedModelList[item-1].proposedFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000).toLocaleString(localStr)}}</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{(((proposedModelList[item-1].proposedFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000).toFixed(0).toLocaleString(localStr)}}</span>  -->
+                    </ion-label>
+                </ion-col>
+                <ion-col>
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="item == 2">
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{(((((proposedModelList[item-1].proposedFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000)+(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000)).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                    <span  class="fontsizeIn">{{(((((proposedModelList[item-1].proposedFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))+(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000)).toLocaleString(localStr)}}</span>
+                  </ion-label>
+                  <ion-label no-lines text-wrap style="text-align: center;" *ngIf="item > 2">
+                    <span   class="fontsizeIn">{{((((proposedModelList[item-1].proposedFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000)+(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000)).toLocaleString(localStr)}}</span>
+                    <!-- <span  *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{(((((proposedModelList[item-1].proposedFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000)+(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000)).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+              </ion-col>
+              </ion-row>
+
+              <ion-row class="all-four-border-4"style="background-color: #f2f2f2;">
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap style="text-align: center;"><b class="fontsizeIn">{{"your_saving"| translate }}
+                      {{i+1}}</b></ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;">
+                   {{proposedModelList[item-1].proposedFuelConsumptionSavingWholeFleets}}
+          
+                  </label> -->
+                  <ion-label no-lines text-wrap style="text-align: center;">
+                  <span class="fontsizeIn">  {{proposedModelList[item-1].proposedFuelConsumptionSavingWholeFleets}} </span>
+                  </ion-label>
+          
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    {{currency}}{{proposedModelList[item-1].proposedAnnualFuelCostSavingWholeFleets}}
+                  </label> -->
+                  <ion-label no-lines text-wrap *ngIf="this.currencyPostion == 'P'" style="text-align: center;">
+                    <span class="fontsizeIn">  {{currency}}{{proposedModelList[item-1].proposedAnnualFuelCostSavingWholeFleets}} </span>
+                    </ion-label>
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="this.currencyPostion == 'S'">
+                    {{proposedModelList[item-1].proposedAnnualFuelCostSavingWholeFleets}}
+                      {{currency}}
+                  </label> -->
+                  <ion-label no-lines text-wrap *ngIf="this.currencyPostion == 'S'" style="text-align: center;">
+                    <span class="fontsizeIn">  {{proposedModelList[item-1].proposedAnnualFuelCostSavingWholeFleets}}{{currency}} </span>
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    {{currency}}
+                      {{proposedModelList[item-1].proposedAnnualCostDifferenceWholeFleets}}
+                  </label> -->
+                  <ion-label no-lines text-wrap *ngIf="this.currencyPostion == 'P'" style="text-align: center;">
+                    <span class="fontsizeIn">  {{currency}}{{proposedModelList[item-1].proposedAnnualCostDifferenceWholeFleets}} </span>
+                  </ion-label>
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="this.currencyPostion == 'S'">
+                    {{proposedModelList[item-1].proposedAnnualCostDifferenceWholeFleets}}
+                      {{currency}}
+                  </label> -->
+
+                  <ion-label no-lines text-wrap *ngIf="this.currencyPostion == 'S'" style="text-align: center;">
+                    <span class="fontsizeIn">  {{proposedModelList[item-1].proposedAnnualCostDifferenceWholeFleets}}{{currency}} </span>
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    {{currency}}
+                      {{proposedModelList[item-1].proposedFuelandTireCostSavingWholeFleets}}
+                  </label> -->
+                  <ion-label no-lines text-wrap *ngIf="this.currencyPostion == 'P'" style="text-align: center;">
+                    <span class="fontsizeIn">  {{currency}}{{proposedModelList[item-1].proposedFuelandTireCostSavingWholeFleets}} </span>
+                  </ion-label>
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="this.currencyPostion == 'P'">
+                    {{proposedModelList[item-1].proposedFuelandTireCostSavingWholeFleets}}
+                      {{currency}}
+                  </label> -->
+                  <ion-label no-lines text-wrap *ngIf="this.currencyPostion == 'S'" style="text-align: center;">
+                    <span class="fontsizeIn">  {{proposedModelList[item-1].proposedFuelandTireCostSavingWholeFleets}}{{currency}}</span>
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="item == 2">
+                   
+                      {{(-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000)).toLocaleString(localStr)}}
+                  </label> -->
+                  <ion-label no-lines text-wrap *ngIf="item == 2" style="text-align: center;">
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000)).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                    <span  class="fontsizeIn">{{(-((((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000)).toLocaleString(localStr)}}</span>
+                  </ion-label>
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" *ngIf="item > 2">
+                    
+                      {{(-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000)).toLocaleString(localStr)}}
+                  </label> -->
+
+                  <ion-label no-lines text-wrap *ngIf="item > 2" style="text-align: center;">
+                    <span  class="fontsizeIn"> {{(-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000)).toLocaleString(localStr)}}</span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn"> {{((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000)).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;" >
+                   
+                      {{(-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)).toLocaleString(localStr)}}
+                  </label> -->
+                  <ion-label no-lines text-wrap style="text-align: center;">
+                    <span  class="fontsizeIn">{{(-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)).toLocaleString(localStr)}}</span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">{{((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000)+ (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+                </ion-col>
+                <ion-col>
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;"  *ngIf="item == 2">
+                    
+                      {{((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)) + ((((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) - (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))).toLocaleString(localStr)}}
+                  </label> -->
+
+                  <ion-label no-lines text-wrap *ngIf="item == 2" style="text-align: center;">
+                    <span  class="fontsizeIn"> {{((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)) + (-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))).toLocaleString(localStr)}}</span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn"> {{(((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)) + (-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+                
+
+                  <!-- <label no-lines text-wrap class="fontsizeIn" style="text-align: center;"  *ngIf="item > 2">
+                    
+                      {{((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)) + ((((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) - (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))).toLocaleString(localStr)}}
+                  </label> -->
+
+                  <ion-label no-lines text-wrap *ngIf="item > 2" style="text-align: center;">
+                    <span class="fontsizeIn"> {{((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)) + (-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))).toLocaleString(localStr)}}</span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn"> {{(((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000)) + (-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+
+                </ion-col>
+                
+              </ion-row>
+              <ion-row class="all-four-border-5" style="background-color: #d9d9d9;">
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap style="text-align: center; "><b class="fontsizeIn">{{"your_saving"| translate }}
+                      {{i+1}} %</b></ion-label>
+                </ion-col>
+
+                <ion-col class="all-four-border-right">
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage > 0"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highlight"></ion-icon>
+                    <!-- <span *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toFixed(0).toLocaleString(localStr)}}%
+                    </span> -->
+                    <span 
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toLocaleString(localStr)}}%
+                    </span>
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage < 0"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <!-- <label *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toFixed(0).toLocaleString(localStr)}}%
+                    </label> -->
+                    <label 
+                    class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toLocaleString(localStr)}}%
+                  </label>
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap style="text-align: center;"
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage == 0">
+                    <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                      {{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toFixed(0).toLocaleString(localStr)}}%</span> -->
+                      <span  class="fontsizeIn">
+                        {{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toLocaleString(localStr)}}%</span>
+                  </ion-label>
+                </ion-col>
+
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage > 0"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highlight"></ion-icon>
+                    <!-- <span *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toFixed(0).toLocaleString(localStr)}}%</span> -->
+                      <span 
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toLocaleString(localStr)}}%</span>
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage < 0"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <!-- <label *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toFixed(0).toLocaleString(localStr)}}%
+                    </label> -->
+                    <label 
+                    class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toLocaleString(localStr)}}%
+                  </label>
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap style="text-align: center;"
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage == 0">
+                    <span 
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toLocaleString(localStr)}}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelConsumptionSavingPercentage).toFixed(0).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedTireCostDifferencePercentage > 0"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span 
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedTireCostDifferencePercentage).toLocaleString(localStr)}}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedTireCostDifferencePercentage).toFixed(0).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedTireCostDifferencePercentage < 0"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <label 
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedTireCostDifferencePercentage).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{(proposedModelList[item-1].proposedTireCostDifferencePercentage).toFixed(0).toLocaleString(localStr)}}%
+                  </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedTireCostDifferencePercentage == 0"
+                    style="color: black; text-align: center;">
+                    <span  class="fontsizeIn">
+                      {{(proposedModelList[item-1].proposedTireCostDifferencePercentage).toLocaleString(localStr)}}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                        {{(proposedModelList[item-1].proposedTireCostDifferencePercentage).toFixed(0).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+                </ion-col>
+                <ion-col class="all-four-border-right">
+
+                  <ion-label no-lines text-wrap *ngIf="proposedModelList[item-1].proposedFuelandNetSavingPercentage > 0"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span 
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelandNetSavingPercentage).toLocaleString(localStr)
+                      }}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelandNetSavingPercentage).toFixed(0).toLocaleString(localStr)
+                      }}%</span> -->
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap *ngIf="proposedModelList[item-1].proposedFuelandNetSavingPercentage < 0"
+                    style="color:green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highligh"></ion-icon>
+                    <label  
+                      class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelandNetSavingPercentage).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label  *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{(proposedModelList[item-1].proposedFuelandNetSavingPercentage).toFixed(0).toLocaleString(localStr)}}%
+                  </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap *ngIf="proposedModelList[item-1].proposedFuelandNetSavingPercentage == 0"
+                    style="color:black; text-align: center;">
+                    <span class="fontsizeIn">
+                      {{(proposedModelList[item-1].proposedFuelandNetSavingPercentage).toLocaleString(localStr)
+                      }}%</span>
+                      <!-- <span  *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                        {{(proposedModelList[item-1].proposedFuelandNetSavingPercentage).toFixed(0).toLocaleString(localStr)
+                        }}%</span> -->
+                  </ion-label>
+                </ion-col>
+
+                 <ion-col class="all-four-border-right" *ngIf="item == 2">
+                  <ion-label no-lines text-wrap
+                    *ngIf="(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000) > (((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span 
+                      class="fontsizeIn">{{(((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toLocaleString(localStr)}}%
+                    </span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{(((((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%
+                  </span> -->
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000) < (((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <label 
+                      class="fontsizeIn">{{(((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{(((((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%
+                    </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap
+                    *ngIf="(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000) == (((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)"
+                    style="color: black; text-align: center;">
+                    <span  class="fontsizeIn">
+                      {{(((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toLocaleString(localStr)}}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                        {{((((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp1)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toFixed(0)).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+                </ion-col> 
+
+                <ion-col class="all-four-border-right" *ngIf="item > 2">
+                  <ion-label no-lines text-wrap
+                    *ngIf="(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000) > (((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span  
+                      class="fontsizeIn">{{(((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toLocaleString(localStr)}}%
+                    </span>
+                    <!-- <span  *ngIf="selectedCountry=='Japan'" 
+                    class="fontsizeIn">{{(((((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%
+                  </span> -->
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000) < (((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <label  
+                      class="fontsizeIn">{{(((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label  *ngIf="selectedCountry=='Japan'" 
+                    class="fontsizeIn">{{(((((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%
+                  </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap
+                    *ngIf="(((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000) == (((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000)"
+                    style="color: black; text-align: center;">
+                    <span class="fontsizeIn">
+                      {{(((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100).toLocaleString(localStr)}}%</span>
+                      <!-- <span   *ngIf="selectedCountry=='Japan'"  class="fontsizeIn">
+                        {{(((((-(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000) + (((proposedModelList[item-1].proposedTireCostsWholeFleet/avgtirePriceProp2)*2.3*50)/1000))/(((currentTireCostsWholeFleet/avgtirePriceCurrent)*2.3*50)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+                </ion-col> 
+
+                <ion-col class="all-four-border-right">
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage > 0"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span  
+                      class="fontsizeIn">{{(((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000))/(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))*100).toLocaleString(localStr)}}%
+                    </span>
+                    <!-- <span  *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{(((((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000))/(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%
+                  </span> -->
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage < 0"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <label  
+                      class="fontsizeIn">{{(((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000))/(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))*100).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label  *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{(((((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000))/(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%
+                  </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap
+                    *ngIf="proposedModelList[item-1].proposedFuelConsumptionSavingPercentage == 0"
+                    style="color: black; text-align: center;">
+                    <span  class="fontsizeIn">
+                      {{(((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000))/(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))*100).toLocaleString(localStr)}}%</span>
+                      <!-- <span   *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                        {{(((((-(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000) + (((proposedModelList[item-1].proposedFuelCostsWholeFleet /currentpriceoffuel)*3.24)/1000))/(((currentFuelCostsWholeFleet/currentpriceoffuel)*3.24)/1000))*100)).toFixed(0)).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+                </ion-col> 
+
+              <ion-col  *ngIf="item == 2">
+                  <ion-label no-lines text-wrap *ngIf="co2Totalgappercentage1 > 0" style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span 
+                      class="fontsizeIn">{{(co2Totalgappercentage1).toLocaleString(localStr)}}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{((co2Totalgappercentage1).toFixed(0)).toLocaleString(localStr)}}%</span> -->
+                    
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="co2Totalgappercentage1 < 0"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <label 
+                      class="fontsizeIn">{{(co2Totalgappercentage1).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{((co2Totalgappercentage1).toFixed(0)).toLocaleString(localStr)}}%
+                  </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap
+                    *ngIf="co2Totalgappercentage1 == 0"
+                    style="color: black; text-align: center;">
+                    <span  class="fontsizeIn">
+                      {{(co2Totalgappercentage1).toLocaleString(localStr)}}%</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                        {{((co2Totalgappercentage1).toFixed(0)).toLocaleString(localStr)}}%</span> -->
+                  </ion-label>
+                </ion-col> 
+
+                <ion-col  *ngIf="item > 2">
+                  <ion-label no-lines text-wrap
+                    *ngIf="co2Totalgappercentage2 > 0"
+                    style="color: red !important; text-align: center;">
+                    <ion-icon name="arrow-up" class="positive-arrow-highligh"></ion-icon>
+                    <span 
+                      class="fontsizeIn">{{(co2Totalgappercentage2).toLocaleString(localStr)}}%
+                    </span>
+                    <!-- <span *ngIf="selectedCountry=='Japan'"
+                    class="fontsizeIn">{{((co2Totalgappercentage2).toFixed(0)).toLocaleString(localStr)}}%
+                  </span> -->
+                  </ion-label>
+
+                  <ion-label no-lines text-wrap
+                    *ngIf="co2Totalgappercentage2 < 0"
+                    style="color: green !important; text-align: center;">
+                    <ion-icon name="arrow-down" class="negative-arrow-highlight"></ion-icon>
+                    <label 
+                      class="fontsizeIn">{{(co2Totalgappercentage2).toLocaleString(localStr)}}%
+                    </label>
+                    <!-- <label *ngIf="selectedCountry=='Japan'"
+                      class="fontsizeIn">{{((co2Totalgappercentage2).toFixed(0)).toLocaleString(localStr)}}%
+                    </label> -->
+                  </ion-label>
+                  <ion-label no-lines text-wrap
+                    *ngIf="co2Totalgappercentage2 == 0"
+                    style="color: black; text-align: center;">
+                    <span class="fontsizeIn">
+                      {{(co2Totalgappercentage2).toLocaleString(localStr)}}</span>
+                      <!-- <span *ngIf="selectedCountry=='Japan'" class="fontsizeIn">
+                        {{((co2Totalgappercentage2).toFixed(0)).toLocaleString(localStr)}}</span> -->
+                  </ion-label>
+                </ion-col> 
+
+
+                
+              </ion-row>
+            </span>
+            <!-- <ion-row style="margin-top: 20px;">
+                  <ion-col>
+                      <div style="position: relative; height:220px;width:400px">
+                          <canvas id="canvas-chart"></canvas>
+                        </div>
+                  </ion-col>
+               </ion-row>
+                
+                <ion-row style="margin-top: 20px;">
+                 <ion-col >
+                      <div style="position: relative; height:220px;width:400px">
+                          <canvas id="canvas-chart1"></canvas>
+                       </div>          
+                  </ion-col>
+                </ion-row>
+                <ion-row style="margin-top: 20px;">
+                 <ion-col>
+                  <div style="position: relative; height:220px;width:400px">
+                        <canvas id="canvas-chart2"></canvas>
+                      </div> 
+                </ion-col>
+              </ion-row> -->
+              <ion-row style="margin-top: 20px;">
+                <ion-col id="sideMenu" style="background-color: #285085; max-width: 50%;margin-right: 10px;">
+                  <ion-label text-wrap="" style="color: white;font-size: 18px;">{{"cost_graph"| translate }}</ion-label>
+                </ion-col>
+                <ion-col id="sideMenu" style="background-color: #285085; max-width: 50%;margin-left: 10px;">
+                  <ion-label text-wrap="" style="color: white;font-size: 18px;">{{"co2_graph"| translate }}</ion-label>
+                </ion-col>
+               
+              </ion-row>
+            <ion-row style="margin-top: 60px;">
+              <ion-col style="max-width: 50%;">
+               
+              <div style="width:100%; margin-left: 0%;">
+                <canvas #barChart style="width:100%; height: 420px;"></canvas>
+              </div>
+            </ion-col>
+            <ion-col style="max-width: 50%;">
+             
+              <div style="width:100%; margin-left: 0%;">
+                <canvas #barChartCo2 style="width:100%; height: 420px;"></canvas>
+              </div>
+            </ion-col>
+           
+            </ion-row>
+            <ion-row>
+              <div style="width:100%; margin-left: 0%;">
+                <canvas #doughnutCanvas style="width:100%; height: 420px;"></canvas>
+              </div>
+            </ion-row>
+            <!-- <ion-row style="margin-top: 70px;">
+             
+            </ion-row> -->
+            
+
+          </ion-grid>
+        </div>
+
+        <!-- Make responsive grid for input data in tabular form -->
+
+
+      </ion-col>
+
+    </ion-row>
+
+  </div>
+
+  <div id='tabledata'>
+    <ion-row>
+      <ion-col>
+        <!-- First row for current scenario and proposed scenario -->
+        <ion-row>
+          <ion-col col-1 no-padding></ion-col>
+          <ion-col no-padding id="sideMenu" style="background-color: #285085;">
+            <ion-label text-wrap="" style="color: white;font-size: 18px;">{{"current_scenario"| translate }}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu" style="background-color: #285085;">
+            <ion-label text-wrap="" style="color: white;font-size: 18px;">{{"proposed_scenario"| translate }}
+            </ion-label>
+          </ion-col>
+          <!-- <ion-col no-padding *ngIf="proposedItems.length==2" id="sideMenu" style="background-color: #285085;">
+          <ion-label text-wrap="" style="color: white;font-size: 18px;">{{"proposed_scenario"| translate }} 1</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Second row for column heading -->
+        <ion-row>
+          <ion-col col-1 no-padding></ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"steer" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"drive" | translate}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"non_driven_axle" | translate}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"trailer" | translate}}</ion-label>
+          </ion-col>
+
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"steer" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"drive" | translate}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label  text-wrap="" id="lbl1">{{"non_driven_axle" | translate}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl1">{{"trailer" | translate}}</ion-label>
+          </ion-col>
+
+          <!-- <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl1">{{"steer" | translate}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl1">{{"drive" | translate}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl1">{{"non_driven_axle" | translate}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl1">{{"trailer" | translate}}</ion-label>
+        </ion-col> -->
+
+        </ion-row>
+        <!-- First row of input data -->
+        <ion-row id="cl">
+          <ion-col col-1 no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{"brand" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerBrandCurr}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveBrandCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveBrandCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerBrandCurr}}</ion-label>
+          </ion-col>
+
+          <ion-col no-padding id="sideMenu">
+            <ion-label id="lbl" text-wrap="" id="lbl">{{steerBrandProp1}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveBrandProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveBrandProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerBrandProp1}}</ion-label>
+          </ion-col>
+
+          <!-- <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{steerBrandProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{driveBrandProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{nondriveBrandProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{trailerBrand}}</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Second row of input data -->
+        <ion-row id="cl1">
+          <ion-col col-1 no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{"tire_with_size" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerSizeCurr}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveSizeCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveSizeCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerSizeCurr}}</ion-label>
+          </ion-col>
+
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerSizeProp1}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveSizeProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveSizeProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerSizeProp1}}</ion-label>
+          </ion-col>
+
+          <!-- <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{steerSizeProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{driveSizeProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{nondriveSizeProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{trailerSizeProp2}}</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Third row of input data -->
+        <ion-row id="cl">
+          <ion-col col-1 no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{"tire_with_tread" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerTradeCurr}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveTradeCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveTradeCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerTradeCurr}}</ion-label>
+          </ion-col>
+
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerTradeProp1}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveTradeProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveTradeProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerTradeProp1}}</ion-label>
+          </ion-col>
+
+          <!-- <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{steerTradeProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{driveTradeProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{nondriveTradeProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{trailerTradeProp2}}</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Fourth row of input data -->
+        <ion-row id="cl1">
+          <ion-col col-1 no-padding id="sideMenu">
+            <ion-label *ngIf="distanceUnit=='us'" text-wrap="" id="lbl">{{"tire_runout_miles_help" | translate}}</ion-label>
+            <ion-label *ngIf="distanceUnit!='us'" text-wrap="" id="lbl">{{"tire_runout_kilometers_help" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerMilesCurr}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveMilesCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveMilesCurr}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerMilesCurr}}</ion-label>
+          </ion-col>
+
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{steerMilesProp1}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{driveMilesProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{nondriveMilesProp1}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{trailerMilesProp1}}</ion-label>
+          </ion-col>
+
+          <!-- <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{steerMilesProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{driveMilesProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{nondriveMilesProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{trailerMilesProp2}}</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Fifth row of input data -->
+        <ion-row id="cl">
+          <ion-col col-1 no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{"tire_price" | translate}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{steerPriceCurr}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{steerPriceCurr}} {{currency}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{drivePriceCurr}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{drivePriceCurr}} {{currency}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{nondrivePriceCurr}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{nondrivePriceCurr}} {{currency}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{trailerPriceCurr}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{trailerPriceCurr}} {{currency}}</ion-label>
+          </ion-col>
+
+          <ion-col no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{steerPriceProp1}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{steerPriceProp1}} {{currency}}</ion-label>
+          </ion-col>
+          <ion-col no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{drivePriceProp1}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{drivePriceProp1}} {{currency}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="nondrivenShow" no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{nondrivePriceProp1}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{nondrivePriceProp1}} {{currency}}</ion-label>
+          </ion-col>
+          <ion-col *ngIf="trailerShow" no-padding id="sideMenu">
+            <ion-label *ngIf="currencyPostion == 'P'" text-wrap="" id="lbl">{{currency}} {{trailerPriceProp1}}</ion-label>
+            <ion-label *ngIf="currencyPostion == 'S'" text-wrap="" id="lbl">{{trailerPriceProp1}} {{currency}}</ion-label>
+          </ion-col>
+
+          <!-- <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{steerPriceProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{drivePriceProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{nondrivePriceProp2}}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="proposedItems.length==2" no-padding id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{trailerPriceProp2}}</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Rolling resistance row -->
+        <ion-row id="cl1">
+          <ion-col col-1 no-padding id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{"total_vehicle_rolling_resistance" | translate}}</ion-label>
+          </ion-col>
+          <ion-col id="sideMenu">
+            <ion-label text-wrap="" id="lbl">100</ion-label>
+          </ion-col>
+          <ion-col id="sideMenu">
+            <ion-label text-wrap="" id="lbl">{{totalRR1}}</ion-label>
+          </ion-col>
+          <!-- <ion-col *ngIf="proposedItems.length==2" id="sideMenu">
+          <ion-label text-wrap="" id="lbl">{{totalRR2}}</ion-label>
+        </ion-col> -->
+        </ion-row>
+        <!-- Fleet details goes here -->
+        <ion-row style="margin-top: 1%;border:1px solid black;margin-left: 5%;margin-right: 5%;">
+          <ion-col>
+            <ion-row style="margin-bottom: 3px;background-color: #285085;align-items: center;text-align: center;">
+              <ion-label style="color: white;font-size: 18px;font-weight: bold;min-width: 100% !important;">
+                {{"fleet_details" | translate}}</ion-label>
+            </ion-row>
+
+            <ion-row id="rw">
+              <ion-col>
+                <ion-label id="ftLbl">{{"fleet_name" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{fleetName}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw1">
+              <ion-col>
+                <ion-label id="ftLbl">{{"fleet_vehicle_configuration" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{vehicleName}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw">
+              <ion-col>
+                <ion-label id="ftLbl">{{"fleet_size_trucks" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{fleetSizeTruck}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw1">
+              <ion-col>
+                <ion-label id="ftLbl">{{"fleet_size_trailers" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{fleetSizeTrailer}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw">
+              <ion-col>
+                <ion-label id="ftLbl">{{"long_haul" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{longHaul1}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw1">
+              <ion-col>
+                <ion-label id="ftLbl">{{"regional" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{regional1}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw">
+              <ion-col>
+                <ion-label id="ftLbl">{{"urban" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{urban1}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw1">
+              <ion-col>
+                <ion-label id="ftLbl">{{"annual_averageload_truck" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{annualLoad}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw">
+              <ion-col>
+                <ion-label id="ftLbl" *ngIf="distanceUnit=='us'">{{"annual_miles_per_vehicle" | translate}} :
+                </ion-label>
+                <ion-label id="ftLbl" *ngIf="distanceUnit!='us'">{{"annual_kilometers_per_vehicle" | translate}} :
+                </ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{annualMiles}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw1">
+              <ion-col>
+                <ion-label id="ftLbl" *ngIf="distanceUnit=='us'">{{"current_price_of_fuel" | translate}} :</ion-label>
+                <ion-label id="ftLbl" *ngIf="distanceUnit!='us'">{{"current_price_of_fuel_per_liter" | translate}} :
+                </ion-label>
+              </ion-col>
+              <ion-col *ngIf="currencyPostion == 'P'">
+                <ion-label id="ftLbl1">{{currency}} {{currentPrice}}</ion-label>
+              </ion-col>
+              <ion-col *ngIf="currencyPostion == 'S'">
+                <ion-label id="ftLbl1">{{currentPrice}} {{currency}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw"
+              *ngIf="selectedCountry!='Laos' && selectedCountry!='Cambodia' && selectedCountry!='Philippines' && selectedCountry!='Myanmar' && selectedCountry!='Vietnam' && selectedCountry!='Thailand' && selectedCountry!='South Korea' && selectedCountry!='Japan' && selectedCountry!='Indonesia' && selectedCountry!='Malaysia' && selectedCountry!='Argentina' && selectedCountry!='Brazil' && selectedCountry!='Bolívia' && selectedCountry!='Chile' && selectedCountry!='Ecuador' && selectedCountry!='Peru' && selectedCountry!='Colombia' && selectedCountry!='Paraguay' && selectedCountry!='Uruguay' && selectedCountry!='Venezuela' && selectedCountry!='Algeria' && selectedCountry!='Morocco' && selectedCountry!='Mauritania' && selectedCountry!='Tunisia' && selectedCountry!='Burkina Faso'">
+              <ion-col>
+                <ion-label id="ftLbl" *ngIf="distanceUnit=='us'">{{"annual_mpg_per_vehicle" | translate}} :</ion-label>
+                <ion-label id="ftLbl" *ngIf="distanceUnit!='us'">{{"annual_kpg_per_vehicle" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{annualMpg}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row id="rw"
+              *ngIf="selectedCountry=='Laos' || selectedCountry=='Cambodia' || selectedCountry=='Philippines' || selectedCountry=='Myanmar' || selectedCountry=='Vietnam' || selectedCountry=='Thailand' || selectedCountry=='South Korea' || selectedCountry=='Japan' || selectedCountry=='Indonesia' || selectedCountry=='Malaysia' || selectedCountry=='Argentina' || selectedCountry=='Brazil' || selectedCountry=='Bolívia' || selectedCountry=='Chile' || selectedCountry=='Ecuador' || selectedCountry=='Peru' || selectedCountry=='Colombia' || selectedCountry=='Paraguay' || selectedCountry=='Uruguay' || selectedCountry=='Venezuela' || selectedCountry=='Algeria' || selectedCountry=='Morocco'|| selectedCountry=='Mauritania' || selectedCountry=='Tunisia' || selectedCountry=='Burkina Faso'">
+              <ion-col>
+                <ion-label id="ftLbl" *ngIf="distanceUnit=='us'">{{"annual_mpg_per_vehicle" | translate}} :</ion-label>
+                <ion-label id="ftLbl" *ngIf="distanceUnit!='us'">{{"annual_kpg_per_vehicle" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{annualMpg}}</ion-label>
+              </ion-col>
+            </ion-row>
+            <!-- <ion-row id="rw">
+            <ion-col>
+              <ion-label id="ftLbl">{{"trailer_tire_configuration" | translate}} :</ion-label>
+            </ion-col>
+            <ion-col><ion-label id="ftLbl1"></ion-label></ion-col>
+          </ion-row> -->
+            <ion-row id="rw1" style="margin-bottom: 7px;">
+              <ion-col>
+                <ion-label id="ftLbl">{{"quantity_of_fuel_saving_with_michelin_tires" | translate}} :</ion-label>
+              </ion-col>
+              <ion-col>
+                <ion-label id="ftLbl1">{{fuelSavePercentage}}</ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <div style="width: 100%;"
+        *ngIf="selectedCountry =='Austria' || selectedCountry == 'Germany' || selectedCountry == 'Switzerland' || selectedCountry == 'Finland' || selectedCountry == 'Sweden' || selectedCountry == 'Norway' || selectedCountry == 'Denmark' || selectedCountry == 'Italie' ">
+        <ion-grid>
+          <ion-row>
+            <div style="margin: 10px">
+              <p class="fontsizeInFotter"><b> {{"legalVariable" | translate}}</b></p>
+            </div>
+          </ion-row>
+          <ion-row>
+            <div style="margin-left: 7px">
+              <p *ngIf="selectedCountry !='Italie'" class="fontsizeInFotter"><b>{{"imprintvariable1" | translate}}</b>
+              </p>
+              <p *ngIf="selectedCountry != 'Switzerland' && selectedCountry!= 'Germany' && selectedCountry !='Italie'&& selectedCountry!='Finland' && selectedCountry !='Sweden' && selectedCountry!='Norway' && selectedCountry !='Denmark' && selectedCountry !='Austria' "
+                style="margin-top: 10px" class="fontsizeInFotter"><b>{{"imprintvariable2" | translate}}</b></p>
+              <p *ngIf="selectedCountry != 'Switzerland' && selectedCountry != 'Germany' && selectedCountry !='Italie' && selectedCountry!='Finland' && selectedCountry !='Sweden' && selectedCountry!='Norway' && selectedCountry !='Denmark' && selectedCountry !='Austria'"
+                class="fontsizeInFotter" style="margin-top: -10px"><b>{{"imprintvariable3" | translate}}</b></p>
+              <p *ngIf="selectedCountry=='Germany' && selectedCountry !='Italie' || selectedCountry=='Finland' || selectedCountry =='Sweden' || selectedCountry=='Norway' || selectedCountry =='Denmark' || selectedCountry =='Austria'"
+                style="margin-top: 10px" class="fontsizeInFotter"> <b>{{"imprintvariable2"| translate}}</b></p>
+              <p *ngIf="selectedCountry=='Germany' && selectedCountry !='Italie' || selectedCountry=='Finland' || selectedCountry =='Sweden' || selectedCountry=='Norway' || selectedCountry =='Denmark' || selectedCountry =='Austria'"
+                class="fontsizeInFotter" style="margin-top: -10px;"><b>{{"imprintvariable3" | translate}}</b></p>
+
+              <p *ngIf="selectedCountry != 'Switzerland' && selectedCountry!= 'Germany' && selectedCountry !='Italie'&& selectedCountry!='Finland' && selectedCountry !='Sweden' && selectedCountry!='Norway' && selectedCountry !='Denmark' && selectedCountry !='Austria' "
+                style="margin-top: 10px" class="fontsizeInFotter"><b>{{"imprintvariable4" | translate}}</b></p>
+              <p *ngIf="selectedCountry != 'Switzerland' && selectedCountry != 'Germany' && selectedCountry !='Italie' && selectedCountry!='Finland' && selectedCountry !='Sweden' && selectedCountry!='Norway' && selectedCountry !='Denmark' && selectedCountry !='Austria'"
+                class="fontsizeInFotter" style="margin-top: -10px"><b>{{"imprintvariable5" | translate}}</b></p>
+              <!-- <p *ngIf="selectedCountry == 'Switzerland' && selectedLanguage=='notSelected'" style="margin-top: 10px"class="fontsizeInFotter"><b>{{"imprintvariable4" | translate}}(default)</b></p> -->
+              <!-- <p *ngIf="selectedCountry == 'Switzerland' && selectedLanguage=='notSelected'" class="fontsizeInFotter" style="margin-top: -10px"><b>{{"imprintvariable5" | translate}}(default)</b></p> -->
+              <p *ngIf="selectedCountry == 'Switzerland' && selectedCountry !='Italie'" style="margin-top: 10px"
+                class="fontsizeInFotter"><b>{{"imprintvariable4" | translate}}</b></p>
+              <p *ngIf="selectedCountry == 'Switzerland' && selectedCountry !='Italie'" class="fontsizeInFotter"
+                style="margin-top: -10px"><b>{{"imprintvariable5" | translate}}</b></p>
+              <!-- <p *ngIf="selectedCountry == 'Switzerland' && selectedLanguage=='German(CH)' && selectedCountry !='Italie'" style="margin-top: 10px"class="fontsizeInFotter"><b>{{"imprintvariable4" | translate}}</b></p>
+            <p *ngIf="selectedCountry == 'Switzerland' && selectedLanguage=='German(CH)' && selectedCountry !='Italie'" class="fontsizeInFotter" style="margin-top: -10px"><b>{{"imprintvariable5" | translate}}</b></p>
+            <p *ngIf="selectedCountry == 'Switzerland' && selectedLanguage=='Italian(CH)' && selectedCountry !='Italie'" style="margin-top: 10px"class="fontsizeInFotter"><b>{{"imprintvariable4" | translate}}</b></p>
+            <p *ngIf="selectedCountry == 'Switzerland' && selectedLanguage=='Italian(CH)' && selectedCountry !='Italie'" class="fontsizeInFotter" style="margin-top: -10px"><b>{{"imprintvariable5" | translate}}</b></p> -->
+              <p style="margin-top: 10px" class="fontsizeInFotter"><b>{{"imprintvariable6" | translate}}
+                  {{nowDate.toLocaleString(languageCode, {day :"numeric", year :"numeric", month :"long"})}}</b> </p>
+            </div>
+          </ion-row>
+
+          <ion-row>
+            <ion-col style=" flex : 2; height:  100px; margin-top: -7%;">
+              <img src="assets/img/new_bib2.jpg" alt="image not found" height="100px" style="float:right;">
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div style="width: 100%;"
+        *ngIf="selectedCountry !='Austria' && selectedCountry != 'Germany' && selectedCountry != 'Switzerland' && selectedCountry != 'Finland' && selectedCountry != 'Sweden' && selectedCountry != 'Norway' && selectedCountry != 'Denmark' && selectedCountry != 'Italie'">
+        <ion-grid>
+          <ion-row id="footer" style="margin-top: 10px; height: auto;">
+            <ion-col style="flex : 1;  ">
+              <div style="width: 60%; height: 100%;   margin-left: 35%; margin-top: 10%; ">
+                <p class="footNote">{{nowDate.toLocaleString(languageCode, {day :"numeric", year :"numeric", month
+                  :"long"})}}</p>
+                <!-- <p class="footNote"> {{month}}</p>
+        <p class="footNote"> {{nowDate.getFullYear()}} </p> -->
+              </div>
+            </ion-col>
+            <ion-col style="flex : 7;">
+              <div style="width: 95%; height: 100%;   margin-left: 3%; margin-top: 1%;font-size: 16px; ">
+                {{"config_text" | translate}}
+              </div>
+            </ion-col>
+
+            <ion-col style="flex : 2; height:  100px;padding: 0;">
+              <img src="assets/img/new_bib2.jpg" alt="image not found" height="100px">
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ion-row>
+  </div>
+</ion-content>
+
+
+<!-- <ion-col col-1 *ngIf="selectedRegion == 'Europe'">
+  <ion-row  id="unitLine"> -->
+<!-- <label style="margin-top: -4%; max-width:300px;text-align: center;
+    word-wrap:break-word;" text-wrap="">{{"product_line" | translate}}</label> -->
+<!-- <label style="background-color: whitesmoke;" id="unitLine">{{verticeleLineText}}</label> -->
+<!-- </ion-row> -->
+<!-- <div id="unitLine" style="background-color: chocolate;"> -->
+<!-- <div id="verticleLine" style="background-color: chartreuse; margin-top: 10px !important;margin-bottom: 10px !important;">MICHELIN and the graphic representation of the Michelin Man are the property of the Compagnie Générale des Etablissements Michelin.MICHELIN and the graphic representation of the Michelin Man are the property of the Compagnie Générale des Etablissements Michelin.MICHELIN and the graphic representation of the Michelin Man are the property of the Compagnie Générale des Etablissements Michelin</div> -->
+<!-- </div> -->
+<!-- </ion-col> -->

@@ -1,0 +1,359 @@
+[
+    {
+        "Description": "11R22.5 R150 II TL 148/145L BS",
+        "size": "11 R 22.5",
+        "tread": "R150 II",
+        "mfg": "BRIDGESTONE",
+        "rr": "6.28"
+    },
+    {
+        "Description": "11R22.5 Endurace RA TL 148/145L AP",
+        "size": "11 R 22.5",
+        "tread": "Endurace RA",
+        "mfg": "APOLLO",
+        "rr": "7.00"
+    },
+    {
+        "Description": "10.00 R20 R153 146/143 K BS",
+        "size": "10.00 R 20",
+        "tread": "R153",
+        "mfg": "BRIDGESTONE",
+        "rr": "6.51"
+    },
+    {
+        "Description": "10.00R20 X MULTI Z TT 16PR VM MI",
+        "size": "10.00 R 20",
+        "tread": "X MULTI Z",
+        "mfg": "MICHELIN",
+        "rr": "5.74"
+    },
+    {
+        "Description": "10.00R20 XZY 3 HD TT 16PR VM MI",
+        "size": "10.00 R 20",
+        "tread": "XZY 3 HD",
+        "mfg": "MICHELIN",
+        "rr": "6.00"
+    },
+    {
+        "Description": "295/80R22.5 X MULTI Z TL 152/149M VM MI",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi Z",
+        "mfg": "MICHELIN",
+        "rr": "6.1"
+    },
+    {
+        "Description": "295/80R22.5 X MULTI ENERGY Z TL 154/150L VM MI",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi Energy Z",
+        "mfg": "MICHELIN",
+        "rr": "4.96"
+    },
+    {
+        "Description": "10.00 R20 Endurace LD 146/143 K",
+        "size": "10.00 R 20",
+        "tread": "Endurace LD",
+        "mfg": "APOLLO",
+        "rr": "7.43"
+    },
+    {
+        "Description": "295/80R22.5 Endurace RA AP",
+        "size": "295/80 R 22.5",
+        "tread": "Endurace RA",
+        "mfg": "APOLLO",
+        "rr": "6.11"
+    },
+    {
+        "Description": "295/90R20 Endurace RA nRG AP",
+        "size": "295/90 R 20",
+        "tread": "Endurace RA nRG",
+        "mfg": "APOLLO",
+        "rr": "5.08"
+    },
+    {
+        "Description": "10.00R20 Endurace RA nRG AP",
+        "size": "10.00 R 20",
+        "tread": "Endurace RA",
+        "mfg": "APOLLO",
+        "rr": "5.50"
+    },
+    {
+        "Description": "10.00 R20 Endurace MD+ 146/143 K",
+        "size": "10.00 R 20",
+        "tread": "Endurace MD+",
+        "mfg": "APOLLO",
+        "rr": "7.99"
+    },
+    {
+        "Description": "10.00R20 Endurace LHD TT AP",
+        "size": "10.00 R 20",
+        "tread": "Endurace LHD",
+        "mfg": "APOLLO",
+        "rr": "7.64"
+    },
+    {
+        "Description": "295/80R22.5 Endurance RD AP",
+        "size": "295/80 R 22.5",
+        "tread": "Endurance RD",
+        "mfg": "APOLLO",
+        "rr": "7.97"
+    },
+    {
+        "Description": "11R22.5 Endurace HA TL 148/145L AP",
+        "size": "11 R 22.5",
+        "tread": "Endurace HA",
+        "mfg": "APOLLO",
+        "rr": "6.63"
+    },
+    {
+        "Description": "11R22.5 Endurace RD TL 148/145L AP",
+        "size": "11 R 22.5",
+        "tread": "Endurace RD",
+        "mfg": "APOLLO",
+        "rr": "7.99"
+    },
+    {
+        "Description": "295/80R22.5 Endurace HA TL 152/148M AP",
+        "size": "295/80 R 22.5",
+        "tread": "Endurance HA",
+        "mfg": "APOLLO",
+        "rr": "6.76"
+    },
+    {
+        "Description": "10.00R20 Endurace MA326 AP 146/143 K",
+        "size": "10.00 R 20",
+        "tread": "MA326",
+        "mfg": "APOLLO",
+        "rr": "7.37"
+    },
+    {
+        "Description": "10.00R20 Endurace MA AP 146/143 K",
+        "size": "10.00 R 20",
+        "tread": "MA",
+        "mfg": "APOLLO",
+        "rr": "7.00"
+    },
+    {
+        "Description": "295/80 R22.5 R156 Ecopia 152/148M BS",
+        "size": "295/80 R 22.5",
+        "tread": "R156",
+        "mfg": "BRIDGESTONE",
+        "rr": "6.17"
+    },
+    {
+        "Description": "10.00R20 M751 TT Drive BS",
+        "size": "10.00 R 20",
+        "tread": "M751",
+        "mfg": "BRIDGESTONE",
+        "rr": "6.80"
+    },
+    {
+        "Description": "295/80R22.5 M751 TL Drive BS",
+        "size": "295/80 R 22.5",
+        "tread": "M751",
+        "mfg": "BRIDGESTONE",
+        "rr": "6.99"
+    },
+    {
+        "Description": "295/80 R22.5 PRO10 152/148M CT",
+        "size": "295/80 R 22.5",
+        "tread": "PRO10",
+        "mfg": "CEAT",
+        "rr": "5.90"
+    },
+    {
+        "Description": "10.00R20 HDR TT 146/143K CO",
+        "size": "10.00 R 20",
+        "tread": "HDR",
+        "mfg": "CONTINENTAL",
+        "rr": "7.31"
+    },
+    {
+        "Description": "295/80 R22.5 JDL 152/148M JK",
+        "size": "295/80 R 22.5",
+        "tread": "JDL",
+        "mfg": "JK",
+        "rr": "6.84"
+    },
+    {
+        "Description": "10.00R20 Jetway JUH5 JK",
+        "size": "10.00 R 20",
+        "tread": "Jetway JUH5",
+        "mfg": "JK",
+        "rr": "7.72"
+    },
+    {
+        "Description": "295/80R22.5 Jetway JUL1 JK",
+        "size": "295/80 R 22.5",
+        "tread": "JUL1",
+        "mfg": "JK",
+        "rr": "6.37"
+    },
+    {
+        "Description": "8.25R20 JUH3+ TL 137/135K JK",
+        "size": "8.25 R 20",
+        "tread": "JUH3+",
+        "mfg": "JK",
+        "rr": "7.05"
+    },
+    {
+        "Description": "8.25R20 JDH3 TL 135/137K JK",
+        "size": "8.25 R 20",
+        "tread": "JDH3",
+        "mfg": "JK",
+        "rr": "7.04"
+    },
+    {
+        "Description": "295/80R22.5 JK JETWAY JUM",
+        "size": "295/80 R 22.5",
+        "tread": "Jetway JUM",
+        "mfg": "JK",
+        "rr": "8.00"
+    },
+    {
+        "Description": "295/80 R22.5 X Multi D+ 152/148M MI",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi D+",
+        "mfg": "MICHELIN",
+        "rr": "6.9"
+    },
+    {
+        "Description": "10.00R20 X MULTI  D TT PR16 VM MI",
+        "size": "10.00 R 20",
+        "tread": "X Multi D",
+        "mfg": "MICHELIN",
+        "rr": "6.91"
+    },
+    {
+        "Description": "8.25R20 X MULTI Z 136/134K TT VG MI",
+        "size": "8.25 R 20",
+        "tread": "XMZ",
+        "mfg": "MICHELIN",
+        "rr": "6.66"
+    },
+    {
+        "Description": "11R22.5 X Multi D 148/145 L",
+        "size": "11 R 22.5",
+        "tread": "X Multi D",
+        "mfg": "MICHELIN",
+        "rr": "7.78"
+    },
+    {
+        "Description": "11R22.5 X Multi Z TL 148/145L MI",
+        "size": "11 R 22.5",
+        "tread": "X Multi Z",
+        "mfg": "MICHELIN",
+        "rr": "6.42"
+    },
+    {
+        "Description": "295/90R20 X MULTI Z 152/148J TT VM MI",
+        "size": "295/90 R 20",
+        "tread": "X Multi Z",
+        "mfg": "MICHELIN",
+        "rr": "5.5"
+    },
+    {
+        "Description": "295/90R20 X MULTI D 152/148J TT VM MI",
+        "size": "295/90 R 20",
+        "tread": "X Multi D",
+        "mfg": "MICHELIN",
+        "rr": "6.64"
+    },
+    {
+        "Description": "10.00R20 Others Z",
+        "size": "10.00 R 20",
+        "tread": "Z",
+        "mfg": "OTHERS",
+        "rr": "6.40"
+    },
+    {
+        "Description": "10.00R20 Others D",
+        "size": "10.00 R 20",
+        "tread": "D",
+        "mfg": "OTHERS",
+        "rr": "7.35"
+    },
+    {
+        "Description": "11R22.5 Others Z",
+        "size": "11.00 R 22.5",
+        "tread": "Z",
+        "mfg": "OTHERS",
+        "rr": "6.86"
+    },
+    {
+        "Description": "11R22.5 Others D",
+        "size": "11.00 R 22.5",
+        "tread": "D",
+        "mfg": "OTHERS",
+        "rr": "7.89"
+    },
+    {
+        "Description": "295/80R22.5 Others Z",
+        "size": "295/80 R 22.5",
+        "tread": "Z",
+        "mfg": "OTHERS",
+        "rr": "6.49"
+    },
+    {
+        "Description": "295/80R22.5 Others D",
+        "size": "295/80 R 22.5",
+        "tread": "D",
+        "mfg": "OTHERS",
+        "rr": "7.22"
+    },
+    {
+        "Description": "295/90R20 Others Z",
+        "size": "295/90 R 20",
+        "tread": "Z",
+        "mfg": "OTHERS",
+        "rr": "6.4"
+    },
+    {
+        "Description": "295/90R20 Others D",
+        "size": "295/90 R 20",
+        "tread": "D",
+        "mfg": "OTHERS",
+        "rr": "7.35"
+    },
+    {
+        "Description": "295/80R22.5 WINMILE-R 152/148 M",
+        "size": "295/80 R 22.5",
+        "tread": "WINMILE R",
+        "mfg": "CEAT",
+        "rr": "5.9"
+    },
+    {
+        "Description": "295/90R20 Endurace RAT nRG AP",
+        "size": "295/90 R 20",
+        "tread": "Endurace RAT nRG",
+        "mfg": "APOLLO",
+        "rr": "5.6"
+    },
+    {
+        "Description": "295/90R20 X MULTI HD Z",
+        "size": "295/90 R 20",
+        "tread": "X MULTI HD Z",
+        "mfg": "MICHELIN",
+        "rr": "5.8"
+    },
+    {
+        "Description": "11.00R20 XZY3",
+        "size": "11.00 R 20",
+        "tread": "XZY3",
+        "mfg": "MICHELIN",
+        "rr": "6.2"
+    },
+    {
+        "Description": "295/80R22.5 X Multi Energy D TL 154/150 L MI",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi Energy D",
+        "mfg": "MICHELIN",
+        "rr": "5.4"
+    },
+    {
+        "Description": "295/80R22.5 X Multi Z2 TL 154/150 L MI",
+        "size": "295/80 R 22.5",
+        "tread": "X Multi Z2",
+        "mfg": "MICHELIN",
+        "rr": "5.5"
+    }
+]

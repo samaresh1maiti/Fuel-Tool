@@ -1,0 +1,800 @@
+[
+    {
+        "Description": "11 R 22.5 X MULTI D+",
+        "size": "11 R 22.5",
+        "tread": "X MULTI D+",
+         "mfg": "MICHELIN",
+        "rr": "7.4"
+    },
+    {
+        "Description": "11 R 22.5 X MULTI Z2",
+        "size": "11 R 22.5",
+        "tread": "X MULTI Z2",
+         "mfg": "MICHELIN",
+        "rr": "5.8"
+    },
+    {
+        "Description": "11 R 22.5 XZY3",
+        "size": "11 R 22.5",
+        "tread": "XZY3",
+         "mfg": "MICHELIN",
+        "rr": "6.78"
+    },
+    {
+        "Description": "11 R 22.5 X MULTI T2",
+        "size": "11 R 22.5",
+        "tread": "X MULTI T2",
+         "mfg": "MICHELIN",
+        "rr": "5.4"
+    },
+    {
+        "Description": "295/80R22.5 X COACH EN Z",
+        "size": "295/80R22.5",
+        "tread": "X COACH EN Z",
+         "mfg": "MICHELIN",
+        "rr": "5.16"
+    },
+    {
+        "Description": "295/80R22.5 X MULTI Z2",
+        "size": "295/80R22.5",
+        "tread": "X MULTI Z2",
+         "mfg": "MICHELIN",
+        "rr": "5.6"
+    },
+    {
+        "Description": "295/80R22.5 X MULTI D+",
+        "size": "295/80R22.5",
+        "tread": "X MULTI D+",
+         "mfg": "MICHELIN",
+        "rr": "7"
+    },
+    {
+        "Description": "295/80R22.5 X LINE EN Z",
+        "size": "295/80R22.5",
+        "tread": "X LINE EN Z",
+         "mfg": "MICHELIN",
+        "rr": "5.57"
+    },
+    {
+        "Description": "295/80R22.5 X WORK Z",
+        "size": "295/80R22.5",
+        "tread": "X WORK Z",
+         "mfg": "MICHELIN",
+        "rr": "6.37"
+    },
+    {
+        "Description": "295/80R22.5 R156 ecopia",
+        "size": "295/80R22.5",
+        "tread": "R156 ecopia",
+        "mfg": "BS",
+        "rr": "5.8"
+    },
+    {
+        "Description": "295/80R22.5 M840",
+        "size": "295/80R22.5",
+        "tread": "M840",
+        "mfg": "BS",
+        "rr": "6.0"
+    },
+    {
+        "Description": "295/80R22.5 R150 II",
+        "size": "295/80R22.5",
+        "tread": "R150 II",
+        "mfg": "BS",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 R150 II",
+        "size": "11 R 22.5",
+        "tread": "R150 II",
+        "mfg": "BS",
+        "rr": "6.4"
+    },
+    {
+        "Description": "295/80R22.5 RR700",
+        "size": "295/80R22.5",
+        "tread": "RR700",
+        "mfg": "Double coin",
+        "rr": "5.92"
+    },
+    {
+        "Description": "295/80R22.5 Hybrid HS3",
+        "size": "295/80R22.5",
+        "tread": "Hybrid HS3",
+        "mfg": "Continental",
+        "rr": "6.15"
+    },
+    {
+        "Description": "11 R 22.5 HDR2+",
+        "size": "11 R 22.5",
+        "tread": "HDR2+",
+        "mfg": "Continental",
+        "rr": "7.6"
+    },
+    {
+        "Description": "295/80R22.5 DH05K",
+        "size": "295/80R22.5",
+        "tread": "DH05K",
+        "mfg": "Hankook",
+        "rr": "6.9"
+    },
+    {
+        "Description": "245/70R19.5 M888",
+        "size": "245/70R19.5",
+        "tread": "M888",
+        "mfg": "BS",
+        "rr": "6.8"
+    },
+    {
+        "Description": "265/70R19.5 M888",
+        "size": "265/70R19.5",
+        "tread": "M888",
+        "mfg": "BS",
+        "rr": "6.8"
+    },
+    {
+        "Description": "11 R 22.5 M888",
+        "size": "11 R 22.5",
+        "tread": "M888",
+        "mfg": "BS",
+        "rr": "6.6"
+    },
+    {
+        "Description": "275/80R22.5 M888",
+        "size": "275/80R22.5",
+        "tread": "M888",
+        "mfg": "BS",
+        "rr": "6.4"
+    },
+    {
+        "Description": "295/80R22.5 M888",
+        "size": "295/80R22.5",
+        "tread": "M888",
+        "mfg": "BS",
+        "rr": "6.4"
+    },
+    {
+        "Description": "265/70R19.5 M801Ⅱ",
+        "size": "265/70R19.5",
+        "tread": "M801Ⅱ",
+        "mfg": "BS",
+        "rr": "5.3"
+    },
+    {
+        "Description": "11 R 22.5 M801Ⅱ",
+        "size": "11 R 22.5",
+        "tread": "M801Ⅱ",
+        "mfg": "BS",
+        "rr": "4.6"
+    },
+    {
+        "Description": "275/80R22.5 M801Ⅱ",
+        "size": "275/80R22.5",
+        "tread": "M801Ⅱ",
+        "mfg": "BS",
+        "rr": "4.4"
+    },
+    {
+        "Description": "295/80R22.5 M801Ⅱ",
+        "size": "295/80R22.5",
+        "tread": "M801Ⅱ",
+        "mfg": "BS",
+        "rr": "4.4"
+    },
+    {
+        "Description": "265/70R19.5 SP680",
+        "size": "265/70R19.5",
+        "tread": "SP680",
+        "mfg": "DL",
+        "rr": "7.8"
+    },
+    {
+        "Description": "11 R 22.5 SP680",
+        "size": "11 R 22.5",
+        "tread": "SP680",
+        "mfg": "DL",
+        "rr": "7.6"
+    },
+    {
+        "Description": "275/80R22.5 SP680",
+        "size": "275/80R22.5",
+        "tread": "SP680",
+        "mfg": "DL",
+        "rr": "7.4"
+    },
+    {
+        "Description": "295/80R22.5 SP680",
+        "size": "295/80R22.5",
+        "tread": "SP680",
+        "mfg": "DL",
+        "rr": "7.4"
+    },
+    {
+        "Description": "265/70R19.5 W910",
+        "size": "265/70R19.5",
+        "tread": "W910",
+        "mfg": "BS",
+        "rr": "8.5"
+    },
+    {
+        "Description": "11 R 22.5 W910",
+        "size": "11 R 22.5",
+        "tread": "W910",
+        "mfg": "BS",
+        "rr": "8.3"
+    },
+    {
+        "Description": "275/80R22.5 W910",
+        "size": "275/80R22.5",
+        "tread": "W910",
+        "mfg": "BS",
+        "rr": "8.2"
+    },
+    {
+        "Description": "295/80R22.5 W910",
+        "size": "295/80R22.5",
+        "tread": "W910",
+        "mfg": "BS",
+        "rr": "8.1"
+    },
+    {
+        "Description": "245/70R19.5 W900",
+        "size": "245/70R19.5",
+        "tread": "W900",
+        "mfg": "BS",
+        "rr": "9.1"
+    },
+    {
+        "Description": "265/70R19.5 W900",
+        "size": "265/70R19.5",
+        "tread": "W900",
+        "mfg": "BS",
+        "rr": "9.2"
+    },
+    {
+        "Description": "11 R 22.5 W900",
+        "size": "11 R 22.5",
+        "tread": "W900",
+        "mfg": "BS",
+        "rr": "9"
+    },
+    {
+        "Description": "275/80R22.5 W900",
+        "size": "275/80R22.5",
+        "tread": "W900",
+        "mfg": "BS",
+        "rr": "8.6"
+    },
+    {
+        "Description": "295/80R22.5 W900",
+        "size": "295/80R22.5",
+        "tread": "W900",
+        "mfg": "BS",
+        "rr": "8.8"
+    },
+    {
+        "Description": "295/80R22.5 R154",
+        "size": "295/80R22.5",
+        "tread": "R154",
+        "mfg": "BS",
+        "rr": "6.2"
+    },
+    {
+        "Description": "385/65R22.5 X Multi Z",
+        "size": "385/65R22.5",
+        "tread": "X Multi Z",
+         "mfg": "MICHELIN",
+        "rr": "4.4"
+    },
+    {
+        "Description": "385/65R22.5 X Line F",
+        "size": "385/65R22.5",
+        "tread": "X Line F",
+         "mfg": "MICHELIN",
+        "rr": "4.97"
+    },
+    {
+        "Description": "385/65R22.5 AH31",
+        "size": "385/65R22.5",
+        "tread": "AH31",
+        "mfg": "Hankook",
+        "rr": "4.9"
+    },
+    {
+        "Description": "385/65R22.5 K Max S Gen2",
+        "size": "385/65R22.5",
+        "tread": "K Max S Gen2",
+        "mfg": "Goodyear",
+        "rr": "5.3"
+    },
+    {
+        "Description": "295/80R22.5 XDA2+ Energy",
+        "size": "295/80R22.5",
+        "tread": "XDA2+ Energy",
+        "mfg": "MICHELIN",
+        "rr": "6.31"
+    },
+    {
+        "Description": "11 R 22.5 X Line energy D",
+        "size": "11 R 22.5",
+        "tread": "X Line energy D",
+         "mfg": "MICHELIN",
+        "rr": "6"
+    },
+    {
+        "Description": "11 R 22.5 M766",
+        "size": "11 R 22.5",
+        "tread": "M766",
+        "mfg": "BS",
+        "rr": "7.5"
+    },
+    {
+        "Description": "11 R 22.5 M749",
+        "size": "11 R 22.5",
+        "tread": "M749",
+        "mfg": "BS",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 Route Control D",
+        "size": "11 R 22.5",
+        "tread": "Route Control D",
+        "mfg": "BFG ",
+        "rr": "7.2"
+    },
+    {
+        "Description": "305/70 R22.5 X Multi HL Z",
+        "size": "305/70 R22.5",
+        "tread": "X Multi HL Z",
+         "mfg": "MICHELIN",
+        "rr": "5.8"
+    },
+    {
+        "Description": "305/70 R22.5 R227",
+        "size": "305/70 R22.5",
+        "tread": "R227",
+        "mfg": "BS",
+        "rr": "6.1"
+    },
+    {
+        "Description": "305/70 R22.5 X Multi D",
+        "size": "305/70 R22.5",
+        "tread": "X Multi D",
+         "mfg": "MICHELIN",
+        "rr": "6.8"
+    },
+    {
+        "Description": "11 R 22.5 X Line Energy T2",
+        "size": "11 R 22.5",
+        "tread": "X Line Energy T2",
+         "mfg": "MICHELIN",
+        "rr": "4.8"
+    },
+    {
+        "Description": "11 R 22.5 R168",
+        "size": "11 R 22.5",
+        "tread": "R168",
+        "mfg": "BS",
+        "rr": "5.8"
+    },
+    {
+        "Description": "11 R 22.5 R109 Ecopia",
+        "size": "11 R 22.5",
+        "tread": "R109 Ecopia",
+        "mfg": "BS",
+        "rr": "5"
+    },
+    {
+        "Description": "275/70R22.5 M749",
+        "size": "275/70R22.5",
+        "tread": "M749",
+        "mfg": "BS",
+        "rr": "6.7"
+    },
+    {
+        "Description": "275/70R22.5 X Multi D",
+        "size": "275/70R22.5",
+        "tread": "X Multi D",
+         "mfg": "MICHELIN",
+        "rr": "6.99"
+    },
+    {
+        "Description": "275/70R22.5 X Multi T",
+        "size": "275/70R22.5",
+        "tread": "X Multi T",
+         "mfg": "MICHELIN",
+        "rr": "6.01"
+    },
+    {
+        "Description": "275/70R22.5 R168",
+        "size": "275/70R22.5",
+        "tread": "R168",
+        "mfg": "BS",
+        "rr": "6"
+    },
+    {
+        "Description": "385/55R22.5 X MULTI T2",
+        "size": "385/55R22.5",
+        "tread": "X MULTI T2",
+         "mfg": "MICHELIN",
+        "rr": "4.4"
+    },
+    {
+        "Description": "385/55R22.5 X LINE ENERGY T",
+        "size": "385/55R22.5",
+        "tread": "X LINE ENERGY T",
+         "mfg": "MICHELIN",
+        "rr": "3.85"
+    },
+    {
+        "Description": "385/55R22.5 Fuel Max T",
+        "size": "385/55R22.5",
+        "tread": "Fuel Max T",
+        "mfg": "Goodyear",
+        "rr": "3.65"
+    },
+    {
+        "Description": "12R22.5 X MULTI Z2",
+        "size": "12R22.5",
+        "tread": "X MULTI Z2",
+         "mfg": "MICHELIN",
+        "rr": "5.6"
+    },
+    {
+        "Description": "12R22.5 X MULTI D",
+        "size": "12R22.5",
+        "tread": "X MULTI D",
+         "mfg": "MICHELIN",
+        "rr": "7.28"
+    },
+    {
+        "Description": "295/80R22.5 X MULTIWAY 3D XZE",
+        "size": "295/80R22.5",
+        "tread": "X MULTIWAY 3D XZE",
+         "mfg": "MICHELIN",
+        "rr": "5.97"
+    },
+    {
+        "Description": "385/65R22.5 X MULTI HL Z",
+        "size": "385/65R22.5",
+        "tread": "X MULTI HL Z",
+         "mfg": "MICHELIN",
+        "rr": "4.4"
+    },
+    {
+        "Description": "385/65R22.5 R168",
+        "size": "385/65R22.5",
+        "tread": "R168",
+        "mfg": "BS",
+        "rr": "5.6"
+    },
+    {
+        "Description": "275/70R22.5 X Multi Z",
+        "size": "275/70R22.5",
+        "tread": "X Multi Z",
+         "mfg": "MICHELIN",
+        "rr": "6"
+    },
+    {
+        "Description": "275/80R22.5 XZE2+",
+        "size": "275/80R22.5",
+        "tread": "XZE2+",
+         "mfg": "MICHELIN",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 R156",
+        "size": "11 R 22.5",
+        "tread": "R156",
+        "mfg": "BS",
+        "rr": "6"
+    },
+    {
+        "Description": "11 R 22.5 R157",
+        "size": "11 R 22.5",
+        "tread": "R157",
+        "mfg": "BS",
+        "rr": "6.1"
+    },
+    {
+        "Description": "11 R 22.5 R159",
+        "size": "11 R 22.5",
+        "tread": "R159",
+        "mfg": "BS",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 M840",
+        "size": "11 R 22.5",
+        "tread": "M840",
+        "mfg": "BS",
+        "rr": "6.2"
+    },
+    {
+        "Description": "295/80R22.5 R159",
+        "size": "295/80R22.5",
+        "tread": "R159",
+        "mfg": "BS",
+        "rr": "5.7"
+    },
+    {
+        "Description": "275/70R22.5 R156",
+        "size": "275/70R22.5",
+        "tread": "R156",
+        "mfg": "BS",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 MA268",
+        "size": "11 R 22.5",
+        "tread": "MA268",
+        "mfg": "Maxxis",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 UM968",
+        "size": "11 R 22.5",
+        "tread": "UM968",
+        "mfg": "Maxxis",
+        "rr": "6.4"
+    },
+    {
+        "Description": "295/80R22.5 UR288",
+        "size": "295/80R22.5",
+        "tread": "UR288",
+        "mfg": "Maxxis",
+        "rr": "6.1"
+    },
+    {
+        "Description": "295/80R22.5 UM816",
+        "size": "295/80R22.5",
+        "tread": "UM816",
+        "mfg": "Maxxis",
+        "rr": "6.9"
+    },
+    {
+        "Description": "11 R 22.5 UR288",
+        "size": "11 R 22.5",
+        "tread": "UR288",
+        "mfg": "Maxxis",
+        "rr": "6.4"
+    },
+    {
+        "Description": "11 R 22.5 XMGZ",
+        "size": "11 R 22.5",
+        "tread": "XMGZ",
+         "mfg": "MICHELIN",
+        "rr": "6.9"
+    },
+    {
+        "Description": "11 R 22.5 XJE4 mix energy",
+        "size": "11 R 22.5",
+        "tread": "XJE4 mix energy",
+         "mfg": "MICHELIN",
+        "rr": "6.29"
+    },
+    {
+        "Description": "11 R 22.5 XJSWG+",
+        "size": "11 R 22.5",
+        "tread": "XJSWG+",
+         "mfg": "MICHELIN",
+        "rr": "7.7"
+    },
+    {
+        "Description": "11 R 22.5 XDW IG",
+        "size": "11 R 22.5",
+        "tread": "XDW IG",
+         "mfg": "MICHELIN",
+        "rr": "7.4"
+    },
+    {
+        "Description": "275/80R22.5 XMGZ",
+        "size": "275/80R22.5",
+        "tread": "XMGZ",
+         "mfg": "MICHELIN",
+        "rr": "6.4"
+    },
+    {
+        "Description": "275/80R22.5 XJE4 mix energy",
+        "size": "275/80R22.5",
+        "tread": "XJE4 mix energy",
+         "mfg": "MICHELIN",
+        "rr": "6.01"
+    },
+    {
+        "Description": "275/80R22.5 XJSWG+",
+        "size": "275/80R22.5",
+        "tread": "XJSWG+",
+         "mfg": "MICHELIN",
+        "rr": "7.5"
+    },
+    {
+        "Description": "275/80R22.5 XDW IG",
+        "size": "275/80R22.5",
+        "tread": "XDW IG",
+         "mfg": "MICHELIN",
+        "rr": "6.7"
+    },
+    {
+        "Description": "315/70R22.5 X LINE ENERGY Z2",
+        "size": "315/70R22.5",
+        "tread": "X LINE ENERGY Z2",
+         "mfg": "MICHELIN",
+        "rr": "3.9"
+    },
+    {
+        "Description": "315/70R22.5 X LINE ENERGY D2",
+        "size": "315/70R22.5",
+        "tread": "X LINE ENERGY D2",
+         "mfg": "MICHELIN",
+        "rr": "4"
+    },
+    {
+        "Description": "315/70R22.5 X MULTI ENERGY Z",
+        "size": "315/70R22.5",
+        "tread": "X MULTI ENERGY Z",
+         "mfg": "MICHELIN",
+        "rr": "4.9"
+    },
+    {
+        "Description": "315/70R22.5 X MULTI ENERGY D",
+        "size": "315/70R22.5",
+        "tread": "X MULTI ENERGY D",
+         "mfg": "MICHELIN",
+        "rr": "5.3"
+    },
+    {
+        "Description": "295/80R22.5 X MULTI ENERGY Z",
+        "size": "295/80R22.5",
+        "tread": "X MULTI ENERGY Z",
+         "mfg": "MICHELIN",
+        "rr": "5.2"
+    },
+    {
+        "Description": "295/80R22.5 X MULTI ENERGY D",
+        "size": "295/80R22.5",
+        "tread": "X MULTI ENERGY D",
+         "mfg": "MICHELIN",
+        "rr": "5.5"
+    },
+    {
+        "Description": "295/80R22.5 X LINE ENERGY Z2",
+        "size": "295/80R22.5",
+        "tread": "X LINE ENERGY Z2",
+         "mfg": "MICHELIN",
+        "rr": "5"
+    },
+    {
+        "Description": "11 R 22.5 Route Control S",
+        "size": "11 R 22.5",
+        "tread": "Route Control S",
+        "mfg": "BFG ",
+        "rr": "6"
+    },
+    {
+        "Description": "295/80R22.5 ST270",
+        "size": "295/80R22.5",
+        "tread": "ST270",
+        "mfg": "BFG ",
+        "rr": "5.6"
+    },
+    {
+        "Description": "245/70R19.5 X MULTI Z",
+        "size": "245/70R19.5",
+        "tread": "X MULTI Z",
+         "mfg": "MICHELIN",
+        "rr": "6.02"
+    },
+    {
+        "Description": "245/70R19.5 X MULTI D",
+        "size": "245/70R19.5",
+        "tread": "X MULTI D",
+         "mfg": "MICHELIN",
+        "rr": "6.03"
+    },
+    {
+        "Description": "265/70R19.5 X MULTI D",
+        "size": "265/70R19.5",
+        "tread": "X MULTI D",
+         "mfg": "MICHELIN",
+        "rr": "6.21"
+    },
+    {
+        "Description": "265/70R19.5 X MULTI Z",
+        "size": "265/70R19.5",
+        "tread": "X MULTI Z",
+         "mfg": "MICHELIN",
+        "rr": "5.97"
+    },
+    {
+        "Description": "245/70R19.5 XZN+",
+        "size": "245/70R19.5",
+        "tread": "XZN+",
+         "mfg": "MICHELIN",
+        "rr": "6.03"
+    },
+    {
+        "Description": "245/70R19.5 XJE4 mix energy",
+        "size": "245/70R19.5",
+        "tread": "XJE4 mix energy",
+         "mfg": "MICHELIN",
+        "rr": "7.09"
+    },
+    {
+        "Description": "245/70R19.5 XJSWG+",
+        "size": "245/70R19.5",
+        "tread": "XJSWG+",
+         "mfg": "MICHELIN",
+        "rr": "7.78"
+    },
+    {
+        "Description": "245/70R19.5 XDW IG",
+        "size": "245/70R19.5",
+        "tread": "XDW IG",
+         "mfg": "MICHELIN",
+        "rr": "7.6"
+    },
+    {
+        "Description": "265/70R19.5 XZN+",
+        "size": "265/70R19.5",
+        "tread": "XZN+",
+         "mfg": "MICHELIN",
+        "rr": "6.18"
+    },
+    {
+        "Description": "265/70R19.5 XDW IG",
+        "size": "265/70R19.5",
+        "tread": "XDW IG",
+         "mfg": "MICHELIN",
+        "rr": "7.36"
+    },
+    {
+        "Description": "11 R 22.5 T3 Trailer ",
+        "size": "11 R 22.5",
+        "tread": "T3 Trailer ",
+        "mfg": "Generic",
+        "rr": "6.8"
+    },
+    {
+        "Description": "11 R 22.5 T3 drive",
+        "size": "11 R 22.5",
+        "tread": "T3 drive",
+        "mfg": "Generic",
+        "rr": "7.8"
+    },
+    {
+        "Description": "295/80R22.5 T3 Front",
+        "size": "295/80R22.5",
+        "tread": "T3 Front",
+        "mfg": "Generic",
+        "rr": "6"
+    },
+    {
+        "Description": "275/70R22.5 T3 Trailer ",
+        "size": "275/70R22.5",
+        "tread": "T3 Trailer ",
+        "mfg": "Generic",
+        "rr": "6.5"
+    },
+    {
+        "Description": "11 R 22.5 T3 Trailer ",
+        "size": "11 R 22.5",
+        "tread": "T3 Trailer ",
+        "mfg": "Generic",
+        "rr": "6.5"
+    },
+    {
+        "Description": "295/80R22.5 T3 drive",
+        "size": "295/80R22.5",
+        "tread": "T3 drive",
+        "mfg": "Generic",
+        "rr": "7.2"
+    },
+    {
+        "Description": "12R22.5 T3 Trailer ",
+        "size": "12R22.5",
+        "tread": "T3 Trailer ",
+        "mfg": "Generic",
+        "rr": "6.3"
+    }
+]

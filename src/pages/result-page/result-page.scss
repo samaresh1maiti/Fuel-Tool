@@ -1,0 +1,217 @@
+page-result-page {
+  #border{
+    border-right: 1px solid black;
+  }
+  #sideMenu{
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+   align-items: center;
+    font-weight: bold;
+    min-height: 40px;
+// color: rgba(4, 121, 49, 0.9)
+    
+  }
+  #cl{
+    background-color: #f2f2f2;
+  }
+  #cl1{
+    background-color: #d9d9d9;
+  }
+  #rw{
+height: 38px;
+font-size: 15px;
+background-color: #f2f2f2;
+  }
+  #rw1{
+    height: 38px;
+    font-size: 15px;
+    background-color: #d9d9d9;
+   
+      }
+  #ftLbl{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+   margin-top: 1%;
+  }
+  #ftLbl1{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    margin-top: 1%;
+  }
+  #lbl{
+    
+    width: 100%;
+    text-align: center;
+    margin-left:-1.8% !important;
+    align-items: center;
+    font-size: 15px;
+  }
+  #lbl1{
+    
+    width: 100%;
+    text-align: center;
+    margin-left:-1.8% !important;
+    align-items: center;
+    font-size: 16px;
+  }
+  input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+    background-color:#ff0000 !important;
+   }
+  #unitLine {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.93969262, M12=0.34202014, M21=-0.34202014, M22=0.93969262,sizingMethod='auto expand')"; /* IE6-8 */
+    -ms-transform: rotate(-90deg); /* IE9+ */
+    -moz-transform: rotate(-90deg); /* Firefox */
+    -o-transform: rotate(-90deg); /* Opera */
+    -webkit-transform: rotate(-90deg); /* Safari & Chrome */
+    transform: translateY(100%) rotate(-90deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083); /* IE6,IE7 */
+     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+       align-items: flex-end;
+     
+    // height: 100%;
+     margin-top: 6vh;
+    // font-weight: bolder;
+    //margin-right: -100%;
+    // margin-left: 8vh;
+    font-size: 16px !important;
+    
+  }
+  .footNote {
+    color: #003094;
+    font-weight: bold;
+    margin: 0px
+  }
+  
+  #icons1 {
+    float: right;
+    text-align: center;
+    cursor: pointer;
+// margin-top: 0.4vh;
+   margin-right: 2vh;
+  }
+//  .iMail:hover{
+//    background: url('../assets/img/page3/send_user_report_thumbnail_hover.jpg');
+//    height: 40px;
+//    width: 60px;
+//  }
+.titletext2{
+height: auto !important;
+  color: #27509b;
+  font-size: 17px;
+  font-weight: bold;
+
+
+}
+ion-item{
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+ion-radio {
+
+  // --color-checked: #d15454;
+  margin-top: -5px;
+}
+.navdot2{
+margin-top: 30px;
+border: 2px;
+height: 65px;
+border-style: dashed hidden hidden hidden; 
+// background-color: red;
+// border-color:green
+}
+.negative-arrow-highlight{
+  color: green;
+}
+.positive-arrow-highlight{
+  color: red;
+}
+.ion-icon{
+  display:inline-flex;
+}
+
+ion-icon{
+font-size: 21px !important;
+}
+.fontsizeIn{
+  font-size: 17px !important;
+  font-family: Arial !important;
+  font-weight: bold;
+  
+}
+.fontsizeInLegal{
+  font-size:18px !important;
+  font-family: Arial !important;
+}
+.fontsizeInFotter{
+  font-weight: normal !important;
+  font-size: 15px !important;
+  font-family: Arial !important;
+  color: #000 !important;
+}
+#fuel_heading{
+ margin-left: 5%;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:white
+}
+#customerDtlsPart{
+  background-color:#FCE800;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#customerDtlsPart ion-row{
+  margin-left: 5%;
+}
+
+#headPart{
+  background-color: #264D9D;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.all-four-border-f{
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+.all-four-border-1{
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+.all-four-border-2{
+  border-bottom: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  width: 100%;
+}
+.all-four-border-3{
+  border-bottom: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;}
+.all-four-border-4{
+  border-bottom: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;}
+  .all-four-border-5{
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;}
+  .all-four-border-right{
+  border-right: 2px solid grey;
+  max-width: 12.5%;
+ 
+  }
+  
+  }
